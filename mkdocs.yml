@@ -1,0 +1,120 @@
+site_name: DC20
+
+theme:
+  name: material
+  features:
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.tooltips
+    - navigation.sections
+    - navigation.top
+    - navigation.expand
+    - navigation.footer
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - toc.follow
+    - header.autohide
+
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: orange
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: orange
+      accent: lime
+
+plugins:
+  - mkdocstrings
+  - search
+#  - toc-md:
+#      header_level: 1
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+
+nav:
+  - index.md
+  - Attributes: 1_attributes.md
+  - Prime Modifier: 1_5_prime.md
+  - Skills, Trades & Languages: 2_skills.md
+  - Mastery: 3_mastery.md
+  - Checks & Saves:
+      - Intro: 4_checksave.md
+      - Cheks: 4_check.md
+      - Save: 4_save.md
+  - Attacks & Defense: 5_attackdefence.md
+  - Health Points & Death’s Door: 6_hp.md
+  - Damage: 7_damage.md
+  - Combat Resources: 8_combat.md
+  - Actions & Reactions:
+      - Actions: 9_action.md
+      - Advanced Actions: 9_advanced.md
+      - Reactions: 9_reaction.md
+  - Martial Chapter: 10_maneuvers.md
+  - Maneuvers: 11_technique.md
+  - Spellcaster Chapter: 12_spellcasting.md
+  - Spells: 12_5_spells.md
+  - Starting Combat: 13_startcombat.md
+  - Environment: 14_environment.md
+  - Vision: 15_vision.md
+  - Creatures & Combat: 16_creatures.md
+  - Equipment: 17_equipment.md
+  - Conditions: 18_conditions.md
+  - Resting: 19_resting.md
+  - DCs in DC20: 20_dcs.md
+  - Game Master Guide: 21_GM.md
+  - 10 Step Character Creation Outline: 22_charactercreation.md
+  - Talents: 23_talents.md
+  - Ancestries System: 25_ancestry.md
+  - Classes:
+      - Class list:
+        - Barbarian: 26_barbarian.md
+        - Bard: 26_bard.md
+        - Champion: 26_champion.md
+        - Cleric: 26_cleric.md
+        - Commander: 26_commander.md
+        - Druid: 26_druid.md
+        - Hunter: 26_hunter.md
+        - Monk: 26_monk.md
+        - Rogue: 26_rogue.md
+        - Sorcerer: 26_sorcerer.md
+        - Spellblade: 26_spellblade.md
+        - Warlock: 26_warlock.md
+        - Wizard: 26_wizard.md
+#  - Magic Items:
+#      - Magic Item System: 28_magicitems.md
+#      - Magic Item Properties: 28_magicitemsproperties.md
+#  - Monsters Creation:
+#      - Basics of Monster Building: 29_monsters.md
+#      - Encounter Planning: 29_encounter.md
+#      - Game Master Tips: 29_gmtip.md
+  - Homebrew:
+#      - Cazzim: 100_cazzim.md
+#      - Spells: 100_spells.md
+      - Sanity: 100_sanity.md
+      - General Rules:
+          - Giostra a Squadre: 100_generalrules_giostra.md
+          - Lotta contro Kaiju: 100_generalrules_kaiju.md
+          - Crafiting: 100_generalrules_crafting.md
+          - Lotta su carro: 100_generalrules_carro.md
+          - Assedio: 100_generalrules_assedio.md
