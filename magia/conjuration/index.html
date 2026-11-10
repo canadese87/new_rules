@@ -1,0 +1,4654 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Regole di gioco di DC20 (Beta 0.10.5) in italiano, con i termini di gioco in inglese.">
+      
+      
+      
+      
+        <link rel="prev" href="../astromancy/">
+      
+      
+        <link rel="next" href="../summon/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
+    
+    
+      
+        <title>Conjuration - DC20 — Regole</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#spell-di-conjuration" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href="../.." title="DC20 — Regole" class="md-header__button md-logo" aria-label="DC20 — Regole" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DC20 — Regole
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Conjuration
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple"  aria-label="Passa al tema scuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Passa al tema scuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="lime"  aria-label="Passa al tema chiaro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Passa al tema chiaro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Cancella" aria-label="Cancella" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inizializza la ricerca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../regole_base/attributi/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Regole base
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../combattimento/risorse/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Combattimento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../marziale/regole/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Martial
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../regole/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Magia
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../regole_generali/ambiente/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Regole generali
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../personaggio/creazione/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Personaggio
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../classi/introduzione/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Classes
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../oggetti_magici/regole/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Magic Items
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../opzioni/shadow/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Opzioni
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../100_sanity/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Homebrew
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="DC20 — Regole" class="md-nav__button md-logo" aria-label="DC20 — Regole" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DC20 — Regole
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole base
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Regole base
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/attributi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attributes e Prime Modifier
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/skills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Skills
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/trades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Trades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/languages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Languages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/mastery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mastery e Training
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/checks_saves/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Checks e Saves
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/attacchi_difese/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attacks e Defenses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/hp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Health Points e Death's Door
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/danni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Damage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combattimento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Combattimento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/risorse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combat Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/azioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Actions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/reazioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reactions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/inizio_combattimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inizio del combattimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/creature_combattimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creatures e combattimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martial
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Martial
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marziale/regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole delle Maneuver
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marziale/maneuvers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maneuvers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magia
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Magia
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole dello Spellcasting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../liste/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Liste degli Spell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../astromancy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Astromancy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conjuration
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conjuration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#arcane-barrier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arcane Barrier
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arcane-weapon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arcane Weapon
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bind
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chaos-bomb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chaos Bomb
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#call-familiar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Call Familiar
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Call Familiar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#familiar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Familiar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#familiar-traits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Familiar Traits
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spell-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spell Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gestione-del-familiar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestione del Familiar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expanded-familiar-traits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expanded Familiar Traits
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disguise-self" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disguise Self
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entangle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entangle
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#elemental-weapon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Elemental Weapon
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#forcefield" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forcefield
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#illusory-duplicate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Illusory Duplicate
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#illusory-image" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Illusory Image
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#illusory-writing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Illusory Writing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mage-armor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mage Armor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mystical-weapon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mystical Weapon
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#natures-tether" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nature's Tether
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oil-slick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oil Slick
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tendrils-from-beyond" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tendrils from Beyond
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unholy-aura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unholy Aura
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../summon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Summon Spells
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../divination/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Divination
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../elemental/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elemental
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../enchantment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Enchantment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../invocation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Invocation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nullification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nullification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../transmutation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transmutation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole generali
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Regole generali
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/ambiente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Environment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/visione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vision
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/aree_effetto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Areas of Effect
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/equipaggiamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/condizioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conditions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/riposo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/dc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/gm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Game Master
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Personaggio
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Personaggio
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personaggio/creazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creazione e progressione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personaggio/talents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Talents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personaggio/paths/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Character Paths
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestries
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ancestries
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/sistema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestry System
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/core/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestry del Core
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/beastborn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Beastborn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/psyborn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psyborn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/espanse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestry espanse
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/introduzione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduzione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martial
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Martial
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barbarian
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/champion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Champion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/commander/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Commander
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/hunter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hunter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rogue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spellcaster
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Spellcaster
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cleric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Druid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/sorcerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sorcerer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlock
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_4" id="__nav_8_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ibride
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ibride
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/spellblade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spellblade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_5" id="__nav_8_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Da magazine e pack
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Da magazine e pack
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/summoner/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Summoner
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/artificer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Artificer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Items
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Magic Items
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oggetti_magici/regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oggetti_magici/magic_properties/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Properties
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Opzioni
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Opzioni
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../opzioni/shadow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shadow Options
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Homebrew
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Homebrew
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_sanity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sanity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_giostra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Giostra a Squadre
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_kaiju/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lotta contro Kaiju
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_crafting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crafting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_carro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lotta su carro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_assedio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assedio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#arcane-barrier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arcane Barrier
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arcane-weapon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arcane Weapon
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bind
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chaos-bomb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chaos Bomb
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#call-familiar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Call Familiar
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Call Familiar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#familiar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Familiar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#familiar-traits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Familiar Traits
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spell-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spell Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gestione-del-familiar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestione del Familiar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expanded-familiar-traits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expanded Familiar Traits
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disguise-self" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disguise Self
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entangle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entangle
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#elemental-weapon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Elemental Weapon
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#forcefield" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forcefield
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#illusory-duplicate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Illusory Duplicate
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#illusory-image" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Illusory Image
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#illusory-writing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Illusory Writing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mage-armor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mage Armor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mystical-weapon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mystical Weapon
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#natures-tether" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nature's Tether
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oil-slick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oil Slick
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tendrils-from-beyond" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tendrils from Beyond
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unholy-aura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unholy Aura
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="spell-di-conjuration">Spell di Conjuration<a class="headerlink" href="#spell-di-conjuration" title="Permanent link">&para;</a></h1>
+<p>La School di Conjuration comprende gli Spell che evocano creature, creano oggetti o creano illusioni nell'ambiente, trasportando qualcosa da un luogo a un altro o fabbricandolo dal nulla.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Gli Spell Summon della School di Conjuration (Summon Aberration, Summon Beast, Summon Celestial, Summon Construct, Summon Dragon, Summon Elemental, Summon Fey, Summon Fiend, Summon Ooze, Summon Plant, Summon Undead) sono riportati in <a href="../summon/">Summon Spells</a>.</p>
+</div>
+<h3 id="arcane-barrier">Arcane Barrier<a class="headerlink" href="#arcane-barrier" title="Permanent link">&para;</a></h3>
+<p><strong>Source:</strong> Arcane · <strong>School:</strong> Conjuration · <strong>Tags:</strong> Embolden, Ward<br />
+<strong>Cost:</strong> 2 AP · <strong>Range:</strong> 5 Spaces · <strong>Duration:</strong> 1 Minute (Sustained)</p>
+<p>Collochi un Arcane Glyph entro la Range che crea una Sphere di 3 Spaces di diametro, la quale protegge le creature di tua scelta per la durata o finché non lasciano l'area. Effettui uno Spell Check DC 15. <strong>Failure:</strong> i bersagli ottengono PDR. <strong>Success:</strong> i bersagli ottengono PDR e 1 Temp HP. <strong>Success (Each 5):</strong> i Temp HP aumentano di 1.</p>
+<p><strong>Spell Enhancements</strong></p>
+<ul>
+<li><strong>Range</strong> (1 AP, Repeatable): la Range dello Spell aumenta di 5 Spaces. Puoi usare questo Enhancement al massimo due volte.</li>
+<li><strong>Area</strong> (X MP): il diametro della Sphere aumenta di X Spaces.</li>
+<li><strong>Protection</strong> (X MP): ogni volta che le creature di tua scelta terminano il proprio turno nell'area, ottengono X Temp HP finché non lasciano l'area o lo Spell termina.</li>
+<li><strong>Resistance</strong> (2 MP): le creature di tua scelta nell'area ottengono Physical Resistance (Half) invece di PDR.</li>
+<li><strong>Magical Ward</strong> (2 MP): le creature nell'area hanno ADV ai Save contro effetti MP. Gli Spell Attack hanno DisADV contro le creature nell'area.</li>
+</ul>
+<h3 id="arcane-weapon">Arcane Weapon<a class="headerlink" href="#arcane-weapon" title="Permanent link">&para;</a></h3>
+<p><strong>Source:</strong> Arcane · <strong>School:</strong> Conjuration · <strong>Tags:</strong> Enfeeble, Bludgeoning, Piercing, Slashing, Weapon<br />
+<strong>Cost:</strong> 1 AP + 1 MP · <strong>Range:</strong> 10 Spaces · <strong>Duration:</strong> 1 Minute (Sustained)</p>
+<p>Evochi una Weapon di taglia Tiny che infligge un Physical Damage Type (Bludgeoning, Piercing o Slashing) a tua scelta. La Weapon scompare quando lo Spell termina.</p>
+<p><strong>Command:</strong> una volta per Round, quando lanci lo Spell, ne effettui il Sustain o spendendo 1 AP nel tuo turno, puoi muovere la Weapon fino a 5 Spaces e scegliere di effettuare un Melee Spell Attack contro la PD di un bersaglio entro 1 Space dalla Weapon. <strong>Hit:</strong> il bersaglio subisce 2 danni del Damage Type scelto.</p>
+<p><strong>Tethered:</strong> la Weapon è Tethered a te a una distanza pari alla Range dello Spell. Se ti allontani dalla Weapon oltre la distanza di Tethered, trascini la Weapon con te.</p>
+<p><strong>Spell Enhancements</strong></p>
+<ul>
+<li><strong>Range</strong> (1 AP, Repeatable): la Range dello Spell aumenta di 5 Spaces. Puoi usare questo Enhancement al massimo due volte.</li>
+<li><strong>Damage</strong> (X MP): i danni della Weapon aumentano di X.</li>
+<li><strong>Effortless</strong> (1 MP): non devi più effettuare il Sustain dello Spell e puoi usare Command sulla Weapon gratuitamente nel tuo turno. Puoi comunque usare Command sulla Weapon solo una volta per Round.</li>
+<li><strong>Physical Effect</strong> (1 MP): le creature colpite (Hit) dalla Weapon hanno Vulnerability a un effetto basato sul Damage Type scelto per 1 Round: Bludgeoning (Prone), Piercing (Impaired) o Slashing (Bleeding).</li>
+<li><strong>Cleave</strong> (1 MP): quando usi Command sulla Weapon, puoi invece effettuare un Area Spell Attack contro l'AD di ogni bersaglio entro un Arc di 1 Space dalla Weapon. <strong>Hit:</strong> il bersaglio subisce 1 danno del tipo scelto.</li>
+</ul>
+<h3 id="bind">Bind<a class="headerlink" href="#bind" title="Permanent link">&para;</a></h3>
+<p><strong>Source:</strong> Arcane, Divine, Primal · <strong>School:</strong> Conjuration · <strong>Tags:</strong> Bludgeoning, Immobilized, Restrained<br />
+<strong>Cost:</strong> 1 AP + 1 MP · <strong>Range:</strong> 10 Spaces · <strong>Duration:</strong> 1 Minute</p>
+<p>Effettui uno Spell Check contrapposto all'Agility Save di una creatura entro la Range. <strong>Check Success:</strong> il bersaglio è <strong>Immobilized</strong> per la durata. Una volta in ciascuno dei suoi turni, il bersaglio può spendere 1 AP per ritentare il Save; con un Success lo Spell termina.</p>
+<p><strong>Spell Enhancements</strong></p>
+<ul>
+<li><strong>Range</strong> (1 AP, Repeatable): la Range dello Spell aumenta di 5 Spaces. Puoi usare questo Enhancement al massimo due volte.</li>
+<li><strong>Restrain</strong> (1 MP): con un Success, il bersaglio è invece <strong>Restrained</strong>.</li>
+<li><strong>Constrict</strong> (1 MP): per la durata, una volta per Round, puoi spendere 1 AP per infliggere 2 danni Bludgeoning al bersaglio. Quando effettui questo attacco, puoi spendere 1 o più MP per aumentare i danni di 1 per ogni MP speso.</li>
+</ul>
+<h3 id="chaos-bomb">Chaos Bomb<a class="headerlink" href="#chaos-bomb" title="Permanent link">&para;</a></h3>
+<p><strong>Source:</strong> Arcane · <strong>School:</strong> Conjuration · <strong>Tags:</strong> Chaos<br />
+<strong>Cost:</strong> 2 AP + 1 MP · <strong>Range:</strong> 10 Spaces · <strong>Duration:</strong> 1 Minute</p>
+<p>Crei una Chaos Bomb di taglia Tiny in uno Space entro la Range. Alla fine di ciascuno dei tuoi turni, effettui un Fate Check. <strong>Risultato di 10 o più:</strong> la Chaos Bomb detona.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Un Fate Check è un tiro di d20 a cui non si applica alcun modificatore (numerico o di altro tipo), a cui non si applicano risultati critici e in cui non puoi scegliere di fallire.</p>
+</div>
+<p><strong>Detonation:</strong> quando la bomba detona, tira un d12 per determinare il tipo di danno della bomba. Effettui gratuitamente, come Reaction, un Area Spell Attack contro l'AD di ogni bersaglio in una Sphere di 3 Spaces di diametro centrata sullo Space della bomba, mentre i bersagli effettuano un Intelligence Save contro il tuo Save DC. <strong>Hit:</strong> il bersaglio subisce 1 danno del tipo ottenuto. <strong>Save Failure:</strong> il bersaglio subisce gli effetti della colonna Save Failure in base al risultato ottenuto.</p>
+<table>
+<thead>
+<tr>
+<th>d12</th>
+<th>Damage</th>
+<th>Save Failure</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Bludgeoning</td>
+<td>Il bersaglio viene spinto di 1 Space. <strong>Failure (Each 5):</strong> il bersaglio viene spinto di 1 Space aggiuntivo.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Piercing</td>
+<td>Il bersaglio non può effettuare Reaction per 1 round.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Slashing</td>
+<td>Il bersaglio inizia a essere <strong>Bleeding</strong> per 1 minuto.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Cold</td>
+<td>Il bersaglio è <strong>Slowed</strong> per 1 round.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Corrosive</td>
+<td>Il bersaglio è <strong>Hindered</strong> per 1 round.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Fire</td>
+<td>Il bersaglio inizia a essere <strong>Burning</strong> per 1 minuto.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Lightning</td>
+<td>Il bersaglio è <strong>Stunned</strong> fino all'inizio del suo turno.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Poison</td>
+<td>Il bersaglio è <strong>Impaired</strong> per 1 round.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Psychic</td>
+<td>Il bersaglio è <strong>Dazed</strong> per 1 round.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Radiant</td>
+<td>Gli Attack effettuati contro il bersaglio aggiungono un d4 al Check per 1 round.</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Umbral</td>
+<td>Il bersaglio è <strong>Doomed</strong> per 1 round.</td>
+</tr>
+<tr>
+<td>12</td>
+<td>True</td>
+<td>Il bersaglio è <strong>Exposed</strong> per 1 round.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Spell Passive: Wild Magic Surge:</strong> quando ottieni un Critical Failure o un Critical Success su un Check effettuato per lanciare questo Spell, tiri sulla Wild Magic Table (vedi <a href="../regole/">Regole degli Spell</a>).</p>
+<p><strong>Spell Enhancements</strong></p>
+<ul>
+<li><strong>Range</strong> (1 AP, Repeatable): la Range dello Spell aumenta di 5 Spaces. Puoi usare questo Enhancement al massimo due volte.</li>
+<li><strong>Damage</strong> (X MP): i danni aumentano di X.</li>
+<li><strong>Chaotic Expansion</strong> (1 AP): quando tiri per la Detonation e la bomba non detona, il diametro della Sphere aumenta di 1 Space.</li>
+<li><strong>Controlled Entropy</strong> (1 AP): quando effettui il Fate Check, tiri due volte e scegli quale risultato usare.</li>
+<li><strong>Sticky</strong> (1 AP): quando lanci lo Spell, puoi attaccare la Chaos Bomb a un oggetto o a una creatura entro la Range. Se il bersaglio non è consenziente, effettui uno Spell Check contro l'Agility Save del bersaglio. <strong>Check Success:</strong> la bomba resta attaccata magicamente al bersaglio. Una creatura può spendere 1 AP per effettuare un Trickery Check contro il tuo Save DC per rimuoverla da un bersaglio entro 1 Space (incluso sé stessa). <strong>Success:</strong> la bomba resta attaccata magicamente alla creatura che l'ha rimossa. <strong>Success (5):</strong> la bomba smette di attaccarsi magicamente a oggetti o creature.</li>
+</ul>
+<h3 id="call-familiar">Call Familiar<a class="headerlink" href="#call-familiar" title="Permanent link">&para;</a></h3>
+<p><strong>Source:</strong> Arcane, Divine, Primal · <strong>School:</strong> Conjuration · <strong>Tags:</strong> Sense, Summoning<br />
+<strong>Cost:</strong> 1 AP + 1 MP · <strong>Range:</strong> 1 Space · <strong>Duration:</strong> Instantaneous</p>
+<p>Evochi uno spirito amichevole che entra al tuo servizio finché non vieni ridotto a 0 HP o finché non scegli di terminare lo Spell gratuitamente nel tuo turno. Assume la forma di una creatura Tiny a tua scelta, con un Creature Type a tua scelta (tranne Giant e Humanoid). Il tuo Familiar usa lo stat block seguente.</p>
+<h4 id="familiar">Familiar<a class="headerlink" href="#familiar" title="Permanent link">&para;</a></h4>
+<p>Tiny (tipo scelto)</p>
+<table>
+<thead>
+<tr>
+<th>Statistica</th>
+<th>Valore</th>
+<th>Statistica</th>
+<th>Valore</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HP</td>
+<td>Shared</td>
+<td>AP</td>
+<td>Shared</td>
+</tr>
+<tr>
+<td>PD</td>
+<td>8 + CM</td>
+<td>AD</td>
+<td>8 + CM</td>
+</tr>
+<tr>
+<td>PM</td>
+<td>Shared</td>
+<td>Save DC</td>
+<td>Shared</td>
+</tr>
+<tr>
+<td>Speed</td>
+<td>5</td>
+<td>CM</td>
+<td>Shared</td>
+</tr>
+<tr>
+<td>MIG</td>
+<td>0</td>
+<td>CHA</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AGI</td>
+<td>0</td>
+<td>INT</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Il Familiar condivide il tuo Prime Modifier (PM) e la tua Combat Mastery (CM), quindi i suoi Attack Check, Martial Check e Spell Check sono uguali ai tuoi.</p>
+</div>
+<p><strong>MP Reduction:</strong> quando lanci lo Spell, i tuoi MP massimi si riducono di un ammontare pari agli MP spesi. Questa riduzione termina solo quando termina lo Spell. Non recuperi gli MP persi quando i tuoi MP massimi vengono ripristinati.</p>
+<p><strong>Recasting the Spell:</strong> non puoi avere più di 1 Familiar alla volta. Se lanci questo Spell mentre hai già un Familiar, il tuo Familiar può mantenere la sua forma, assumere una nuova forma a tua scelta, oppure scomparire ed essere sostituito da uno nuovo. Il nuovo Familiar può essere uno che hai evocato in passato o uno del tutto nuovo. In entrambi i casi puoi riassegnare i suoi Familiar Traits.</p>
+<h4 id="familiar-traits">Familiar Traits<a class="headerlink" href="#familiar-traits" title="Permanent link">&para;</a></h4>
+<p>Il tuo Familiar ha i seguenti Familiar Traits:</p>
+<ul>
+<li><strong>Familiar Bond:</strong> il tuo Familiar condivide i tuoi HP. Se entrambi subite danni dalla stessa fonte, subisci solo 1 istanza di quei danni. Mentre il tuo Familiar occupa il tuo stesso Space, non può essere bersaglio di Attack.</li>
+<li><strong>Shared Telepathy:</strong> entro 20 Spaces, tu e il tuo Familiar potete parlare telepaticamente tra voi.</li>
+<li><strong>Spell Delivery:</strong> entro 10 Spaces dal tuo Familiar, lanci uno Spell con Range di 1 Space come se ti trovassi nello Space del tuo Familiar.</li>
+</ul>
+<h4 id="spell-actions">Spell Actions<a class="headerlink" href="#spell-actions" title="Permanent link">&para;</a></h4>
+<p><strong>Pocket Dimension:</strong> puoi spendere una Minor Action per congedare il Familiar in una dimensione tascabile, evocarlo da quella dimensione tascabile o evocarlo da qualsiasi punto dello stesso piano di esistenza. Quando viene evocato o congedato, gli oggetti che trasportava vengono lasciati indietro. Quando viene evocato, compare nello Space libero più vicino a tua scelta.</p>
+<p><strong>Shared Senses:</strong> mentre il tuo Familiar è entro 20 Spaces, puoi spendere 1 AP per collegare i tuoi sensi a quelli del Familiar fino alla fine del tuo turno successivo. Per la durata sei <strong>Deafened</strong> e <strong>Blinded</strong> rispetto ai tuoi sensi, ma puoi vedere ciò che vede il tuo Familiar e sentire ciò che sente. Il collegamento termina anticipatamente se uno dei due si allontana di più di 20 Spaces dall'altro.</p>
+<h4 id="gestione-del-familiar">Gestione del Familiar<a class="headerlink" href="#gestione-del-familiar" title="Permanent link">&para;</a></h4>
+<p><strong>Combat:</strong> il Familiar condivide la tua Initiative e agisce nel tuo turno. Puoi spendere 1 AP per ordinare al Familiar di usare un'Action. Non può effettuare l'Attack Action o la Spell Action, a meno che non abbia un Familiar Feature che glielo consenta. Quando effettui la Move Action, anche il tuo Familiar ottiene i benefici della Move Action. Se non gli dai ordini, alla fine del tuo turno effettua la Dodge Action.</p>
+<p><strong>Shared MCP:</strong> quando il Familiar effettua un Check, condivide il tuo Multiple Check Penalty.</p>
+<p><strong>Spell Enhancements</strong></p>
+<ul>
+<li><strong>Additional Traits</strong> (1 MP, Repeatable): concedi al tuo Familiar 2 punti di Familiar Traits o Beast Traits (non puoi scegliere Negative Traits).</li>
+</ul>
+<h4 id="expanded-familiar-traits">Expanded Familiar Traits<a class="headerlink" href="#expanded-familiar-traits" title="Permanent link">&para;</a></h4>
+<p>I Familiar evocati possono scegliere tra i seguenti Familiar Traits aggiuntivi. Il numero tra parentesi indica il costo in punti.</p>
+<p><strong>Repeatable Traits</strong></p>
+<ul>
+<li><strong>Resistance</strong> (2): ottiene Resistance (Half) a un tipo di danno a tua scelta.</li>
+</ul>
+<p><strong>Unique Traits</strong></p>
+<ul>
+<li><strong>Avian</strong> (2): ottiene una Fly Speed pari alla propria Speed.</li>
+<li><strong>Blended Senses</strong> (1): puoi usare Shared Senses come Action gratuita nel tuo turno. La sua portata aumenta a 100 Spaces e termina solo se uno dei due si allontana di più di 100 Spaces dall'altro o se scegli di terminarlo gratuitamente in qualsiasi momento.</li>
+<li><strong>Chameleon</strong> (2): puoi spendere 1 AP per rendere il tuo Familiar <strong>Invisible</strong> per 1 minuto o finché non effettua un'Action diversa dalla Dodge Action o dalla Hide Action.</li>
+<li><strong>Distant Link</strong> (1): la portata di Shared Telepathy aumenta a 100 Spaces e conosci sempre la posizione esatta del tuo Familiar, purché vi troviate sullo stesso piano di esistenza.</li>
+<li><strong>Extended Spell Delivery</strong> (1): entro 10 Spaces dal tuo Familiar, puoi lanciare Spell come se ti trovassi nel suo Space.</li>
+<li><strong>Familiar Attack</strong> (1): il Familiar può spendere 1 AP per effettuare un Ranged Spell Attack contro la PD di un bersaglio entro 10 Spaces. L'Attack infligge 1 danno di un tipo scelto quando evochi il Familiar (tranne True). Se il bersaglio è entro 1 Space, l'Attack diventa un Melee Spell Attack e infligge +1 danno con un Heavy Hit.</li>
+<li><strong>Predator</strong> (1): richiede Familiar Attack. Il Familiar ha ADV agli Attack contro creature Bloodied e ai Survival Check per seguirne le tracce.</li>
+<li><strong>Prey</strong> (1): il Familiar ha ADV agli Stealth Check e può tentare di nascondersi (Hide) anche quando è solo Partially Concealed.</li>
+<li><strong>Limited Telepathy</strong> (1): il Familiar può comunicare telepaticamente con qualsiasi creatura che può vedere entro 5 Spaces. Se il Familiar non può parlare, comunica usando solo idee semplici, emozioni e immagini.</li>
+<li><strong>Malleable</strong> (2): il Familiar può muoversi attraverso uno spazio largo appena 1 pollice senza stringersi (squeezing).</li>
+<li><strong>Evasive</strong> (1): il Familiar non provoca Opportunity Attack quando esce dalla portata di un nemico.</li>
+<li><strong>Quiet as a Mouse</strong> (1): mentre si muove a passo furtivo (1/2 Speed), il Familiar non produce suoni, non lascia tracce evidenti e non può essere seguito con mezzi ordinari.</li>
+<li><strong>Speech</strong> (1): il Familiar ottiene la capacità di parlare e condivide le tue Language Mastery.</li>
+<li><strong>Strong-Willed</strong> (1): il Familiar ha ADV ai Save per evitare di diventare Charmed, Frightened, Intimidated o Terrified.</li>
+</ul>
+<h3 id="disguise-self">Disguise Self<a class="headerlink" href="#disguise-self" title="Permanent link">&para;</a></h3>
+<p><strong>Source:</strong> Arcane, Primal · <strong>School:</strong> Conjuration · <strong>Tags:</strong> Communication, Illusion<br />
+<strong>Cost:</strong> 1 AP + 1 MP · <strong>Range:</strong> Self · <strong>Duration:</strong> 10 Minutes</p>
+<p>Alteri il tuo aspetto in quello di una persona specifica che hai visto o di un generico membro di una Ancestry. La nuova forma deve essere della tua stessa taglia e non ottieni i Trait, le Feature o le statistiche di quella forma. Puoi terminare questo Spell in qualsiasi momento gratuitamente.</p>
+<p><strong>Being Identified:</strong> una creatura può effettuare un Investigation Check contro il tuo Save DC per capire che la tua forma non è naturale ed è stata alterata dalla magia.</p>
+<p><strong>Spell Enhancements</strong></p>
+<ul>
+<li><strong>Duration</strong> (1 MP, Repeatable): la durata aumenta di 1 grado (10 minuti → 1 ora → 8 ore → Long Rest).</li>
+<li><strong>Size</strong> (1 MP): puoi scegliere l'aspetto di una creatura di 1 taglia più piccola o più grande di te. La tua taglia non cambia.</li>
+<li><strong>Mimicry</strong> (1 MP): puoi imitare perfettamente la voce, l'accento e i modi di fare di una creatura che hai sentito parlare per almeno 1 minuto.</li>
+<li><strong>Alter Form</strong> (1 MP): una volta per Round per la durata, puoi spendere 1 AP per cambiare il tuo aspetto in un'altra forma a tua scelta.</li>
+</ul>
+<h3 id="entangle">Entangle<a class="headerlink" href="#entangle" title="Permanent link">&para;</a></h3>
+<p><strong>Source:</strong> Primal · <strong>School:</strong> Conjuration · <strong>Tags:</strong> Immobilized, Plants, Piercing, Restrained<br />
+<strong>Cost:</strong> 2 AP + 1 MP · <strong>Range:</strong> 10 Spaces · <strong>Duration:</strong> 1 Minute</p>
+<p>Crei una Sphere di 3 Spaces di diametro di un fenomeno naturale (ad esempio piante avviluppanti) entro la Range. L'area diventa Difficult Terrain per la durata. Effettui uno Spell Check contro l'Agility Save di ogni creatura nell'area. <strong>Save Failure:</strong> il bersaglio diventa <strong>Immobilized</strong> per la durata o finché il suo Space non viene ripulito dall'effetto. Il bersaglio può inoltre spendere 1 AP per ripetere il Save; con un Success la Condition su di sé termina.</p>
+<p><strong>Clearing Spaces:</strong> ogni Space nell'area ha AD e PD pari al tuo Save DC e viene ripulito quando subisce un ammontare di danni Elemental o Slashing pari agli MP spesi per lo Spell (minimo 1).</p>
+<details class="example">
+<summary>Esempio</summary>
+<p>Un Druid di Level 1 ha un Save DC di 14 e spende 1 MP per lanciare Entangle. Ogni Space nell'area dello Spell ha AD e PD 14 e scompare quando subisce 1 danno Slashing o Elemental.</p>
+</details>
+<p><strong>Spell Enhancements</strong></p>
+<ul>
+<li><strong>Range</strong> (1 AP, Repeatable): la Range dello Spell aumenta di 5 Spaces. Puoi usare questo Enhancement al massimo due volte.</li>
+<li><strong>Area</strong> (X MP): il diametro della Sphere aumenta di X Spaces.</li>
+<li><strong>Grasping</strong> (2 MP): quando una creatura entra per la prima volta in un turno in uno Space dell'area non ancora ripulito, effettua un Agility Save contro il tuo Save DC. <strong>Save Failure:</strong> il bersaglio diventa <strong>Immobilized</strong> per la durata o finché il suo Space non viene ripulito dall'effetto. Il bersaglio può inoltre spendere 1 AP per ripetere il Save; con un Success la Condition su di sé termina.</li>
+<li><strong>Restrained</strong> (2 MP): le creature rese Immobilized dallo Spell sono anche <strong>Restrained</strong>.</li>
+<li><strong>Spikey Terrain</strong> (X MP): le creature subiscono X danni Piercing quando entrano in uno Space dell'area non ancora ripulito. Subiscono questi danni anche ogni volta che falliscono un Save (inclusi i Save successivi) per resistere all'Immobilized dello Spell.</li>
+</ul>
+<h3 id="elemental-weapon">Elemental Weapon<a class="headerlink" href="#elemental-weapon" title="Permanent link">&para;</a></h3>
+<p><strong>Source:</strong> Primal · <strong>School:</strong> Conjuration · <strong>Tags:</strong> Cold, Corrosion, Enfeeble, Fire, Lightning, Poison, Weapon<br />
+<strong>Cost:</strong> 1 AP + 1 MP · <strong>Range:</strong> 10 Spaces · <strong>Duration:</strong> 1 Minute (Sustained)</p>
+<p>Evochi una Weapon spettrale di taglia Tiny che infligge un Elemental Damage Type (Cold, Corrosion, Fire, Lightning o Poison) a tua scelta. La Weapon scompare quando lo Spell termina.</p>
+<p><strong>Command:</strong> una volta per Round, quando lanci lo Spell, ne effettui il Sustain o spendendo 1 AP nel tuo turno, puoi muovere la Weapon fino a 5 Spaces e scegliere di effettuare un Melee Spell Attack contro la PD di un bersaglio entro 1 Space dalla Weapon. <strong>Hit:</strong> il bersaglio subisce 2 danni del Damage Type scelto.</p>
+<p><strong>Tethered:</strong> la Weapon è Tethered a te a una distanza pari alla Range dello Spell. Se ti allontani dalla Weapon oltre la distanza di Tethered, trascini la Weapon con te.</p>
+<p><strong>Spell Enhancements</strong></p>
+<ul>
+<li><strong>Range</strong> (1 AP, Repeatable): la Range dello Spell aumenta di 5 Spaces. Puoi usare questo Enhancement al massimo due volte.</li>
+<li><strong>Damage</strong> (X MP): i danni della Weapon aumentano di X.</li>
+<li><strong>Effortless</strong> (1 MP): non devi più effettuare il Sustain dello Spell e puoi usare Command sulla Weapon gratuitamente nel tuo turno. Puoi comunque usare Command sulla Weapon solo una volta per Round.</li>
+<li><strong>Elemental Effect</strong> (1 MP): le creature colpite (Hit) dalla Weapon hanno Vulnerability a un effetto basato sul Damage Type scelto per 1 Round: Cold (Slowed), Corrosion (Hindered), Fire (Burning), Lightning (Stunned) o Poison (Poisoned).</li>
+<li><strong>Enduring Elements</strong> (X MP): le creature attaccate dalla Weapon devono effettuare un Repeated Physical Save. <strong>Save Failure:</strong> all'inizio di ciascuno dei loro turni subiscono X danni del Damage Type scelto, per 1 minuto.</li>
+</ul>
+<h3 id="forcefield">Forcefield<a class="headerlink" href="#forcefield" title="Permanent link">&para;</a></h3>
+<p><strong>Source:</strong> Arcane · <strong>School:</strong> Conjuration · <strong>Tags:</strong> Antimagic, Sound, Summoning<br />
+<strong>Cost:</strong> 2 AP + 1 MP · <strong>Range:</strong> 10 Spaces · <strong>Duration:</strong> 1 Minute</p>
+<p>Crei un Forcefield di pura energia arcana entro la Range. Scegli una cupola (Dome) di 3 Spaces di diametro oppure un muro (Wall) lungo 5 Spaces e alto 2 Spaces. Le creature e gli oggetti nell'area vengono spinti nello Space libero più vicino a loro scelta su uno dei due lati del Forcefield (scegli tu per ogni oggetto).</p>
+<p>Il Forcefield è traslucido e agisce come una superficie solida: blocca il movimento ma non il suono né la luce. Il Forcefield ha 2 HP, Resistance (Half) a tutti i danni, e PD e AD pari al tuo Save DC.</p>
+<p><strong>Spell Enhancements</strong></p>
+<ul>
+<li><strong>Range</strong> (1 AP, Repeatable): la Range dello Spell aumenta di 5 Spaces. Puoi usare questo Enhancement al massimo due volte.</li>
+<li><strong>Area</strong> (1 MP, Repeatable): le dimensioni del Forcefield aumentano:<ul>
+<li><strong>Dome:</strong> il diametro della cupola aumenta di 1 Space.</li>
+<li><strong>Wall:</strong> la lunghezza del muro aumenta di 5 Spaces oppure la sua altezza aumenta di 2 Spaces.</li>
+</ul>
+</li>
+<li><strong>Durable</strong> (X MP): il Forcefield ha +X HP.</li>
+<li><strong>One-way Mirror</strong> (1 MP): scegli una faccia del Forcefield che resta traslucida. Le creature da quel lato vedono attraverso normalmente, mentre le creature dall'altro lato lo percepiscono come uno specchio.</li>
+<li><strong>Privacy</strong> (1 AP): quando lanci lo Spell, o spendendo 1 AP, puoi modificare il modo in cui il suono attraversa il Forcefield. Puoi impedire a qualsiasi suono di attraversarlo, impedire al suono di attraversarlo in 1 sola direzione (ad esempio dall'esterno verso l'interno) oppure permettere a tutti i suoni di attraversarlo.</li>
+<li><strong>Full Lockdown</strong> (2 MP): creature ed effetti non possono influenzare nulla dall'altro lato del Forcefield. Inoltre, creature e oggetti non possono teletrasportarsi attraverso il Forcefield.</li>
+</ul>
+<h3 id="illusory-duplicate">Illusory Duplicate<a class="headerlink" href="#illusory-duplicate" title="Permanent link">&para;</a></h3>
+<p><strong>Source:</strong> Arcane · <strong>School:</strong> Conjuration · <strong>Tags:</strong> Communication, Illusion, Teleportation, Sense<br />
+<strong>Cost:</strong> 1 AP + 1 MP · <strong>Range:</strong> 10 Spaces · <strong>Duration:</strong> 1 Minute (Sustained)</p>
+<p>Crei un duplicato illusorio di te stesso in uno Space libero entro la Range.</p>
+<p><strong>Second Self:</strong> il duplicato imita la tua postura e i tuoi gesti. Quando spendi movimento per muoverti, puoi far muovere il duplicato al posto tuo o insieme a te. Se il duplicato si muove con te, si muove in modo simile dello stesso numero di Spaces in una direzione a tua scelta. Se termini il tuo turno a una distanza dal duplicato superiore alla Range dello Spell, il duplicato scompare.</p>
+<p><strong>Shared Senses:</strong> puoi usare una Minor Action per vedere e sentire come se ti trovassi nello Space occupato dal duplicato. Quando lo fai, sei <strong>Blinded</strong> e <strong>Deafened</strong> rispetto ai tuoi sensi. Puoi usare una Minor Action per terminare l'effetto.</p>
+<p><strong>False Threat:</strong> il duplicato è intangibile: creature e oggetti lo attraversano. Il duplicato conta come una creatura ai fini del Flanking contro qualsiasi creatura che non riesce a riconoscerlo come illusione.</p>
+<p><strong>Discerning the Illusion:</strong> una creatura che tenta di interagire fisicamente con il duplicato capisce automaticamente che si tratta di un'illusione. Altrimenti, una creatura può effettuare un Investigation Check contro il tuo Save DC per tentare di capire se il duplicato è un'illusione. <strong>Success:</strong> la creatura capisce che è un'illusione.</p>
+<p><strong>Spell Enhancements</strong></p>
+<ul>
+<li><strong>Range</strong> (1 AP, Repeatable): la Range dello Spell aumenta di 5 Spaces. Puoi usare questo Enhancement al massimo due volte.</li>
+<li><strong>Duration</strong> (1 MP, Repeatable): la durata aumenta di 1 grado (1 minuto → 10 minuti → 1 ora → 8 ore → Long Rest).</li>
+<li><strong>Additional Duplicate</strong> (X MP): crei X duplicati aggiuntivi entro la Range e ciascuno può muoversi in modo indipendente quando ti muovi.</li>
+<li><strong>Ventriloquism</strong> (1 MP): puoi scegliere di parlare attraverso il duplicato contemporaneamente a te o al posto tuo, facendo sembrare che la tua voce provenga dalla sua posizione.</li>
+<li><strong>Swap</strong> (3 MP): ora puoi spendere 1 AP nel tuo turno per scambiarti di posto con un duplicato che si trova entro la Range dello Spell. Questo scambio è percepibile solo da una creatura che ha riconosciuto il duplicato come illusione.</li>
+</ul>
+<h3 id="illusory-image">Illusory Image<a class="headerlink" href="#illusory-image" title="Permanent link">&para;</a></h3>
+<p><strong>Source:</strong> Arcane, Primal · <strong>School:</strong> Conjuration · <strong>Tags:</strong> Illusion, Scent, Sound, Trap<br />
+<strong>Cost:</strong> 1 AP · <strong>Range:</strong> 10 Spaces · <strong>Duration:</strong> 1 Minute</p>
+<p>Crei un'illusione visiva di taglia fino a Medium di un oggetto, di una creatura o di un effetto entro la Range. L'illusione è puramente visiva: non può creare suoni, luce, odori o interazioni fisiche. Appare reale alla vista ma non proietta ombre e non lascia tracce.</p>
+<p>Effettui uno Spell Check DC 15. <strong>Failure:</strong> le creature ottengono ADV ai Check effettuati per Discern the Illusion. <strong>Success:</strong> le creature effettuano i Check per Discern the Illusion normalmente. <strong>Success (5):</strong> le creature hanno DisADV ai Check effettuati per Discern the Illusion.</p>
+<p><strong>Discern the Illusion:</strong> se l'illusione è un'immagine, qualsiasi interazione fisica con essa la rivela come illusione. In alternativa, una creatura può spendere 1 AP per esaminare l'immagine (o qualsiasi effetto dell'Enhancement Senses) per tentare di stabilire se l'illusione è reale. La creatura effettua un Investigation Check contro il tuo Save DC. <strong>Success:</strong> la creatura riconosce l'illusione per ciò che è, rivelandola come falsa. Se l'illusione è un'immagine, diventa parzialmente trasparente per quella creatura e non le blocca più la visuale.</p>
+<p><strong>Spell Enhancements</strong></p>
+<ul>
+<li><strong>Range</strong> (1 AP, Repeatable): la Range dello Spell aumenta di 5 Spaces. Puoi usare questo Enhancement al massimo due volte.</li>
+<li><strong>Duration</strong> (1 MP, Repeatable): la durata aumenta di 1 grado (1 minuto → 10 minuti → 1 ora → 8 ore → Long Rest).</li>
+<li><strong>Size</strong> (1 MP, Repeatable): la taglia dell'illusione aumenta di 1 (ad es. Medium → Large → Huge → Gargantuan → Colossal → Titanic).</li>
+<li><strong>Senses</strong> (1 MP, Repeatable): l'illusione può includere un senso aggiuntivo: suono, odore o temperatura.</li>
+<li><strong>Programmed Image</strong> (1 MP): puoi impostare un comportamento semplice e ripetitivo (ad esempio camminare avanti e indietro, annuire, salutare con la mano) che si ripete in loop per la durata.</li>
+<li><strong>Triggered Image</strong> (1 MP): quando lanci lo Spell imposti un innesco semplice (ad esempio "quando qualcuno entra in quest'area" o "quando la porta si apre"). Quando l'innesco si verifica, l'illusione compare istantaneamente e dura per la durata dello Spell. Finché non viene innescato, lo Spell resta dormiente.</li>
+</ul>
+<h3 id="illusory-writing">Illusory Writing<a class="headerlink" href="#illusory-writing" title="Permanent link">&para;</a></h3>
+<p><strong>Source:</strong> Arcane · <strong>School:</strong> Conjuration · <strong>Tags:</strong> Communication, Illusion, Trap<br />
+<strong>Cost:</strong> 1 AP · <strong>Range:</strong> 10 Spaces · <strong>Duration:</strong> 1 Hour</p>
+<p>Quando lanci lo Spell, scrivi una frase di massimo 20 parole, dall'aspetto ordinario o magico (a tua scelta), su una superficie o su una creatura consenziente entro la Range. Mentre la tocchi, puoi spendere 1 AP per cancellare o riscrivere il testo.</p>
+<p><strong>Hidden Script:</strong> quando lanci lo Spell, puoi scegliere di offuscare la scritta a tutte le creature tranne quelle che designi al momento del lancio. Tutte le altre creature vedono la scritta come un insieme di segni incomprensibili. Una creatura che non può leggere il testo può spendere 1 AP per effettuare un Investigation Check contro il tuo Save DC. <strong>Success:</strong> la creatura può leggere la scritta, purché comprenda la lingua in cui è scritta. <strong>Failure:</strong> la creatura non può ritentare questo Check per 24 ore.</p>
+<p><strong>Spell Enhancements</strong></p>
+<ul>
+<li><strong>Range</strong> (1 AP, Repeatable): la Range dello Spell aumenta di 5 Spaces. Puoi usare questo Enhancement al massimo due volte.</li>
+<li><strong>Extended Script</strong> (1 MP, Repeatable): la durata aumenta a Long Rest e puoi aggiungere una frase aggiuntiva di massimo 40 parole per ogni volta che usi questo Enhancement. Se spendi 2 MP o più in questo Enhancement, puoi scegliere che la durata diventi Until Dispelled.</li>
+<li><strong>Lingering Message</strong> (1 MP): la scritta può emettere deboli suoni o sussurri che ne comunicano ad alta voce il significato ai lettori scelti.</li>
+<li><strong>Misleading Script</strong> (1 MP): quando una creatura che non hai designato tenta di leggere la scritta e fallisce l'Investigation Check per comprenderne il significato, vede invece un falso messaggio a tua scelta.</li>
+<li><strong>Trigger Phrase</strong> (1 MP): la scritta si attiva o diventa visibile quando si verifica una parola o una condizione scelta (ad esempio: "Quando qualcuno apre questa porta" oppure "Quando la luna è piena").</li>
+<li><strong>Skywriting</strong> (3 MP): puoi invece tracciare il messaggio nel cielo, in enormi lettere luminose visibili a miglia di distanza. La Range diventa Sight. Questo Enhancement non può essere usato insieme all'Enhancement Extended Script.</li>
+</ul>
+<h3 id="mage-armor">Mage Armor<a class="headerlink" href="#mage-armor" title="Permanent link">&para;</a></h3>
+<p><strong>Source:</strong> Arcane · <strong>School:</strong> Conjuration · <strong>Tags:</strong> Embolden, Ward<br />
+<strong>Cost:</strong> 1 AP + 1 MP · <strong>Range:</strong> 10 Spaces · <strong>Duration:</strong> 1 Hour</p>
+<p>La creatura bersaglio ottiene +2 AD per la durata.</p>
+<p><strong>Spell Enhancements</strong></p>
+<ul>
+<li><strong>Range</strong> (1 AP, Repeatable): la Range dello Spell aumenta di 5 Spaces. Puoi usare questo Enhancement al massimo due volte.</li>
+<li><strong>Duration</strong> (1 MP, Repeatable): la durata aumenta di 1 grado (1 ora → 8 ore → fino al Long Rest).</li>
+<li><strong>Greater Armor</strong> (1 MP): il bersaglio ottiene un ulteriore +1 AD.</li>
+<li><strong>Heavily Warded</strong> (1 MP): il bersaglio ottiene PDR per la durata.</li>
+</ul>
+<h3 id="mystical-weapon">Mystical Weapon<a class="headerlink" href="#mystical-weapon" title="Permanent link">&para;</a></h3>
+<p><strong>Source:</strong> Divine · <strong>School:</strong> Conjuration · <strong>Tags:</strong> Enfeeble, Psychic, Radiant, Umbral, Weapon<br />
+<strong>Cost:</strong> 1 AP + 1 MP · <strong>Range:</strong> 10 Spaces · <strong>Duration:</strong> 1 Minute (Sustained)</p>
+<p>Evochi una Weapon spettrale di taglia Tiny che infligge un Mystical Damage Type (Psychic, Radiant o Umbral) a tua scelta. La Weapon scompare quando lo Spell termina.</p>
+<p><strong>Command:</strong> una volta per Round, quando lanci lo Spell, ne effettui il Sustain o spendendo 1 AP nel tuo turno, puoi muovere la Weapon fino a 5 Spaces e scegliere di effettuare un Melee Spell Attack contro la PD di un bersaglio entro 1 Space dalla Weapon. <strong>Hit:</strong> il bersaglio subisce 2 danni del Damage Type scelto.</p>
+<p><strong>Tethered:</strong> la Weapon è Tethered a te a una distanza pari alla Range dello Spell. Se ti allontani dalla Weapon oltre la distanza di Tethered, trascini la Weapon con te.</p>
+<p><strong>Spell Enhancements</strong></p>
+<ul>
+<li><strong>Range</strong> (1 AP, Repeatable): la Range dello Spell aumenta di 5 Spaces. Puoi usare questo Enhancement al massimo due volte.</li>
+<li><strong>Damage</strong> (X MP): i danni della Weapon aumentano di X.</li>
+<li><strong>Effortless</strong> (1 MP): non devi più effettuare il Sustain dello Spell e puoi usare Command sulla Weapon gratuitamente nel tuo turno. Puoi comunque usare Command sulla Weapon solo una volta per Round.</li>
+<li><strong>Mystical Effect</strong> (1 MP): le creature colpite (Hit) dalla Weapon hanno Vulnerability a un effetto basato sul Damage Type scelto per 1 Round: Radiant (Blinded), Psychic (Dazed) o Umbral (Doomed).</li>
+<li><strong>Inhibiting</strong> (1 MP): le creature attaccate dalla Weapon devono effettuare un Mental Save. <strong>Save Failure:</strong> il bersaglio sottrae un d4 ai propri Check per 1 Round.</li>
+</ul>
+<h3 id="natures-tether">Nature's Tether<a class="headerlink" href="#natures-tether" title="Permanent link">&para;</a></h3>
+<p><strong>Source:</strong> Primal · <strong>School:</strong> Conjuration · <strong>Tags:</strong> Bleeding, Motion, Plant, Restrained, Tethered<br />
+<strong>Cost:</strong> 1 AP · <strong>Range:</strong> 10 Spaces · <strong>Duration:</strong> Instantaneous</p>
+<p>Crei una frusta di rampicanti, ragnatela o un altro elemento naturale che raggiunge un bersaglio a tua scelta entro la Range.</p>
+<p><strong>Creatura:</strong> se bersagli una creatura, puoi effettuare le seguenti Action contro il bersaglio:</p>
+<ul>
+<li><strong>Pursuit:</strong> ti tiri fino a 5 Spaces verso il bersaglio.</li>
+<li><strong>Pull:</strong> effettui uno Spell Check contro il Might Save della creatura. <strong>Save Failure:</strong> la tiri fino a 2 Spaces verso di te. <strong>Save Failure (Each 5):</strong> la tiri fino a 1 Space aggiuntivo.</li>
+</ul>
+<p><strong>Oggetto:</strong> se bersagli un oggetto che non è impugnato né trasportato, lo tiri fino a 5 Spaces verso di te se pesa meno di te, oppure ti tiri fino a 5 Spaces verso di esso se pesa più di te.</p>
+<p><strong>Spell Enhancements</strong></p>
+<ul>
+<li><strong>Range</strong> (1 AP, Repeatable): la Range dello Spell aumenta di 5 Spaces. Puoi usare questo Enhancement al massimo due volte.</li>
+<li><strong>Distance</strong> (1 AP, Repeatable): la distanza di movimento aumenta di 2 Spaces.</li>
+<li><strong>Bleeding</strong> (X MP): il bersaglio deve effettuare un Might Save. <strong>Save Failure:</strong> inizia a essere <strong>Bleeding</strong> X.</li>
+<li><strong>Tether</strong> (1 MP): il bersaglio deve effettuare un Might Save. <strong>Save Failure:</strong> diventa <strong>Tethered</strong> a te a una distanza pari alla Range dello Spell. Mentre è Tethered in questo modo, puoi spendere 1 AP per effettuare le Action Pursuit o Pull contro il bersaglio. Una volta in ciascuno dei suoi turni, il bersaglio può spendere 1 AP per ritentare il Save; con un Success la Condition termina.</li>
+<li><strong>Restrain</strong> (1 MP, richiede Tether): mentre è Tethered da questo Spell, il bersaglio è <strong>Restrained</strong>.</li>
+</ul>
+<h3 id="oil-slick">Oil Slick<a class="headerlink" href="#oil-slick" title="Permanent link">&para;</a></h3>
+<p><strong>Source:</strong> Arcane, Primal · <strong>School:</strong> Conjuration · <strong>Tags:</strong> Burning, Trap<br />
+<strong>Cost:</strong> 2 AP + 1 MP · <strong>Range:</strong> 10 Spaces · <strong>Duration:</strong> 1 Minute</p>
+<p>Una sostanza oleosa ricopre il terreno in un'area a forma di Sphere di 3 Spaces di diametro entro la Range. Quando lanci lo Spell, effettui uno Spell Check contro l'Agility Save di ogni bersaglio nell'area. <strong>Check Success:</strong> il bersaglio cade <strong>Prone</strong>.</p>
+<p>Gli Spaces interessati sono Difficult Terrain per la durata. La prima volta per turno in cui una creatura entra in uno Space dell'area, effettua un Agility Save contro il tuo Save DC. <strong>Save Failure:</strong> il bersaglio cade <strong>Prone</strong>.</p>
+<p><strong>Spell Enhancements</strong></p>
+<ul>
+<li><strong>Range</strong> (1 AP, Repeatable): la Range dello Spell aumenta di 5 Spaces. Puoi usare questo Enhancement al massimo due volte.</li>
+<li><strong>Area</strong> (X MP): il diametro della Sphere aumenta di X Spaces.</li>
+<li><strong>Spreading Oil</strong> (1 MP): ogni volta che una creatura cade Prone nell'area, viene afflitta da Spreading Oil per la durata. Quando la creatura entra in uno Space, quello Space diventa interessato dallo Spell. Una creatura afflitta da Spreading Oil effettua un Repeated Agility Save alla fine di ciascuno dei suoi turni; con un Success l'effetto termina.</li>
+<li><strong>Flammable</strong> (X MP): l'olio prodotto da questo Spell diventa infiammabile. Se il fuoco tocca uno Space, questo si incendia. Quando una creatura entra nell'area per la prima volta nel suo turno, o inizia il proprio turno in uno Space incendiato, effettua un Repeated Physical Save contro il tuo Save DC. <strong>Save Failure:</strong> il bersaglio inizia a essere <strong>Burning</strong> X per 1 minuto.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Gli Spaces incendiati restano ricoperti per la durata: le creature effettuano comunque i Save per evitare di cadere Prone.</p>
+</div>
+<h3 id="tendrils-from-beyond">Tendrils from Beyond<a class="headerlink" href="#tendrils-from-beyond" title="Permanent link">&para;</a></h3>
+<p><strong>Source:</strong> Arcane · <strong>School:</strong> Conjuration · <strong>Tags:</strong> Aberration, Bludgeoning, Madness, Psychic<br />
+<strong>Cost:</strong> 2 AP + 1 MP · <strong>Range:</strong> 10 Spaces · <strong>Duration:</strong> 1 Minute (Sustained)</p>
+<p>Dei tentacoli ricoprono ogni superficie in una Sphere di 3 Spaces di diametro entro la Range per la durata. Gli Spaces occupati dai tentacoli diventano Difficult Terrain.</p>
+<p>Quando lanci questo Spell, effettui un Area Spell Attack contro la PD di ogni creatura nell'area. <strong>Hit:</strong> il bersaglio subisce 1 danno Bludgeoning o Psychic (a tua scelta).</p>
+<p><strong>Tendril Attack:</strong> una volta in ciascuno dei tuoi turni, quando effettui il Sustain di questo Spell o spendendo 1 AP nel tuo turno, puoi effettuare un Area Spell Attack contro la PD di ogni bersaglio nell'area. <strong>Hit:</strong> il bersaglio subisce 1 danno Bludgeoning o Psychic (a tua scelta).</p>
+<p><strong>Spell Enhancements</strong></p>
+<ul>
+<li><strong>Range</strong> (1 AP, Repeatable): la Range dello Spell aumenta di 5 Spaces. Puoi usare questo Enhancement al massimo due volte.</li>
+<li><strong>Damage</strong> (2 MP, Repeatable): i danni aumentano di 1.</li>
+<li><strong>Area</strong> (1 MP, Repeatable): il diametro della Sphere aumenta di 1 Space.</li>
+<li><strong>Moving Tendrils</strong> (1 MP): quando effettui il Sustain di questo Spell, o spendendo 1 AP, puoi spostare l'area fino a 5 Spaces in un altro punto entro la Range.</li>
+<li><strong>Maw of Madness</strong> (2 MP): quando una creatura entra nell'area per la prima volta nel suo turno, o vi inizia il proprio turno, effettua un Intelligence Save contro il tuo Save DC. <strong>Save Failure:</strong> il bersaglio spende 1 AP subendo una follia temporanea.</li>
+<li><strong>Tripping</strong> (2 MP): quando effettui un Attack con questo Spell, ogni bersaglio effettua un Agility Save contro il tuo Save DC. <strong>Save Failure:</strong> il bersaglio cade <strong>Prone</strong>.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Puoi scegliere l'ordine degli effetti che avvengono nello stesso momento, ad esempio spostare i tentacoli e attaccare con essi.</p>
+</div>
+<h3 id="unholy-aura">Unholy Aura<a class="headerlink" href="#unholy-aura" title="Permanent link">&para;</a></h3>
+<p><strong>Source:</strong> Divine · <strong>School:</strong> Conjuration · <strong>Tags:</strong> Death, Doomed, Shadow, Tethered<br />
+<strong>Cost:</strong> 2 AP + 1 MP · <strong>Range:</strong> Self · <strong>Duration:</strong> 1 Minute</p>
+<p>Un'energia Umbral ti circonda in un'Aura di 1 Space per la durata. Quando lanci lo Spell, effettui uno Spell Check contro il Repeated Charisma Save di ogni bersaglio nell'area. <strong>Check Success:</strong> il bersaglio è <strong>Doomed</strong> per la durata.</p>
+<p><strong>Doomed Area:</strong> quando una creatura entra nell'area per la prima volta nel suo turno, o vi inizia il proprio turno, effettua un Repeated Charisma Save contro il tuo Save DC. <strong>Save Failure:</strong> il bersaglio è <strong>Doomed</strong> per la durata.</p>
+<p><strong>Spell Passive: Obscure:</strong> le luci ordinarie prodotte da fonti di taglia Tiny o inferiore smettono di funzionare mentre si trovano all'interno dell'Aura.</p>
+<p><strong>Spell Enhancements</strong></p>
+<ul>
+<li><strong>Area</strong> (X MP): il raggio dell'Aura aumenta di X.</li>
+<li><strong>Doomed</strong> (2 MP, Repeatable): ogni volta che un bersaglio ottiene Doomed da questo Spell, ottiene uno stack aggiuntivo per ogni volta che usi questo Enhancement.</li>
+<li><strong>Deathly Conversion</strong> (1 MP, Repeatable): quando una creatura Doomed muore all'interno dell'Aura, ottieni 2 Temp HP. I Temp HP aumentano di 2 per ogni volta che usi questo Enhancement.</li>
+<li><strong>Grasping Wisps</strong> (1 MP): le creature rese Doomed da questo Spell sono anche <strong>Tethered</strong> all'Unholy Aura.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Torna su
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Piede" >
+        
+          
+          <a href="../astromancy/" class="md-footer__link md-footer__link--prev" aria-label="Precedente: Astromancy">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Precedente
+              </span>
+              <div class="md-ellipsis">
+                Astromancy
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../summon/" class="md-footer__link md-footer__link--next" aria-label="Successivo: Summon Spells">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Successivo
+              </span>
+              <div class="md-ellipsis">
+                Summon Spells
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["search.suggest", "search.highlight", "content.tabs.link", "content.tooltips", "navigation.tabs", "navigation.sections", "navigation.top", "navigation.footer", "navigation.indexes", "toc.follow", "header.autohide"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+    
+  </body>
+</html>

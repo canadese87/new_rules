@@ -1,0 +1,5354 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Regole di gioco di DC20 (Beta 0.10.5) in italiano, con i termini di gioco in inglese.">
+      
+      
+      
+      
+        <link rel="prev" href="../mastery/">
+      
+      
+        <link rel="next" href="../attacchi_difese/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
+    
+    
+      
+        <title>Checks e Saves - DC20 — Regole</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#checks-e-saves" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href="../.." title="DC20 — Regole" class="md-header__button md-logo" aria-label="DC20 — Regole" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DC20 — Regole
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Checks e Saves
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple"  aria-label="Passa al tema scuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Passa al tema scuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="lime"  aria-label="Passa al tema chiaro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Passa al tema chiaro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Cancella" aria-label="Cancella" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inizializza la ricerca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../attributi/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Regole base
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../combattimento/risorse/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Combattimento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../marziale/regole/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Martial
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../magia/regole/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Magia
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../regole_generali/ambiente/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Regole generali
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../personaggio/creazione/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Personaggio
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../classi/introduzione/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Classes
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../oggetti_magici/regole/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Magic Items
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../opzioni/shadow/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Opzioni
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../100_sanity/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Homebrew
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="DC20 — Regole" class="md-nav__button md-logo" aria-label="DC20 — Regole" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DC20 — Regole
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole base
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Regole base
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../attributi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attributes e Prime Modifier
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../skills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Skills
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../trades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Trades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../languages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Languages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mastery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mastery e Training
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Checks e Saves
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Checks e Saves
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#types-of-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Types of Checks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types-of-saves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Types of Saves
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Checks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Checks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#flat-attribute-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flat Attribute Checks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attack-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attack Checks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spell-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spell Checks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#martial-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Martial Checks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Checks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Skill Checks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#making-a-skill-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Making a Skill Check
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trade-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trade Checks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Trade Checks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#making-a-trade-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Making a Trade Check
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trade-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trade Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#language-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Language Checks
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#special-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Special Checks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Special Checks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#check-contests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check Contests
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#check-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check Categories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passive-skills" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passive Skills
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Passive Skills">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#permanent-adv-and-disadv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Permanent ADV and DisADV
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#saves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Saves
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Saves">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#attribute-saves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attribute Saves
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Attribute Saves">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#making-an-attribute-save" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Making an Attribute Save
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#special-saves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Special Saves
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Special Saves">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#death-saves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Death Saves
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save Categories
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#save-dc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save DC
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dynamic-attack-saves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dynamic Attack Saves
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dynamic Attack Saves">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dynamic-attack-save-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dynamic Attack Save Outcomes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-vs-defense-save-o-dc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check vs Defense, Save o DC
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Check vs Defense, Save o DC">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#check-vs-defense-solo-danni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check vs Defense (solo danni)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#check-vs-save-solo-effetto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check vs Save (solo effetto)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#check-vs-dc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check vs DC
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dynamic-attack-save-danni-ed-effetto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dynamic Attack Save (danni ed effetto)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-multiples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Managing Multiples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Managing Multiples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#making-multiple-saves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Making Multiple Saves
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#targeting-multiple-creatures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Targeting Multiple Creatures
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#competing-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Competing Effects
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advantage-e-disadvantage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advantage e Disadvantage
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Advantage e Disadvantage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gaining-advantage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gaining Advantage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stacking-adv-or-disadv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stacking ADV or DisADV
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#combining-adv-e-disadv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combining ADV e DisADV
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variable-adv-e-disadv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Variable ADV e DisADV
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multiple-check-penalty" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiple Check Penalty
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-save-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check &amp; Save Outcomes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Check &amp; Save Outcomes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#critical-success-e-critical-failure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Critical Success e Critical Failure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Critical Success e Critical Failure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#attack-check-martial-check-e-spell-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attack Check, Martial Check e Spell Check
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-skill-check-e-trade-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save, Skill Check e Trade Check
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contested-critical-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contested Critical Outcomes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#degrees-of-success-e-failure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Degrees of Success e Failure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Degrees of Success e Failure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#degrees-of-success" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Degrees of Success
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#degrees-of-failure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Degrees of Failure
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../attacchi_difese/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attacks e Defenses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Health Points e Death's Door
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../danni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Damage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combattimento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Combattimento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/risorse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combat Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/azioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Actions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/reazioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reactions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/inizio_combattimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inizio del combattimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/creature_combattimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creatures e combattimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martial
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Martial
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marziale/regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole delle Maneuver
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marziale/maneuvers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maneuvers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magia
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Magia
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole dello Spellcasting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/liste/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Liste degli Spell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/astromancy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Astromancy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/conjuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conjuration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/summon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Summon Spells
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/divination/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Divination
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/elemental/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elemental
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/enchantment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Enchantment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/invocation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Invocation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/nullification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nullification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/transmutation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transmutation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole generali
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Regole generali
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/ambiente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Environment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/visione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vision
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/aree_effetto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Areas of Effect
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/equipaggiamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/condizioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conditions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/riposo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/dc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/gm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Game Master
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Personaggio
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Personaggio
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personaggio/creazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creazione e progressione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personaggio/talents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Talents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personaggio/paths/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Character Paths
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestries
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ancestries
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/sistema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestry System
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/core/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestry del Core
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/beastborn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Beastborn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/psyborn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psyborn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/espanse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestry espanse
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/introduzione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduzione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martial
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Martial
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barbarian
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/champion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Champion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/commander/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Commander
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/hunter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hunter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rogue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spellcaster
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Spellcaster
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cleric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Druid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/sorcerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sorcerer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlock
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_4" id="__nav_8_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ibride
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ibride
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/spellblade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spellblade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_5" id="__nav_8_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Da magazine e pack
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Da magazine e pack
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/summoner/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Summoner
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/artificer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Artificer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Items
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Magic Items
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oggetti_magici/regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oggetti_magici/magic_properties/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Properties
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Opzioni
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Opzioni
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../opzioni/shadow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shadow Options
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Homebrew
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Homebrew
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_sanity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sanity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_giostra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Giostra a Squadre
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_kaiju/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lotta contro Kaiju
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_crafting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crafting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_carro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lotta su carro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_assedio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assedio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#types-of-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Types of Checks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types-of-saves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Types of Saves
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Checks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Checks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#flat-attribute-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flat Attribute Checks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attack-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attack Checks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spell-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spell Checks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#martial-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Martial Checks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Checks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Skill Checks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#making-a-skill-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Making a Skill Check
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trade-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trade Checks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Trade Checks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#making-a-trade-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Making a Trade Check
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trade-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trade Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#language-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Language Checks
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#special-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Special Checks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Special Checks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#check-contests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check Contests
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#check-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check Categories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passive-skills" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passive Skills
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Passive Skills">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#permanent-adv-and-disadv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Permanent ADV and DisADV
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#saves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Saves
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Saves">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#attribute-saves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attribute Saves
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Attribute Saves">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#making-an-attribute-save" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Making an Attribute Save
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#special-saves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Special Saves
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Special Saves">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#death-saves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Death Saves
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save Categories
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#save-dc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save DC
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dynamic-attack-saves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dynamic Attack Saves
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dynamic Attack Saves">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dynamic-attack-save-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dynamic Attack Save Outcomes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-vs-defense-save-o-dc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check vs Defense, Save o DC
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Check vs Defense, Save o DC">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#check-vs-defense-solo-danni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check vs Defense (solo danni)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#check-vs-save-solo-effetto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check vs Save (solo effetto)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#check-vs-dc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check vs DC
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dynamic-attack-save-danni-ed-effetto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dynamic Attack Save (danni ed effetto)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-multiples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Managing Multiples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Managing Multiples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#making-multiple-saves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Making Multiple Saves
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#targeting-multiple-creatures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Targeting Multiple Creatures
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#competing-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Competing Effects
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advantage-e-disadvantage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advantage e Disadvantage
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Advantage e Disadvantage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gaining-advantage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gaining Advantage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stacking-adv-or-disadv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stacking ADV or DisADV
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#combining-adv-e-disadv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combining ADV e DisADV
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variable-adv-e-disadv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Variable ADV e DisADV
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multiple-check-penalty" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiple Check Penalty
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-save-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check &amp; Save Outcomes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Check &amp; Save Outcomes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#critical-success-e-critical-failure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Critical Success e Critical Failure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Critical Success e Critical Failure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#attack-check-martial-check-e-spell-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attack Check, Martial Check e Spell Check
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-skill-check-e-trade-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save, Skill Check e Trade Check
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contested-critical-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contested Critical Outcomes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#degrees-of-success-e-failure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Degrees of Success e Failure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Degrees of Success e Failure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#degrees-of-success" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Degrees of Success
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#degrees-of-failure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Degrees of Failure
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="checks-e-saves">Checks e Saves<a class="headerlink" href="#checks-e-saves" title="Permanent link">&para;</a></h1>
+<p>Quando una creatura tenta un'azione che può riuscire o fallire, effettua un Check o un Save per determinarne l'esito. Il tipo di azione determina se si tratta di un Check o di un Save. Per effettuare un Check o un Save, la creatura tira un d20 e aggiunge i bonus pertinenti, determinati dal tipo di Check o Save.</p>
+<ul>
+<li><strong>Checks:</strong> quando un PC intraprende un'azione contro un'altra creatura o un ostacolo, il GM può chiedergli un Check per stabilire se l'attività riesce. Il GM può chiedere un Check anche quando due o più creature competono tra loro in una prova di abilità.</li>
+<li><strong>Saves:</strong> quando un PC reagisce a un effetto che gli viene imposto, il GM può chiedergli un Save per stabilire se riesce a resistere all'effetto.</li>
+</ul>
+<details class="example">
+<summary>Esempio</summary>
+<p>Un Might Check serve per sollevare un macigno fermo a terra; un Might Save serve per fermare un macigno che ti rotola addosso giù da una collina.</p>
+</details>
+<p><strong>Willing Creatures:</strong> qualsiasi creatura può scegliere di fallire un Check o un Save. In tal caso il risultato del Check o Save è considerato 0 ai fini dei gradi di successo o fallimento (vedi Check &amp; Save Outcomes più avanti), ma la creatura non subisce gli effetti di un Critical Failure, a meno che non scelga di farlo.</p>
+<h2 id="types-of-checks">Types of Checks<a class="headerlink" href="#types-of-checks" title="Permanent link">&para;</a></h2>
+<p>Il GM può chiedere diversi tipi di Check: un Attack Check quando si effettua un Attack, uno Spell Check quando si lanciano determinati Spell, un Martial Check quando si eseguono determinate Maneuver, uno Skill Check per una prova di abilità, un Trade Check per una prova di competenza professionale, oppure un Flat Attribute Check per una prova di attitudine che non beneficia di abilità né competenza.</p>
+<ul>
+<li><strong>Flat Attribute Checks:</strong> quando una creatura tenta un'attività che non beneficia della Mastery, effettua un Flat Attribute Check, come un Flat Might Check per sollevare un oggetto molto pesante o un Flat Intelligence Check per ricordare una conversazione avvenuta tempo prima.</li>
+<li><strong>Attack Checks:</strong> quando una creatura tenta di colpire un bersaglio con un Attack, effettua un Attack Check per stabilire se l'Attack colpisce.</li>
+<li><strong>Martial Checks:</strong> quando una creatura esegue una Maneuver che non è un Attack, effettua un Martial Check per determinarne l'efficacia.</li>
+<li><strong>Spell Checks:</strong> quando una creatura lancia uno Spell che non è un Attack, effettua uno Spell Check per determinarne l'efficacia.</li>
+<li><strong>Skill Checks:</strong> quando una creatura affronta una prova di abilità, può effettuare uno Skill Check, come un Influence Check per stabilire quanto è convincente un argomento o un Trickery Check per stabilire se riesce a intascare un oggetto senza essere notata (vedi <a href="../skills/">Skills</a>).</li>
+<li><strong>Trade Checks:</strong> quando una creatura affronta una prova di competenza professionale, può effettuare un Trade Check, come un Blacksmithing Check per stabilire il risultato della forgiatura di una Weapon o un Theatre Check per stabilire come il pubblico reagisce a un'esibizione (vedi <a href="../trades/">Trades</a>).</li>
+<li><strong>Language Checks:</strong> servono a stabilire quanto bene leggi, scrivi o parli una Language in cui hai Language Mastery Limited. A questi Check aggiungi il tuo Charisma o la tua Intelligence (a tua scelta).</li>
+</ul>
+<h2 id="types-of-saves">Types of Saves<a class="headerlink" href="#types-of-saves" title="Permanent link">&para;</a></h2>
+<p>Una creatura può effettuare un Save per resistere a un effetto imposto da un'altra creatura, da una trappola o da un pericolo ambientale. Il tipo di effetto determina il tipo di Save: Might, Agility, Charisma o Intelligence.</p>
+<ul>
+<li><strong>Might Saves:</strong> resistono a effetti che ti spingono via, ti atterrano o ti schiacciano.</li>
+<li><strong>Agility Saves:</strong> resistono a effetti che ti fanno perdere l'equilibrio o che possono essere evitati scansandosi con successo.</li>
+<li><strong>Charisma Saves:</strong> resistono a effetti che tentano di dominare la tua mente o alterare le tue emozioni.</li>
+<li><strong>Intelligence Saves:</strong> resistono a effetti che tentano di leggere i tuoi pensieri, alterare i tuoi ricordi, confonderti o ingannare i tuoi sensi con illusioni.</li>
+</ul>
+<h2 id="checks">Checks<a class="headerlink" href="#checks" title="Permanent link">&para;</a></h2>
+<h3 id="flat-attribute-checks">Flat Attribute Checks<a class="headerlink" href="#flat-attribute-checks" title="Permanent link">&para;</a></h3>
+<p>Quando una creatura svolge un compito che non beneficia della Mastery, effettua un Flat Attribute Check (Might, Agility, Charisma o Intelligence): tira un d20 e aggiunge l'Attribute associato.</p>
+<p><strong>Flat Attribute Check Formula:</strong> d20 + Attribute</p>
+<h3 id="attack-checks">Attack Checks<a class="headerlink" href="#attack-checks" title="Permanent link">&para;</a></h3>
+<p>Una creatura può effettuare un Attack Check quando effettua un Attack: tira un d20 e aggiunge il proprio Prime Modifier e la propria Combat Mastery.</p>
+<p><strong>Attack Check Formula:</strong> d20 + Prime Modifier + Combat Mastery</p>
+<details class="example">
+<summary>Esempio</summary>
+<p>Un Barbarian di livello 4 con Prime Modifier 3 e Combat Mastery 2 aggiunge +5 agli Attack Check. Con 10 sul d20 il risultato è 15.</p>
+</details>
+<h3 id="spell-checks">Spell Checks<a class="headerlink" href="#spell-checks" title="Permanent link">&para;</a></h3>
+<p>Una creatura può effettuare uno Spell Check quando compie la Spell Action per lanciare uno Spell che non è un Attack, o quando usa una Feature che lo richiede: tira un d20 e aggiunge il proprio Prime Modifier e la propria Combat Mastery.</p>
+<p><strong>Spell Check Formula:</strong> d20 + Prime Modifier + Combat Mastery</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Gli Spell Check si usano soprattutto per lanciare Spell (vedi <a href="../../magia/regole/">Spellcaster Chapter</a>) e si effettuano contro Spell DC o Save.</p>
+</div>
+<h3 id="martial-checks">Martial Checks<a class="headerlink" href="#martial-checks" title="Permanent link">&para;</a></h3>
+<p>Una creatura può effettuare un Martial Check quando usa una Maneuver che non è un Attack, o quando usa una Feature che lo richiede: tira un d20 e aggiunge il proprio Prime Modifier e la propria Combat Mastery.</p>
+<p><strong>Martial Check Formula:</strong> d20 + Prime Modifier + Combat Mastery</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>I Martial Check si usano soprattutto per eseguire Maneuver (vedi <a href="../../marziale/regole/">Maneuvers</a>) e si effettuano contro Check o Save.</p>
+</div>
+<h3 id="skill-checks">Skill Checks<a class="headerlink" href="#skill-checks" title="Permanent link">&para;</a></h3>
+<p>Quando una creatura affronta una prova di abilità, il GM può chiederle uno Skill Check per stabilire se riesce o fallisce. Il GM sceglie la Skill da usare in base all'attività tentata.</p>
+<h4 id="making-a-skill-check">Making a Skill Check<a class="headerlink" href="#making-a-skill-check" title="Permanent link">&para;</a></h4>
+<p>La creatura tira un d20, aggiunge la propria Skill Mastery nella Skill indicata (se presente) e l'Attribute associato alla Skill. Il risultato viene confrontato con la DC stabilita dal GM: se è pari o superiore alla DC, il Check riesce.</p>
+<p><strong>Skill Check Formula:</strong> d20 + Attribute + Skill Mastery</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Ogni Skill ha un Attribute di base, quello usato "di default" per il Check. Per altre opzioni sugli Attributes utilizzabili con le Skill vedi Variant Skill Checks nella <a href="../../regole_generali/gm/">Game Master Guide</a>.</p>
+</div>
+<h3 id="trade-checks">Trade Checks<a class="headerlink" href="#trade-checks" title="Permanent link">&para;</a></h3>
+<p>Quando una creatura affronta una prova di competenza professionale, il GM può chiederle un Trade Check per stabilire se riesce o fallisce. Il GM sceglie il Trade da usare in base all'attività tentata.</p>
+<h4 id="making-a-trade-check">Making a Trade Check<a class="headerlink" href="#making-a-trade-check" title="Permanent link">&para;</a></h4>
+<p>La creatura tira un d20, aggiunge la propria Trade Mastery nel Trade indicato (se presente) e l'Attribute associato al Trade. Il risultato viene confrontato con la DC stabilita dal GM: se è pari o superiore alla DC, il Check riesce.</p>
+<p><strong>Trade Check Formula:</strong> d20 + Attribute + Trade Mastery</p>
+<h4 id="trade-tools">Trade Tools<a class="headerlink" href="#trade-tools" title="Permanent link">&para;</a></h4>
+<p>Una creatura deve usare i Trade Tools indicati quando tenta un Trade Check (vedi <a href="../trades/">Trades</a>). Se tenta un Trade Check usando attrezzi non progettati per quel compito (ad esempio una forcina al posto dei Lockpicking Tools per scassinare una serratura), ha DisADV al Trade Check.</p>
+<h3 id="language-checks">Language Checks<a class="headerlink" href="#language-checks" title="Permanent link">&para;</a></h3>
+<p>Quando cerchi di leggere, scrivere o parlare una Language in cui hai Language Mastery Limited, puoi effettuare un Language Check: tira un d20 e aggiungi il tuo Charisma o la tua Intelligence (a tua scelta).</p>
+<p><strong>Language Check Formula:</strong> d20 + (Intelligence o Charisma)</p>
+<p><strong>Language Check DC:</strong> la DC dipende dal tipo di Language: DC 10 per le Mortal, DC 15 per le Exotic e le Divine, DC 20 per le Outer (vedi <a href="../languages/">Languages</a>).</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Il GM stabilisce la DC in base a quanto è difficile leggere, scrivere o parlare quella Language.</p>
+</div>
+<h2 id="special-checks">Special Checks<a class="headerlink" href="#special-checks" title="Permanent link">&para;</a></h2>
+<h3 id="check-contests">Check Contests<a class="headerlink" href="#check-contests" title="Permanent link">&para;</a></h3>
+<p>Quando una creatura effettua un Check contro il Check (o il Save) di una creatura avversaria, le due sono impegnate in un Contest. Vince il Contest la creatura con il risultato più alto. In caso di parità, la situazione resta invariata.</p>
+<details class="example">
+<summary>Esempio</summary>
+<p>Un Barbarian tenta di spingere un Rogue. Se il Check del Barbarian è superiore a quello del Rogue, il Rogue viene spinto; se è inferiore o pari, il Rogue non viene spinto.</p>
+</details>
+<h3 id="check-categories">Check Categories<a class="headerlink" href="#check-categories" title="Permanent link">&para;</a></h3>
+<p>I Check sono organizzati in categorie: Attribute Checks, Physical Checks, Mental Checks e Martial Checks. Alcuni Check rientrano in più categorie.</p>
+<p><strong>Attribute Checks:</strong> qualsiasi Check che usa un Attribute:</p>
+<ul>
+<li><strong>Might Checks:</strong> Flat Might Check, Athletics Check e Intimidation Check.</li>
+<li><strong>Agility Checks:</strong> Flat Agility Check, Acrobatics Check, Trickery Check e Stealth Check.</li>
+<li><strong>Charisma Checks:</strong> Flat Charisma Check, Animal Check, Influence Check e Insight Check.</li>
+<li><strong>Intelligence Checks:</strong> Flat Intelligence Check, Investigation Check, Medicine Check e Survival Check.</li>
+</ul>
+<p><strong>Physical Checks:</strong> qualsiasi Check che richiede la fisicità della creatura, come Might Check, Agility Check e Martial Check.</p>
+<p><strong>Mental Checks:</strong> qualsiasi Check che richiede la concentrazione della creatura, come Charisma Check, Intelligence Check e Spell Check.</p>
+<h3 id="passive-skills">Passive Skills<a class="headerlink" href="#passive-skills" title="Permanent link">&para;</a></h3>
+<p>Il GM può non chiedere al PC di tirare i dadi e usare invece il suo risultato medio per quel tipo di Check. Ogni Skill ha un valore Passive (Passive Awareness, Passive Insight, Passive Athletics, ecc.), pari a 10 + tutti i bonus che si applicano normalmente al relativo Check. I valori Passive si usano quando il PC non sta svolgendo attivamente l'azione o quando l'azione si svolge in un periodo prolungato.</p>
+<p><strong>Passive Skill Formula:</strong> 10 + tutti i bonus</p>
+<details class="example">
+<summary>Esempio</summary>
+<p>Un Champion di livello 1 con +4 di Mastery in Awareness e Prime Attribute 3 aggiunge +7 agli Awareness Check; la sua Passive Awareness è 17. Un Rogue che cerca di passargli accanto furtivamente mentre non sta cercando attivamente deve superare uno Stealth Check DC 17.</p>
+</details>
+<h4 id="permanent-adv-and-disadv">Permanent ADV and DisADV<a class="headerlink" href="#permanent-adv-and-disadv" title="Permanent link">&para;</a></h4>
+<p>Se un effetto ti concede ADV o DisADV permanente a uno Skill Check, aggiungi (ADV) o sottrai (DisADV) 2 alla relativa Passive Skill per ogni istanza di ADV o DisADV.</p>
+<details class="example">
+<summary>Esempio</summary>
+<p>Un Commander con Heavy Armor ha DisADV a tutti gli Stealth Check finché la indossa: sottrae 2 alla sua Passive Stealth.</p>
+</details>
+<h2 id="saves">Saves<a class="headerlink" href="#saves" title="Permanent link">&para;</a></h2>
+<p>Molti Save riguardano uno dei 4 Attribute Save di una creatura (Might, Agility, Charisma o Intelligence).</p>
+<h3 id="attribute-saves">Attribute Saves<a class="headerlink" href="#attribute-saves" title="Permanent link">&para;</a></h3>
+<p>Quando una creatura è soggetta a un effetto, effettua un Attribute Save per stabilire se riesce a resistervi. L'Attribute da usare è determinato dall'effetto (o dal GM).</p>
+<h4 id="making-an-attribute-save">Making an Attribute Save<a class="headerlink" href="#making-an-attribute-save" title="Permanent link">&para;</a></h4>
+<p>La creatura tira un d20, aggiunge l'Attribute indicato e la propria Combat Mastery. Se il risultato dell'Attribute Save è pari o superiore al Check contrapposto, l'Attribute Save riesce.</p>
+<p><strong>Attribute Save Formula:</strong> d20 + Attribute + Combat Mastery</p>
+<details class="example">
+<summary>Esempio</summary>
+<p>Un Barbarian di livello 2 con Might 3 e Combat Mastery 1 che resiste a una spinta effettua un Might Save con +4. Un Wizard di livello 16 con Intelligence 6 e Combat Mastery 8 che cerca di liberarsi da un'illusione effettua un Intelligence Save con +14.</p>
+</details>
+<h2 id="special-saves">Special Saves<a class="headerlink" href="#special-saves" title="Permanent link">&para;</a></h2>
+<h3 id="death-saves">Death Saves<a class="headerlink" href="#death-saves" title="Permanent link">&para;</a></h3>
+<p>Quando una creatura effettua un Death Save, tira un d20. Se il risultato è 10 o più, il Death Save riesce (vedi <a href="../hp/">Death's Door</a>).</p>
+<h3 id="save-categories">Save Categories<a class="headerlink" href="#save-categories" title="Permanent link">&para;</a></h3>
+<p>Alcuni Save sono organizzati in categorie: Physical Saves, Mental Saves e Death Saves.</p>
+<ul>
+<li><strong>Physical Saves:</strong> quando un effetto colpisce le tue capacità fisiche in generale, effettui un Physical Save. Il bonus del Physical Save è pari al bonus del Might Save o dell'Agility Save, il più alto dei due. Ad esempio, si effettua un Physical Save per resistere all'Exhaustion causata da uno Spell che avvizzisce il corpo.</li>
+<li><strong>Mental Saves:</strong> quando un effetto colpisce le tue capacità mentali in generale, effettui un Mental Save. Il bonus del Mental Save è pari al bonus del Charisma Save o dell'Intelligence Save, il più alto dei due. Ad esempio, si effettua un Mental Save per resistere a un teletrasporto contro la propria volontà.</li>
+</ul>
+<h2 id="save-dc">Save DC<a class="headerlink" href="#save-dc" title="Permanent link">&para;</a></h2>
+<p>La Save DC rappresenta la difficoltà che una creatura incontra nel resistere ai tuoi effetti statici (come le Traps) e ai tuoi effetti continuativi (come gli Spell). Ogni creatura ha una Save DC, pari a 10 + Prime Modifier + Combat Mastery.</p>
+<p><strong>Save DC Formula:</strong> 10 + Prime Modifier + Combat Mastery</p>
+<p><strong>Repeated Saves:</strong> quando una creatura fallisce un Save contro un effetto che riporta la dicitura Repeated Save, può ripetere il Save alla fine di ciascuno dei suoi turni. In tal caso ripete il Save contro una Save DC (anziché contro il Check contrapposto originale).</p>
+<details class="example">
+<summary>Esempio</summary>
+<p>Un Giant Snake effettua un Melee Attack che rende il bersaglio <strong>Restrained</strong>: il suo Attack Check è contrapposto al Physical Save del Barbarian. Se il Barbarian fallisce, diventa <strong>Restrained</strong>, ma può ripetere il Save alla fine di ciascuno dei suoi turni contro la Save DC del Giant Snake.</p>
+</details>
+<h2 id="dynamic-attack-saves">Dynamic Attack Saves<a class="headerlink" href="#dynamic-attack-saves" title="Permanent link">&para;</a></h2>
+<p>Alcuni elementi di gioco (come Maneuver, Techniques, Spell, ecc.) infliggono danni e impongono un effetto al bersaglio. In questo caso si ha un Dynamic Attack Save.</p>
+<p>La creatura che agisce effettua un Attack Check (o uno Spell Check) nello stesso momento in cui il bersaglio effettua il proprio Save. Il Check della creatura che agisce viene confrontato con la Defense del bersaglio per stabilire se il bersaglio subisce danni; il Save del bersaglio viene confrontato con la Save DC della creatura che agisce per stabilire se il bersaglio subisce l'effetto.</p>
+<h3 id="dynamic-attack-save-outcomes">Dynamic Attack Save Outcomes<a class="headerlink" href="#dynamic-attack-save-outcomes" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Esito</th>
+<th>Danni</th>
+<th>Effetto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Attack Hit e Save Failure</td>
+<td>Il bersaglio subisce i danni</td>
+<td>Il bersaglio subisce l'effetto</td>
+</tr>
+<tr>
+<td>Attack Miss e Save Failure</td>
+<td>Il bersaglio non subisce danni</td>
+<td>Il bersaglio subisce l'effetto</td>
+</tr>
+<tr>
+<td>Attack Hit e Save Success</td>
+<td>Il bersaglio subisce i danni</td>
+<td>Il bersaglio non subisce l'effetto</td>
+</tr>
+<tr>
+<td>Attack Miss e Save Success</td>
+<td>Il bersaglio non subisce danni</td>
+<td>Il bersaglio non subisce l'effetto</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Quando un elemento di gioco infligge danni e impone un effetto, si effettua sempre un Attack Check o uno Spell Check per i danni e sempre un Save per l'effetto. Entrambi i tiri avvengono contemporaneamente.</p>
+</div>
+<h2 id="check-vs-defense-save-o-dc">Check vs Defense, Save o DC<a class="headerlink" href="#check-vs-defense-save-o-dc" title="Permanent link">&para;</a></h2>
+<h3 id="check-vs-defense-solo-danni">Check vs Defense (solo danni)<a class="headerlink" href="#check-vs-defense-solo-danni" title="Permanent link">&para;</a></h3>
+<p>Le Action che tentano di infliggere danni richiedono un Attack Check contro la Defense del bersaglio per stabilire se l'Attack colpisce. Questo tipo di Action è detto Attack (vedi <a href="../attacchi_difese/">Attacks e Defenses</a>). La descrizione dell'Action indica se l'Attack Check si effettua contro la PD o l'AD del bersaglio. Se il risultato dell'Attack Check è pari o superiore alla Defense del bersaglio, l'Attack colpisce.</p>
+<h3 id="check-vs-save-solo-effetto">Check vs Save (solo effetto)<a class="headerlink" href="#check-vs-save-solo-effetto" title="Permanent link">&para;</a></h3>
+<p>Le Action che tentano di imporre un effetto a una creatura (come una Condition) richiedono un Check (come un Martial Check o uno Spell Check) contro il Save del bersaglio. Se il risultato del Check è superiore al Save del bersaglio, il bersaglio subisce l'effetto. In base ai Failure statement del Save, fallire il Save di 5 o più può imporre penalità aggiuntive al bersaglio (vedi Degrees of Failure più avanti).</p>
+<h3 id="check-vs-dc">Check vs DC<a class="headerlink" href="#check-vs-dc" title="Permanent link">&para;</a></h3>
+<p>Le Action che hanno come bersaglio te o i tuoi alleati richiedono un Check (come un Martial Check o uno Spell Check) contro la DC propria dell'Action per stabilire successo o fallimento. In base ai Success statement dell'Action, superare la DC di 5 o più può concedere benefici aggiuntivi (vedi Degrees of Success più avanti).</p>
+<h3 id="dynamic-attack-save-danni-ed-effetto">Dynamic Attack Save (danni ed effetto)<a class="headerlink" href="#dynamic-attack-save-danni-ed-effetto" title="Permanent link">&para;</a></h3>
+<p>Alcune Action tentano di infliggere danni e di imporre una Condition al bersaglio (vedi Dynamic Attack Saves sopra). Richiedono un Attack Check contro la Defense del bersaglio e un Save del bersaglio contro la tua Save DC. L'Attack determina se l'Action infligge danni; il Save del bersaglio determina se subisce gli effetti dell'Action.</p>
+<h2 id="managing-multiples">Managing Multiples<a class="headerlink" href="#managing-multiples" title="Permanent link">&para;</a></h2>
+<h3 id="making-multiple-saves">Making Multiple Saves<a class="headerlink" href="#making-multiple-saves" title="Permanent link">&para;</a></h3>
+<p>Alcune Action costringono il bersaglio a effettuare un Save contro la tua Save DC per evitare un effetto. Se una creatura deve effettuare Save contro più effetti che fanno parte della stessa Action, effettua un solo Save per ciascun tipo di Save imposto dall'Action.</p>
+<details class="example">
+<summary>Esempio</summary>
+<p>Uno Spell impone 3 effetti: 2 richiedono ciascuno un Mental Save e 1 richiede un Charisma Save. Il bersaglio effettua 1 Mental Save per entrambi gli effetti che lo richiedono e 1 Charisma Save per l'altro.</p>
+</details>
+<h3 id="targeting-multiple-creatures">Targeting Multiple Creatures<a class="headerlink" href="#targeting-multiple-creatures" title="Permanent link">&para;</a></h3>
+<p>Se un'Action ha come bersaglio più di 1 creatura, o include più di 1 creatura in un'Area of Effect (come Arc, Cone, Cylinder, Line o Sphere), effettui 1 solo Check (Attack Check, Martial Check o Spell Check) contro tutte le creature, confrontandolo con la Defense di ciascuna.</p>
+<h3 id="competing-effects">Competing Effects<a class="headerlink" href="#competing-effects" title="Permanent link">&para;</a></h3>
+<p>Se tenti di imporre un effetto a un bersaglio già soggetto a un effetto simile (come una telecinesi contrapposta o un controllo mentale), il GM può richiedere un Check contrapposto tra te e la fonte dell'effetto esistente (come un incantatore avversario o un oggetto incantato). Il GM decide quando due effetti sono abbastanza simili da entrare in competizione.</p>
+<p><strong>Contest:</strong> effettui uno Spell Check contrapposto contro la fonte avversaria. Se il tuo effetto richiede già uno Spell Check, usi quel risultato per il Contest.</p>
+<ul>
+<li><strong>Success:</strong> il tuo effetto ha luogo e l'effetto esistente termina.</li>
+<li><strong>Failure o parità:</strong> il tuo effetto fallisce e l'effetto esistente rimane.</li>
+</ul>
+<h2 id="advantage-e-disadvantage">Advantage e Disadvantage<a class="headerlink" href="#advantage-e-disadvantage" title="Permanent link">&para;</a></h2>
+<p>Quando una creatura ha Advantage (ADV) a un Check o Save, tira due d20 e tiene il risultato più alto. Se ha invece Disadvantage (DisADV), tiene il risultato più basso.</p>
+<h3 id="gaining-advantage">Gaining Advantage<a class="headerlink" href="#gaining-advantage" title="Permanent link">&para;</a></h3>
+<p>Quando una creatura effettua un Check o un Save in Combat, può spendere 1 o più AP per ottenere ADV al Check o Save, una volta per ogni AP speso.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Le DC sono pensate principalmente per l'uso fuori dal Combat. Poiché in Combat le creature possono spendere AP per ottenere ADV, il GM può sostituire la DC normale con l'Encounter DC per riflettere la difficoltà del compito durante il Combat (vedi <a href="../../combattimento/inizio_combattimento/">Starting Combat</a>).</p>
+</div>
+<h3 id="stacking-adv-or-disadv">Stacking ADV or DisADV<a class="headerlink" href="#stacking-adv-or-disadv" title="Permanent link">&para;</a></h3>
+<p>Una creatura può avere più fonti di ADV (o DisADV) allo stesso Check o Save.</p>
+<ul>
+<li><strong>ADV X:</strong> se una creatura ha più istanze di ADV a un Check o Save, ha ADV X, dove X è il numero di dadi aggiuntivi che tira. Tira 1 d20 aggiuntivo per ogni ADV e tiene il risultato più alto tra tutti i dadi.</li>
+<li><strong>DisADV X:</strong> se una creatura ha più istanze di DisADV a un Check o Save, ha DisADV X, dove X è il numero di dadi aggiuntivi che tira. Tira 1 d20 aggiuntivo per ogni DisADV e tiene il risultato più basso tra tutti i dadi.</li>
+</ul>
+<p>ADV 1 e DisADV 1 equivalgono ai normali ADV e DisADV, e di norma si indicano semplicemente come ADV e DisADV.</p>
+<details class="example">
+<summary>Esempio</summary>
+<p>Con ADV 2 tiri 3d20 in totale e tieni il più alto. Con DisADV 3 tiri 4d20 in totale e tieni il più basso.</p>
+</details>
+<h3 id="combining-adv-e-disadv">Combining ADV e DisADV<a class="headerlink" href="#combining-adv-e-disadv" title="Permanent link">&para;</a></h3>
+<p>Se una creatura ha contemporaneamente ADV e DisADV, ogni istanza ne annulla una dell'altro tipo. Se si annullano tutte, la creatura effettua un normale tiro di un d20. Se resta qualche ADV o DisADV, effettua il tiro con l'ADV (o il DisADV) rimanente.</p>
+<details class="example">
+<summary>Esempio</summary>
+<p>DisADV 3 e ADV 2: due ADV annullano due DisADV e rimane DisADV 1 (tiri 2 dadi e tieni il più basso).</p>
+</details>
+<h3 id="variable-adv-e-disadv">Variable ADV e DisADV<a class="headerlink" href="#variable-adv-e-disadv" title="Permanent link">&para;</a></h3>
+<p>Quando effettui un Check contro un gruppo di creature e hai ADV o DisADV solo contro alcuni bersagli, segui questi passaggi:</p>
+<ol>
+<li>Effettua il Check contro tutti i bersagli verso cui non hai ADV né DisADV tirando un singolo d20 e aggiungendo i bonus pertinenti.</li>
+<li>Per ogni bersaglio aggiuntivo verso cui hai ADV o DisADV, tira un secondo d20 e confrontalo con il primo. Per i bersagli verso cui hai ADV scegli il risultato più alto, per quelli verso cui hai DisADV il più basso.</li>
+<li>Se hai ADV/DisADV 2 o superiore verso altri bersagli, ripeti il passaggio 2 per ogni dado aggiuntivo da tirare, finché non hai risolto il Check contro tutti i bersagli.</li>
+</ol>
+<details class="example">
+<summary>Esempio</summary>
+<p>Un Wizard colpisce 3 creature con uno Spell: nessun ADV contro la prima, ADV contro la seconda, ADV 2 contro la terza. Tira un d20 per la prima; ne tira un secondo e lo confronta con il primo per la seconda; ne tira un terzo e lo confronta con i primi due per la terza.</p>
+</details>
+<h2 id="multiple-check-penalty">Multiple Check Penalty<a class="headerlink" href="#multiple-check-penalty" title="Permanent link">&para;</a></h2>
+<p>Durante il Combat, ogni volta che una creatura effettua lo stesso Check prima della fine del proprio turno, subisce DisADV cumulativo a quel tipo di Check: specifici Flat Attribute Check (Flat Might, Flat Agility, Flat Charisma, Flat Intelligence), Attack Check, Spell Check, specifici Skill Check (Stealth, Athletics, Influence, ecc.) e specifici Trade Check (Theatre, Blacksmithing, Leatherworking, ecc.). Questa penalità si applica solo ai Check effettuati durante il turno della creatura e non alle Reaction effettuate nel turno di un'altra creatura (salvo indicazione contraria).</p>
+<table>
+<thead>
+<tr>
+<th>Tentativo</th>
+<th>Tiro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1°</td>
+<td>Tiro normale</td>
+</tr>
+<tr>
+<td>2°</td>
+<td>DisADV 1 (tiri 2 dadi e tieni il più basso)</td>
+</tr>
+<tr>
+<td>3°</td>
+<td>DisADV 2 (tiri 3 dadi e tieni il più basso)</td>
+</tr>
+<tr>
+<td>4°</td>
+<td>DisADV 3 (tiri 4 dadi e tieni il più basso)</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>La Multiple Check Penalty non si applica fuori dal Combat (vedi <a href="../../combattimento/risorse/">Combat Resources</a> per come si svolgono le Action fuori dal Combat).</p>
+</div>
+<p><strong>Multiple Action Penalties:</strong> alcune Action hanno penalità quando vengono effettuate più volte, come l'Help Action. Queste penalità contano come Multiple Check Penalty ai fini delle meccaniche di gioco che si applicano alla Multiple Check Penalty.</p>
+<h2 id="check-save-outcomes">Check &amp; Save Outcomes<a class="headerlink" href="#check-save-outcomes" title="Permanent link">&para;</a></h2>
+<h3 id="critical-success-e-critical-failure">Critical Success e Critical Failure<a class="headerlink" href="#critical-success-e-critical-failure" title="Permanent link">&para;</a></h3>
+<p>Quando una creatura ottiene 20 sul d20, il Check o Save ottiene un Critical Success. Quando ottiene 1 sul d20, il Check o Save subisce un Critical Failure. Gli effetti di un Critical Success o di un Critical Failure dipendono dal tipo di Check o Save.</p>
+<h4 id="attack-check-martial-check-e-spell-check">Attack Check, Martial Check e Spell Check<a class="headerlink" href="#attack-check-martial-check-e-spell-check" title="Permanent link">&para;</a></h4>
+<p><strong>Critical Success</strong></p>
+<ul>
+<li><strong>Danni:</strong> quando una creatura ottiene un Critical Success a un Attack Check, Martial Check o Spell Check che infligge danni, l'Attack è considerato un Critical Hit (colpisce automaticamente e infligge +2 danni).</li>
+<li><strong>Effetto:</strong> quando una creatura ottiene un Critical Success a un Attack Check, Martial Check o Spell Check che non infligge danni, il Check riesce automaticamente anche se il risultato normalmente fallirebbe.</li>
+</ul>
+<p><strong>Critical Failure</strong></p>
+<p>Quando una creatura subisce un Critical Failure a un Attack Check, Martial Check o Spell Check, diventa <strong>Exposed</strong> contro il successivo Attack effettuato contro di lei prima dell'inizio del suo turno successivo. Subisce inoltre penalità aggiuntive a seconda che il Check infligga danni o no:</p>
+<ul>
+<li><strong>Danni:</strong> quando una creatura subisce un Critical Failure a un Attack Check, Martial Check o Spell Check che infligge danni, l'Attack manca automaticamente anche se il risultato normalmente colpirebbe.</li>
+<li><strong>Effetto:</strong> quando una creatura subisce un Critical Failure a un Attack Check, Martial Check o Spell Check che non infligge danni, il Check fallisce automaticamente anche se il risultato normalmente riuscirebbe.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Per i Critical Failure il GM, a sua discrezione, può sostituire la Condition Exposed con Hindered (il tuo prossimo Attack Check ha DisADV). Vedi <a href="../../regole_generali/condizioni/">Conditions</a>.</p>
+</div>
+<h4 id="save-skill-check-e-trade-check">Save, Skill Check e Trade Check<a class="headerlink" href="#save-skill-check-e-trade-check" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Critical Success:</strong> quando una creatura ottiene un Critical Success a un Save, Skill Check o Trade Check, il Check o Save riesce automaticamente anche se il risultato normalmente fallirebbe.</li>
+<li><strong>Critical Failure:</strong> quando una creatura subisce un Critical Failure a un Save, Skill Check o Trade Check, il Check o Save fallisce automaticamente anche se il risultato normalmente riuscirebbe.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Il GM non dovrebbe chiedere Check per attività in cui il successo è impossibile (ad esempio trascinare un edificio con una catena) né per attività in cui il fallimento è impossibile (ad esempio raccogliere un sassolino), a meno che le circostanze non introducano la possibilità di riuscire o fallire. L'esito finale di un Critical Success o di un Critical Failure spetta al GM.</p>
+</div>
+<h4 id="contested-critical-outcomes">Contested Critical Outcomes<a class="headerlink" href="#contested-critical-outcomes" title="Permanent link">&para;</a></h4>
+<p>Quando più creature ottengono un Critical Success in un Contest (o tutte subiscono un Critical Failure), vince il Contest la creatura con il risultato totale più alto.</p>
+<h2 id="degrees-of-success-e-failure">Degrees of Success e Failure<a class="headerlink" href="#degrees-of-success-e-failure" title="Permanent link">&para;</a></h2>
+<h3 id="degrees-of-success">Degrees of Success<a class="headerlink" href="#degrees-of-success" title="Permanent link">&para;</a></h3>
+<p>Se una creatura riesce in un Check o Save di 5 o più, può ottenere benefici aggiuntivi oltre a quelli di un normale successo. Il Check o Save riporta un success statement, come Success, Success (5), Success (10) o Success (each 5).</p>
+<table>
+<thead>
+<tr>
+<th>Success statement</th>
+<th>Si applica quando</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Success</strong></td>
+<td>il risultato è pari o superiore alla DC, al Check o al Save contrapposto</td>
+</tr>
+<tr>
+<td><strong>Success (each 5)</strong></td>
+<td>per ogni 5 punti di cui il risultato supera la DC, il Check o il Save contrapposto (cumulabile più volte, salvo indicazione contraria)</td>
+</tr>
+<tr>
+<td><strong>Success (5)</strong></td>
+<td>il risultato supera di 5 o più la DC, il Check o il Save contrapposto</td>
+</tr>
+<tr>
+<td><strong>Success (10)</strong></td>
+<td>il risultato supera di 10 o più la DC, il Check o il Save contrapposto (e così via con Success (15) e oltre)</td>
+</tr>
+</tbody>
+</table>
+<details class="example">
+<summary>Esempio</summary>
+<p>Uno Spell spinge il bersaglio di 3 Spaces con "Success (each 5): +1 Space": per ogni 5 punti di cui lo Spell Check supera il valore contrapposto, il bersaglio viene spinto di 1 Space in più. Uno Spell che aumenta la Speed di 1 con "Success (5): ignora il Difficult Terrain" e "Success (10): Immune a Slowed" concede entrambi i benefici aggiuntivi se lo Spell Check supera la DC di 10.</p>
+</details>
+<h3 id="degrees-of-failure">Degrees of Failure<a class="headerlink" href="#degrees-of-failure" title="Permanent link">&para;</a></h3>
+<p>Se una creatura fallisce un Check o Save di 5 o più, può subire penalità aggiuntive oltre a quelle di un normale fallimento. Il Check o Save riporta un failure statement, come Failure, Failure (5), Failure (10) o Failure (each 5).</p>
+<table>
+<thead>
+<tr>
+<th>Failure statement</th>
+<th>Si applica quando</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Failure</strong></td>
+<td>il risultato è inferiore alla DC, al Check o al Save contrapposto</td>
+</tr>
+<tr>
+<td><strong>Failure (each 5)</strong></td>
+<td>per ogni 5 punti di cui il risultato è inferiore alla DC, al Check o al Save contrapposto (cumulabile più volte, salvo indicazione contraria)</td>
+</tr>
+<tr>
+<td><strong>Failure (5)</strong></td>
+<td>il risultato è inferiore di 5 o più alla DC, al Check o al Save contrapposto</td>
+</tr>
+<tr>
+<td><strong>Failure (10)</strong></td>
+<td>il risultato è inferiore di 10 o più alla DC, al Check o al Save contrapposto (e così via con Failure (15) e oltre)</td>
+</tr>
+</tbody>
+</table>
+<details class="example">
+<summary>Esempio</summary>
+<p>Una trappola infligge 4 danni Fire con un Save fallito e ha "Failure (each 5): +1 danno": per ogni 5 punti di cui il Save è inferiore alla Save DC, il bersaglio subisce +1 danno Fire. Una maledizione impone <strong>Blinded</strong> con un Save fallito, con "Failure (5): Deafened" e "Failure (10): Doomed": con un Save inferiore di 10 alla Save DC la creatura è <strong>Blinded</strong>, <strong>Deafened</strong> e <strong>Doomed 1</strong>.</p>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Torna su
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Piede" >
+        
+          
+          <a href="../mastery/" class="md-footer__link md-footer__link--prev" aria-label="Precedente: Mastery e Training">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Precedente
+              </span>
+              <div class="md-ellipsis">
+                Mastery e Training
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../attacchi_difese/" class="md-footer__link md-footer__link--next" aria-label="Successivo: Attacks e Defenses">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Successivo
+              </span>
+              <div class="md-ellipsis">
+                Attacks e Defenses
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["search.suggest", "search.highlight", "content.tabs.link", "content.tooltips", "navigation.tabs", "navigation.sections", "navigation.top", "navigation.footer", "navigation.indexes", "toc.follow", "header.autohide"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+    
+  </body>
+</html>

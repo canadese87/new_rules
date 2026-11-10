@@ -1,0 +1,4834 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Regole di gioco di DC20 (Beta 0.10.5) in italiano, con i termini di gioco in inglese.">
+      
+      
+      
+      
+        <link rel="prev" href="../regole/">
+      
+      
+        <link rel="next" href="../../magia/regole/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
+    
+    
+      
+        <title>Maneuvers - DC20 — Regole</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#elenco-delle-maneuver" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href="../.." title="DC20 — Regole" class="md-header__button md-logo" aria-label="DC20 — Regole" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DC20 — Regole
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Maneuvers
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple"  aria-label="Passa al tema scuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Passa al tema scuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="lime"  aria-label="Passa al tema chiaro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Passa al tema chiaro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Cancella" aria-label="Cancella" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inizializza la ricerca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../regole_base/attributi/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Regole base
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../combattimento/risorse/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Combattimento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../regole/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Martial
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../magia/regole/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Magia
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../regole_generali/ambiente/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Regole generali
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../personaggio/creazione/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Personaggio
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../classi/introduzione/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Classes
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../oggetti_magici/regole/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Magic Items
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../opzioni/shadow/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Opzioni
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../100_sanity/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Homebrew
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="DC20 — Regole" class="md-nav__button md-logo" aria-label="DC20 — Regole" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DC20 — Regole
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole base
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Regole base
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/attributi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attributes e Prime Modifier
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/skills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Skills
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/trades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Trades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/languages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Languages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/mastery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mastery e Training
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/checks_saves/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Checks e Saves
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/attacchi_difese/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attacks e Defenses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/hp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Health Points e Death's Door
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/danni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Damage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combattimento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Combattimento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/risorse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combat Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/azioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Actions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/reazioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reactions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/inizio_combattimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inizio del combattimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/creature_combattimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creatures e combattimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martial
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Martial
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole delle Maneuver
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maneuvers
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maneuvers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#attack-maneuvers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attack Maneuvers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Attack Maneuvers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#heroic-bash" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heroic Bash
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#savage-strike" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Savage Strike
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sunder-strike" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sunder Strike
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#swift-strike" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Swift Strike
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meteor-strike" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Meteor Strike
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cleave" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cleave
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#whirlwind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Whirlwind
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pathcarver" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pathcarver
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#piercing-shot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Piercing Shot
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volley" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Volley
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scattershot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scattershot
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#defense-maneuvers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defense Maneuvers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Defense Maneuvers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parry
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#brace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brace
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#side-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Side Step
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#protect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Protect
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#endure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Endure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resolve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resolve
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#swap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Swap
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grapple-maneuvers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grapple Maneuvers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Grapple Maneuvers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#slam" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Slam
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restrain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Restrain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#body-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Body Block
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#throw-creature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Throw Creature
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#utility-maneuvers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Utility Maneuvers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Utility Maneuvers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recover" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recover
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heroic-pass-through" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heroic Pass Through
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#line-run" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Line Run
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reposition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reposition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heroic-taunt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heroic Taunt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heroic-intimidate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heroic Intimidate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heroic-shove" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heroic Shove
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heroic-extend-jump" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heroic Extend Jump
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magia
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Magia
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole dello Spellcasting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/liste/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Liste degli Spell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/astromancy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Astromancy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/conjuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conjuration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/summon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Summon Spells
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/divination/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Divination
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/elemental/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elemental
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/enchantment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Enchantment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/invocation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Invocation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/nullification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nullification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/transmutation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transmutation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole generali
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Regole generali
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/ambiente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Environment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/visione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vision
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/aree_effetto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Areas of Effect
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/equipaggiamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/condizioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conditions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/riposo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/dc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/gm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Game Master
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Personaggio
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Personaggio
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personaggio/creazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creazione e progressione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personaggio/talents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Talents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personaggio/paths/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Character Paths
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestries
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ancestries
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/sistema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestry System
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/core/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestry del Core
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/beastborn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Beastborn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/psyborn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psyborn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/espanse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestry espanse
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/introduzione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduzione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martial
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Martial
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barbarian
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/champion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Champion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/commander/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Commander
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/hunter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hunter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rogue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spellcaster
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Spellcaster
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cleric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Druid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/sorcerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sorcerer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlock
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_4" id="__nav_8_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ibride
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ibride
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/spellblade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spellblade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_5" id="__nav_8_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Da magazine e pack
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Da magazine e pack
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/summoner/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Summoner
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/artificer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Artificer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Items
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Magic Items
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oggetti_magici/regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oggetti_magici/magic_properties/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Properties
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Opzioni
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Opzioni
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../opzioni/shadow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shadow Options
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Homebrew
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Homebrew
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_sanity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sanity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_giostra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Giostra a Squadre
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_kaiju/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lotta contro Kaiju
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_crafting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crafting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_carro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lotta su carro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_assedio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assedio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#attack-maneuvers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attack Maneuvers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Attack Maneuvers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#heroic-bash" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heroic Bash
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#savage-strike" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Savage Strike
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sunder-strike" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sunder Strike
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#swift-strike" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Swift Strike
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meteor-strike" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Meteor Strike
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cleave" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cleave
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#whirlwind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Whirlwind
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pathcarver" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pathcarver
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#piercing-shot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Piercing Shot
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volley" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Volley
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scattershot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scattershot
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#defense-maneuvers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defense Maneuvers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Defense Maneuvers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parry
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#brace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brace
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#side-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Side Step
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#protect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Protect
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#endure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Endure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resolve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resolve
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#swap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Swap
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grapple-maneuvers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grapple Maneuvers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Grapple Maneuvers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#slam" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Slam
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restrain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Restrain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#body-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Body Block
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#throw-creature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Throw Creature
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#utility-maneuvers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Utility Maneuvers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Utility Maneuvers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recover" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recover
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heroic-pass-through" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heroic Pass Through
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#line-run" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Line Run
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reposition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reposition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heroic-taunt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heroic Taunt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heroic-intimidate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heroic Intimidate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heroic-shove" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heroic Shove
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heroic-extend-jump" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heroic Extend Jump
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="elenco-delle-maneuver">Elenco delle Maneuver<a class="headerlink" href="#elenco-delle-maneuver" title="Permanent link">&para;</a></h1>
+<p>Le regole generali di Maneuver ed Enhancement sono in <a href="../regole/">Maneuver ed Enhancement</a>.</p>
+<h2 id="attack-maneuvers">Attack Maneuvers<a class="headerlink" href="#attack-maneuvers" title="Permanent link">&para;</a></h2>
+<h3 id="heroic-bash">Heroic Bash<a class="headerlink" href="#heroic-bash" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Attack · <strong>Cost:</strong> 1 AP + 1 SP · <strong>Range:</strong> Weapon or Unarmed Strike</p>
+<p>Effettui un Melee Martial Attack contro la PD di un bersaglio entro la Range, e il bersaglio effettua un Might Save contro il tuo Save DC. <strong>Hit:</strong> il bersaglio subisce i danni della tua Weapon o Unarmed Strike. <strong>Save Failure:</strong> il bersaglio viene spinto di 1 Space lontano da te. <strong>Save Failure (each 5):</strong> il bersaglio viene spinto fino a 1 Space aggiuntivo.</p>
+<p><strong>Knock Prone:</strong> dopo il risultato, puoi scegliere di ridurre di 1 Space la distanza totale di spinta di un bersaglio per renderlo invece <strong>Prone</strong>.</p>
+<p><strong>Airborne:</strong> quando scegli di spingerlo verso l'alto, in aria, la distanza di spinta è dimezzata.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Increased Distance</strong> (X SP): la distanza di spinta aumenta di X Spaces.</li>
+<li><strong>Bowling Ball</strong> (1 SP): se il bersaglio collide con un'altra creatura durante questo movimento, la creatura con cui collide deve effettuare un Might Save contro il tuo Save DC. <strong>Save Failure:</strong> il bersaglio diventa <strong>Prone</strong>. <strong>Save Failure (each 5):</strong> il bersaglio viene inoltre spinto di 1 Space lontano da te.</li>
+</ul>
+<h3 id="savage-strike">Savage Strike<a class="headerlink" href="#savage-strike" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Attack · <strong>Cost:</strong> 1 AP + 1 SP · <strong>Range:</strong> Weapon or Unarmed Strike</p>
+<p>Effettui un Martial Attack contro la PD di un bersaglio entro la Range, e il bersaglio effettua un Repeated Physical Save contro il tuo Save DC. <strong>Hit:</strong> il bersaglio subisce i danni della tua Weapon o Unarmed Strike. <strong>Save Failure:</strong> il bersaglio diventa <strong>Impaired</strong> oppure inizia a subire <strong>Bleeding</strong> (a tua scelta) per 1 minuto.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Improved Bleed</strong> (X SP): se il Save fallisce, il bersaglio ottiene <strong>Bleeding X</strong> per la durata.</li>
+<li><strong>Improved Impaired</strong> (X SP): se il Save fallisce, il bersaglio ottiene <strong>Impaired X</strong> per la durata.</li>
+<li><strong>Weakened</strong> (2 SP): se il Save fallisce, il bersaglio è <strong>Weakened</strong> per la durata.</li>
+</ul>
+<h3 id="sunder-strike">Sunder Strike<a class="headerlink" href="#sunder-strike" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Attack · <strong>Cost:</strong> 1 AP + 2 SP · <strong>Range:</strong> Weapon or Unarmed Strike</p>
+<p>Effettui un Martial Attack contro la PD di un bersaglio entro la Range, e il bersaglio effettua un Physical Save contro il tuo Save DC. <strong>Hit:</strong> il bersaglio subisce i danni della tua Weapon o Unarmed Strike. <strong>Save Failure:</strong> il bersaglio ottiene Physical Vulnerability (1) per 1 Round.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Improved Vulnerability</strong> (2 SP, Repeatable): la Vulnerability aumenta di 1.</li>
+<li><strong>Break DR</strong> (1 SP): se il Save fallisce, il bersaglio non beneficia della PDR per la durata.</li>
+<li><strong>Break Resistance</strong> (2 SP): se il Save fallisce, il bersaglio non beneficia della Physical Resistance per la durata.</li>
+</ul>
+<h3 id="swift-strike">Swift Strike<a class="headerlink" href="#swift-strike" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Attack · <strong>Cost:</strong> 1 AP + 1 SP · <strong>Range:</strong> Weapon or Unarmed Strike</p>
+<p>Ti muovi di un numero di Spaces fino alla tua Speed ed effettui un Melee Martial Attack contro la PD di 1 bersaglio entro la tua Melee Range in un qualsiasi momento di questo movimento. <strong>Hit:</strong> il bersaglio subisce i danni della tua Weapon o Unarmed Strike.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Disengage</strong> (1 SP): questo movimento non provoca Opportunity Attacks.</li>
+<li><strong>Subsequent Strike</strong> (1 AP + 1 SP, Repeatable): ottieni movimento aggiuntivo pari a metà della tua Speed e puoi bersagliare una creatura aggiuntiva usando lo stesso Attack Check.</li>
+</ul>
+<h3 id="meteor-strike">Meteor Strike<a class="headerlink" href="#meteor-strike" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Attack · <strong>Cost:</strong> 1 AP + 1 SP · <strong>Range:</strong> Weapon or Unarmed Strike</p>
+<p>La tua Jump Distance aumenta di 2, salti fino alla tua Jump Distance senza spendere movimento (purché tu possa muoverti) ed effettui un Melee Martial Attack contro un bersaglio entro la Range in un qualsiasi momento del salto o nel punto in cui atterri.</p>
+<p><strong>Reaction:</strong> puoi spendere 1 SP aggiuntivo per eseguire questa Maneuver come Reaction quando una creatura entra in uno Space entro la tua Jump Distance che si trova ad almeno 1 Space dal suolo.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>La Long Jump Distance è pari alla tua Jump Distance in Spaces; la High Jump Distance è pari alla tua Jump Distance in piedi (feet).</p>
+</div>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Falling Strike</strong> (1 SP): la creatura effettua un Physical Save contro il tuo Save DC. <strong>Save Failure:</strong> la creatura cade <strong>Prone</strong>.</li>
+<li><strong>Slam Down</strong> (1 SP, Requires Falling Strike): se il Save fallisce, il bersaglio non beneficia, fino alla fine del turno, di alcuna capacità che gli impedisca di cadere a seguito dell'essere reso Prone a mezz'aria.</li>
+<li><strong>Impact Crater</strong> (1 AP + 1 SP): tutte le creature entro un'Aura di 1 Space dal punto in cui atterri devono effettuare un Physical Save contro il tuo Save DC. <strong>Save Failure:</strong> la creatura cade <strong>Prone</strong>.</li>
+<li><strong>Larger Crater</strong> (2 SP, Repeatable, Requires Impact Crater): la dimensione dell'Aura aumenta di 1.</li>
+</ul>
+<h3 id="cleave">Cleave<a class="headerlink" href="#cleave" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Attack · <strong>Cost:</strong> 2 AP · <strong>Range:</strong> 2 Space Arc (Self)</p>
+<p>Effettui un Area Martial Attack contro l'AD di ogni bersaglio entro la Range. <strong>Hit:</strong> il bersaglio subisce i danni della tua Weapon o Unarmed Strike.</p>
+<p><strong>Reach Weapon:</strong> se hai una Reach Weapon, puoi spostare il Point of Origin di 1 Space lontano da te. L'Arc deve comunque essere rivolto in direzione opposta a te.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Damage</strong> (2 SP, Repeatable): i danni aumentano di 1.</li>
+<li><strong>Area</strong> (2 SP, Repeatable): l'Arc aumenta di 1 Space.</li>
+<li><strong>Careful Cleave</strong> (X SP): puoi scegliere X bersagli nell'area da escludere dall'Attack.</li>
+<li><strong>Sweep</strong> (2 SP): ogni bersaglio effettua un Agility Save. <strong>Save Failure:</strong> il bersaglio diventa <strong>Prone</strong>.</li>
+</ul>
+<h3 id="whirlwind">Whirlwind<a class="headerlink" href="#whirlwind" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Attack · <strong>Cost:</strong> 2 AP · <strong>Range:</strong> 1 Space Aura</p>
+<p>Effettui un Area Martial Attack usando una Melee Weapon o Unarmed Strike contro l'AD di ogni bersaglio entro la Range. <strong>Hit:</strong> il bersaglio subisce i danni della tua Weapon o Unarmed Strike.</p>
+<p><strong>Reach Weapon:</strong> se hai una Reach Weapon, puoi scegliere di aumentare l'Aura di 1 Space. Se lo fai, non puoi attaccare bersagli entro 1 Space da te.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Damage</strong> (2 SP, Repeatable): i danni aumentano di 1.</li>
+<li><strong>Area</strong> (2 SP, Repeatable): l'Aura aumenta di 1 Space.</li>
+<li><strong>Vortex</strong> (2 SP, Repeatable): ogni bersaglio effettua un Might Save. <strong>Save Failure:</strong> il bersaglio viene spinto fino a 1 Space in orizzontale in una direzione a tua scelta. Il bersaglio viene spostato di 1 Space aggiuntivo per ogni volta che usi questo Enhancement.</li>
+</ul>
+<h3 id="pathcarver">Pathcarver<a class="headerlink" href="#pathcarver" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Attack · <strong>Cost:</strong> 2 AP · <strong>Range:</strong> 4 Space Line (Self)</p>
+<p>Effettui un Area Martial Attack con una Melee Weapon o Unarmed Strike contro l'AD di ogni bersaglio in una Line di 4 Spaces. <strong>Hit:</strong> il bersaglio subisce i danni della tua Weapon o Unarmed Strike.</p>
+<p>Dopo l'Attack, puoi spostarti in qualsiasi Space entro 1 Space dall'area senza provocare Opportunity Attacks dai bersagli e senza spendere movimento.</p>
+<p><strong>Reach Weapon:</strong> se hai una Reach Weapon, puoi spostare il Point of Origin di 1 Space lontano da te. Se lo fai, la Line deve estendersi in direzione opposta a te.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Damage</strong> (2 SP, Repeatable): i danni aumentano di 1.</li>
+<li><strong>Increase Length</strong> (1 SP, Repeatable): la lunghezza della Line aumenta di 2 Spaces.</li>
+<li><strong>Carved Path</strong> (2 SP, Repeatable): ogni bersaglio effettua un Might Save. <strong>Save Failure:</strong> il bersaglio viene spinto di 1 Space in orizzontale fuori dall'area, in una direzione a tua scelta. Il bersaglio viene spostato di 1 Space aggiuntivo per ogni volta che usi questo Enhancement.</li>
+</ul>
+<h3 id="piercing-shot">Piercing Shot<a class="headerlink" href="#piercing-shot" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Attack · <strong>Cost:</strong> 2 AP · <strong>Range:</strong> Ranged Weapon or Weapon with the Toss or Thrown Property</p>
+<p>Effettui un Area Martial Attack contro l'AD di ogni bersaglio entro una Line di 8 Spaces il cui Point of Origin si trova entro la Range. La Line deve estendersi in direzione opposta a te. <strong>Hit:</strong> il bersaglio subisce i danni della tua Weapon.</p>
+<p><strong>Close Quarters Penalty:</strong> hai DisADV all'Attack se ti trovi entro la Melee Range di almeno 1 nemico, a meno che quel nemico non sia Incapacitated.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Hai DisADV a qualsiasi Attack oltre la Normal Range della tua Weapon.</p>
+</div>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Damage</strong> (2 SP, Repeatable): i danni aumentano di 1.</li>
+<li><strong>Area</strong> (1 SP, Repeatable): la lunghezza della Line aumenta di 4 Spaces.</li>
+<li><strong>Penetrating Shot</strong> (1 SP): l'Attack ignora la Cover, ma è bloccato da 15 cm (6 pollici) di legno o terra morbida (terriccio, fango o sabbia), o da 25 mm (1 pollice) di metallo o roccia.</li>
+</ul>
+<h3 id="volley">Volley<a class="headerlink" href="#volley" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Attack · <strong>Cost:</strong> 2 AP · <strong>Range:</strong> Ranged Weapon</p>
+<p>Effettui un Area Martial Attack contro l'AD di ogni bersaglio entro una Sphere di 3 Spaces di diametro il cui Point of Origin si trova entro la Range. <strong>Hit:</strong> il bersaglio subisce i danni della tua Weapon.</p>
+<p><strong>Close Quarters Penalty:</strong> hai DisADV all'Attack se ti trovi entro la Melee Range di almeno 1 nemico, a meno che quel nemico non sia Incapacitated.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Hai DisADV a qualsiasi Attack oltre la Normal Range e non puoi attaccare oltre la Long Range.</p>
+</div>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Damage</strong> (2 SP, Repeatable): i danni aumentano di 1.</li>
+<li><strong>Area</strong> (2 SP, Repeatable): il diametro della Sphere aumenta di 1 Space.</li>
+<li><strong>Rain of Fire</strong> (1 SP): i bersagli nell'area non ottengono i benefici della 1/2 Cover contro questo Attack.</li>
+<li><strong>Suppressive Fire</strong> (2 SP): ogni creatura effettua un Charisma Save. <strong>Save Failure:</strong> la creatura diventa <strong>Hindered</strong> per 1 Round.</li>
+</ul>
+<h3 id="scattershot">Scattershot<a class="headerlink" href="#scattershot" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Attack · <strong>Cost:</strong> 2 AP · <strong>Range:</strong> Self · <strong>Requirements:</strong> Ranged Weapon</p>
+<p>Effettui un Area Martial Attack contro l'AD di ogni bersaglio entro un Cone di 3 Spaces. <strong>Hit:</strong> il bersaglio subisce i danni della tua Weapon.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Damage</strong> (2 SP, Repeatable): i danni aumentano di 1.</li>
+<li><strong>Area</strong> (2 SP, Repeatable): la lunghezza del Cone aumenta di 1 Space.</li>
+<li><strong>Stagger</strong> (1 SP): ogni creatura effettua un Might Save. <strong>Save Failure:</strong> il bersaglio non può effettuare Reaction per 1 Round.</li>
+</ul>
+<h2 id="defense-maneuvers">Defense Maneuvers<a class="headerlink" href="#defense-maneuvers" title="Permanent link">&para;</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Se usi una Maneuver come Reaction a un Attack (ad esempio Parry, Brace ed Evade), devi decidere di usarla prima che il GM comunichi il risultato del Check.</p>
+</div>
+<h3 id="parry">Parry<a class="headerlink" href="#parry" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Defense · <strong>Cost:</strong> 1 AP · <strong>Range:</strong> Self (or 1 Space if wielding a Melee Weapon or Shield)</p>
+<p><strong>Trigger:</strong> un bersaglio che puoi vedere entro la Range (incluso te stesso) è bersaglio di un Attack contro la sua PD.</p>
+<p><strong>Reaction:</strong> concedi al bersaglio un bonus di +5 alla PD contro questo Attack.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Alert</strong> (1 SP): il prossimo Attack dell'attaccante in questo turno contro il bersaglio ha DisADV.</li>
+<li><strong>Disarm</strong> (1 SP): se l'attaccante si trova entro 1 Space da te o dal bersaglio, effettua un Physical Save. <strong>Save Failure:</strong> il bersaglio lascia cadere a terra la Weapon usata per l'Attack, una volta risolto l'Attack. <strong>Save Failure (5):</strong> ottieni il possesso della Weapon, purché tu abbia una mano libera per tenerla.</li>
+</ul>
+<h3 id="brace">Brace<a class="headerlink" href="#brace" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Defense · <strong>Cost:</strong> 1 AP · <strong>Range:</strong> Self (or 1 Space if wielding a Shield)</p>
+<p><strong>Trigger:</strong> un bersaglio che puoi vedere entro la Range (incluso te stesso) è bersaglio di un Attack contro la sua AD.</p>
+<p><strong>Reaction:</strong> concedi al bersaglio un bonus di +5 all'AD contro questo Attack.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Targets</strong> (1 AP, Repeatable): puoi bersagliare 1 creatura aggiuntiva entro la Range che è anch'essa bersaglio dello stesso Attack.</li>
+<li><strong>Grapple</strong> (1 SP): se l'attaccante si trova entro 1 Space da te, effettua un Physical Save. <strong>Save Failure:</strong> l'attaccante diventa <strong>Grappled</strong> da te una volta risolto l'Attack.</li>
+</ul>
+<h3 id="side-step">Side Step<a class="headerlink" href="#side-step" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Defense · <strong>Cost:</strong> 1 AP · <strong>Range:</strong> Self</p>
+<p><strong>Trigger:</strong> sei bersaglio di un Attack.</p>
+<p><strong>Reaction:</strong> imponi DisADV all'Attack contro di te. Puoi muoverti di 1 Space dopo l'Attack, purché tu rimanga entro la Range dell'Attack.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Evasion</strong> (1 SP): ottieni ADV a qualsiasi Save imposto dall'Attack.</li>
+<li><strong>Disengage</strong> (1 SP): il movimento effettuato come parte di questa Maneuver non provoca Opportunity Attacks.</li>
+<li><strong>Slip Away</strong> (1 SP): puoi muoverti fino alla tua Speed invece che di 1 Space e non devi più rimanere entro la Range dell'Attack.</li>
+</ul>
+<h3 id="protect">Protect<a class="headerlink" href="#protect" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Defense · <strong>Cost:</strong> 1 AP · <strong>Range:</strong> 1 Space</p>
+<p><strong>Trigger:</strong> un bersaglio che puoi vedere entro la Range viene colpito (Hit) da un Attack.</p>
+<p><strong>Reaction:</strong> i danni dell'Attack sono divisi tra te e il bersaglio. I danni che subisci ignorano qualsiasi Damage Reduction tu abbia.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Targets</strong> (1 AP, Repeatable): puoi bersagliare 1 creatura aggiuntiva entro la Range che è anch'essa bersaglio dello stesso Attack.</li>
+<li><strong>Taunt</strong> (1 SP): l'attaccante effettua un Charisma Save. <strong>Save Failure:</strong> è <strong>Taunted</strong> da te per 1 Round.</li>
+<li><strong>Heroic Protect</strong> (2 SP): l'Attack effettuato contro il tuo bersaglio viene invece effettuato contro di te. Subisci tutti i danni e gli effetti al suo posto e, se l'Attack è accompagnato da un Save (come con un Dynamic Attack Save), effettui il Save al posto del bersaglio. Se anche tu eri originariamente bersaglio dell'Attack, risolvi entrambi separatamente.</li>
+<li><strong>Resistance</strong> (1 SP): ottieni Resistance (Half) a qualsiasi danno subito usando questa Maneuver. Il costo di questo Enhancement aumenta di 1 SP se usi l'Enhancement Heroic Protect.</li>
+</ul>
+<h3 id="endure">Endure<a class="headerlink" href="#endure" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Defense · <strong>Cost:</strong> 1 AP + 1 SP · <strong>Range:</strong> Self (or 1 Space if wielding a Shield)</p>
+<p><strong>Trigger:</strong> un bersaglio che puoi vedere entro la Range (incluso te stesso) viene colpito (Hit) da un Attack.</p>
+<p><strong>Reaction:</strong> il bersaglio subisce 1 danno in meno dall'Attack.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Heroic Endure</strong> (X SP): il bersaglio subisce X danni in meno dall'Attack.</li>
+<li><strong>Steadfast</strong> (1 SP): il bersaglio non è Vulnerable ai danni dell'Attack.</li>
+<li><strong>Repel</strong> (X SP): dopo l'Attack, se l'attaccante si trova entro 1 Space da te o dal bersaglio, effettua un Might Save contro il tuo Save DC. <strong>Save Failure:</strong> viene spinto di X Spaces lontano. <strong>Save Failure (each 5):</strong> +1 Space di spinta.</li>
+</ul>
+<h3 id="resolve">Resolve<a class="headerlink" href="#resolve" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Defense · <strong>Cost:</strong> 1 AP + 1 SP · <strong>Range:</strong> Self</p>
+<p>Effettui un Martial Check DC 15. <strong>Failure:</strong> ottieni 2 Temp HP per 1 Round. <strong>Success:</strong> ottieni 3 Temp HP per 1 Round. <strong>Success (each 5):</strong> +1 Temp HP.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Increased Temp HP</strong> (1 SP, Repeatable): ottieni +2 Temp HP.</li>
+<li><strong>Physical Resolve</strong> (1 SP): ottieni ADV ai Physical Save per la durata.</li>
+<li><strong>Mental Resolve</strong> (1 SP): ottieni ADV ai Mental Save per la durata.</li>
+</ul>
+<h3 id="swap">Swap<a class="headerlink" href="#swap" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Defense · <strong>Cost:</strong> 1 AP · <strong>Range:</strong> 1 Space</p>
+<p>Scambi il tuo Space con quello di una creatura consenziente entro la Range. Se tu o la creatura provocate Opportunity Attacks a seguito dello scambio, quegli Attack sono tutti effettuati contro di te.</p>
+<p><strong>Reaction:</strong> puoi spendere 1 SP aggiuntivo per eseguire questa Maneuver come Reaction quando una creatura entro 1 Space viene attaccata. Se lo fai, imponi anche DisADV all'Attack contro di essa.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Escape</strong> (1 SP): il bersaglio può muoversi immediatamente fino alla sua Speed dopo lo scambio.</li>
+<li><strong>Seamless Swap</strong> (1 SP): lo scambio di Space non provoca alcun Opportunity Attack.</li>
+<li><strong>Hostile Swap</strong> (1 SP): puoi bersagliare una creatura non consenziente. Se lo fai, effettui un Martial Check contro il Physical Save del bersaglio. <strong>Check Success:</strong> scambi il tuo Space con il suo.</li>
+</ul>
+<h2 id="grapple-maneuvers">Grapple Maneuvers<a class="headerlink" href="#grapple-maneuvers" title="Permanent link">&para;</a></h2>
+<h3 id="slam">Slam<a class="headerlink" href="#slam" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Grapple · <strong>Cost:</strong> 1 AP · <strong>Range:</strong> Melee</p>
+<p>Bersaglio: una creatura Grappled. Effettui un Melee Martial Attack contro l'AD del bersaglio. <strong>Hit:</strong> il bersaglio subisce 1 danno Bludgeoning.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Finishing Slam</strong> (1 SP): infliggi 2 danni aggiuntivi. Il Grapple termina.</li>
+<li><strong>Stunned</strong> (2 SP, Repeatable): il bersaglio effettua un Physical Save. <strong>Save Failure:</strong> è <strong>Stunned 1</strong> per 1 Round. Puoi usare questo Enhancement al massimo due volte.</li>
+<li><strong>Wall Rake</strong> (X SP): sbatti 1 creatura Grappled contro un muro entro 1 Space e ti muovi fino a X Spaces lungo il muro, terminando il movimento entro 1 Space dal muro. Il bersaglio effettua un Repeated Might Save contro il tuo Save DC. <strong>Save Failure:</strong> ottiene <strong>Bleeding X</strong> per ogni Space percorso.</li>
+</ul>
+<h3 id="restrain">Restrain<a class="headerlink" href="#restrain" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Grapple · <strong>Cost:</strong> 1 AP + 1 SP · <strong>Range:</strong> Melee</p>
+<p>Bersaglio: una creatura Grappled. Effettui un Martial Check contro il Repeated Physical Save del bersaglio. <strong>Contest Success:</strong> il bersaglio è <strong>Restrained</strong> finché il Grapple non termina.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Una creatura può spendere 1 AP per tentare di liberarsi da un Grapple (vedi Grapple in <a href="../../combattimento/azioni/">Actions</a>).</p>
+</div>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Prone</strong> (1 SP): il bersaglio cade anche <strong>Prone</strong> (tu non cadi Prone, a meno che tu non scelga di farlo).</li>
+<li><strong>Chokehold</strong> (2 SP): il bersaglio inoltre non può parlare né respirare finché non è più Restrained da te.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Una creatura che non può respirare inizia a trattenere il respiro. In combattimento, la Breath Duration di una creatura è pari alla sua Might (minimo 1) in Rounds.</p>
+</div>
+<h3 id="body-block">Body Block<a class="headerlink" href="#body-block" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Grapple · <strong>Cost:</strong> 1 AP + 1 SP · <strong>Range:</strong> Melee</p>
+<p>Riposizioni una creatura Grappled per farti scudo dai danni.</p>
+<p><strong>Trigger:</strong> una creatura che non è Grappled da te ti colpisce (Hit) con un Attack.</p>
+<p><strong>Reaction:</strong> effettui un Martial Check contro il Might Save del bersaglio Grappled. <strong>Check Success:</strong> i danni dell'Attack sono divisi tra te e la creatura Grappled, e subito dopo puoi spostare la creatura Grappled in qualsiasi Space adiacente a te.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Se l'Attack che fa scattare il Trigger comporta un Save (come con un Dynamic Attack Save) che sposta te o il bersaglio del tuo Grapple fuori dalla tua portata, puoi comunque eseguire questa Maneuver per risolvere i danni (come se l'Hit avvenisse un istante prima del movimento forzato).</p>
+</div>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Switch</strong> (1 SP): dopo aver completato la Reaction, scambi di posto con il bersaglio Grappled. Questo movimento non provoca Opportunity Attacks né contro di te né contro il bersaglio.</li>
+<li><strong>Partial Block</strong> (1 SP): la tua parte dei danni divisi è ridotta a 0.</li>
+<li><strong>Full Block</strong> (2 SP): l'Attack effettuato contro di te viene invece effettuato contro la creatura Grappled. Essa subisce tutti i danni e gli effetti al posto tuo e, se l'Attack è accompagnato da un Save (come con un Dynamic Attack Save), effettua il Save al posto tuo. Se anche essa era originariamente bersaglio dell'Attack, risolve entrambi separatamente.</li>
+</ul>
+<h3 id="throw-creature">Throw Creature<a class="headerlink" href="#throw-creature" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Grapple · <strong>Cost:</strong> Throw (1 AP) · <strong>Range:</strong> Melee</p>
+<p>Quando lanci una creatura usando le regole di Throwing, puoi aggiungere i seguenti Maneuver Enhancement. Se lo fai, sei considerato come se stessi eseguendo una Maneuver (vedi Throwing in <a href="../../combattimento/creature_combattimento/">Creatures &amp; Combat</a>).</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Lanciare una creatura pone fine al Grapple.</p>
+</div>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Increased Throw</strong> (X SP): il bersaglio viene lanciato X Spaces più lontano.</li>
+<li><strong>Skyward</strong> (2 SP): la distanza di lancio non viene dimezzata per i lanci verticali.</li>
+<li><strong>Prone</strong> (1 SP): il bersaglio cade anche <strong>Prone</strong>.</li>
+</ul>
+<h2 id="utility-maneuvers">Utility Maneuvers<a class="headerlink" href="#utility-maneuvers" title="Permanent link">&para;</a></h2>
+<h3 id="recover">Recover<a class="headerlink" href="#recover" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Utility · <strong>Cost:</strong> 1 AP · <strong>Range:</strong> Self</p>
+<p>Tenti di spendere Rest Points per recuperare HP pari ai Rest Points spesi. Effettui un Martial Check DC 15. <strong>Failure:</strong> puoi spendere 2 Rest Points. <strong>Success:</strong> puoi spendere fino a 3 Rest Points. <strong>Success (each 5):</strong> puoi spendere 1 Rest Point aggiuntivo.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Increased Healing</strong> (1 AP or 1 SP, Repeatable): puoi spendere 1 Rest Point aggiuntivo.</li>
+<li><strong>Repeat Save</strong> (1 AP or 1 SP): puoi ripetere un Save contro un effetto a cui sei sottoposto.</li>
+</ul>
+<h3 id="heroic-pass-through">Heroic Pass Through<a class="headerlink" href="#heroic-pass-through" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Utility · <strong>Cost:</strong> Pass Through Action</p>
+<p>Quando effettui l'Action Pass Through, puoi aggiungere i seguenti Maneuver Enhancement. Quando aggiungi un Maneuver Enhancement (o esegui l'Action spendendo SP), sei considerato come se stessi eseguendo una Maneuver.</p>
+<p><strong>Stamina Action:</strong> puoi spendere SP invece di AP per eseguire l'Action Pass Through.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Brush Past</strong> (1 SP): lo Space della creatura non è considerato Difficult Terrain per questo movimento e non provochi un Opportunity Attack da essa se esci dalla sua portata come parte dello stesso movimento.</li>
+<li><strong>Let's Go</strong> (1 SP): con un Success, puoi trascinare una creatura consenziente entro 1 Space da te in uno Space libero entro 1 Space dalla creatura che oltrepassi.</li>
+</ul>
+<h3 id="line-run">Line Run<a class="headerlink" href="#line-run" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Utility · <strong>Cost:</strong> 2 AP + 1 SP · <strong>Range:</strong> Self</p>
+<p>Ti muovi in una Line fino alla tua Speed ed effettui un Martial Check. Ogni creatura nella Line deve effettuare un Physical Save contro il tuo Martial Check quando tenti di attraversare il suo Space. <strong>Contest Failure:</strong> non puoi attraversare lo Space della creatura, e non puoi muoverti oltre. <strong>Contest Success:</strong> puoi attraversare lo Space della creatura, che diventa <strong>Prone</strong>.</p>
+<details class="example">
+<summary>Esempio</summary>
+<p>Ottieni 15 al Martial Check. Con Speed 5 puoi muoverti fino a 5 Spaces in linea retta. Se nella Line ci sono 3 creature, il tuo Martial Check di 15 viene confrontato, una alla volta, con un Martial Check effettuato da ciascuna creatura mentre tenti di attraversare il suo Space. Se la prima creatura sul tuo percorso ottiene 15 o più, non puoi attraversare il suo Space e ti fermi.</p>
+</details>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Distance</strong> (1 SP, Repeatable): puoi muoverti fino a un'ulteriore metà della tua Speed.</li>
+<li><strong>Brush Past</strong> (1 SP): lo Space di ogni creatura che fallisce il contest non è considerato Difficult Terrain per questo movimento e non provochi un Opportunity Attack da essa.</li>
+</ul>
+<h3 id="reposition">Reposition<a class="headerlink" href="#reposition" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Utility · <strong>Cost:</strong> 1 AP + 1 SP · <strong>Range:</strong> Self</p>
+<p><strong>Trigger:</strong> una creatura termina il proprio turno.</p>
+<p><strong>Reaction:</strong> ti muovi immediatamente fino alla tua Speed.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Agile</strong> (1 SP): ignori il Difficult Terrain durante questo movimento.</li>
+<li><strong>Disengage</strong> (1 AP): ottieni i benefici dell'Action Disengage per il movimento. Quando usi questo Enhancement, puoi spendere 1 SP aggiuntivo per ottenere invece i benefici dell'Action Full Disengage.</li>
+<li><strong>Coordinated Movement</strong> (2 SP, Repeatable): una creatura consenziente a tua scelta entro 1 Space dalla tua posizione originale può muoversi senza spendere il proprio movimento, purché sia in grado di muoversi e termini il movimento entro 1 Space dalla tua destinazione.</li>
+</ul>
+<h3 id="heroic-taunt">Heroic Taunt<a class="headerlink" href="#heroic-taunt" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Utility · <strong>Cost:</strong> Taunt Action (1 AP) · <strong>Range:</strong> Taunt Action (10 Spaces)</p>
+<p>Quando effettui l'Action Taunt, puoi aggiungere i seguenti Maneuver Enhancement. Quando aggiungi un Maneuver Enhancement, sei considerato come se stessi eseguendo una Maneuver.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Sustained</strong> (1 SP, Sustained): la durata aumenta a 1 minuto, ma ogni creatura effettua un Repeated Save.</li>
+<li><strong>Increased Range</strong> (1 SP): la Range aumenta di 5 Spaces.</li>
+<li><strong>Legendary Taunt</strong> (1 SP): le creature diverse da te hanno Resistance (Half) ai danni inflitti dai bersagli Taunted, purché il bersaglio non sia Taunted anche da quelle creature.</li>
+<li><strong>Mass Taunt</strong> (1 AP + 1 SP): bersagli invece ogni creatura a tua scelta entro 5 Spaces che può vederti o sentirti. Quando scegli questo Enhancement, il costo di tutti gli altri Enhancement (eccetto Sustained) raddoppia.</li>
+</ul>
+<h3 id="heroic-intimidate">Heroic Intimidate<a class="headerlink" href="#heroic-intimidate" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Utility · <strong>Cost:</strong> Intimidate Action (1 AP) · <strong>Range:</strong> Intimidate Action (10 Spaces)</p>
+<p>Quando effettui l'Action Intimidate, puoi aggiungere i seguenti Maneuver Enhancement. Quando aggiungi un Maneuver Enhancement, sei considerato come se stessi eseguendo una Maneuver.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Sustained</strong> (1 SP, Sustained): la durata aumenta a 1 minuto, ma ogni creatura effettua un Repeated Save.</li>
+<li><strong>Increased Range</strong> (1 SP): la Range aumenta di 5 Spaces.</li>
+<li><strong>Frightened</strong> (1 SP): i bersagli diventano invece <strong>Frightened</strong>.</li>
+<li><strong>Mass Intimidate</strong> (1 AP + 1 SP): bersagli invece ogni creatura a tua scelta entro 5 Spaces che può vederti o sentirti. Quando scegli questo Enhancement, il costo di tutti gli altri Enhancement (eccetto Sustained) raddoppia.</li>
+</ul>
+<h3 id="heroic-shove">Heroic Shove<a class="headerlink" href="#heroic-shove" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Utility · <strong>Cost:</strong> Shove Action (1 AP) · <strong>Range:</strong> Shove Action (1 Space)</p>
+<p>Quando effettui l'Action Shove, puoi aggiungere i seguenti Maneuver Enhancement. Quando aggiungi un Maneuver Enhancement, sei considerato come se stessi eseguendo una Maneuver.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Increased Push</strong> (X SP): la distanza di spinta aumenta di X Spaces.</li>
+<li><strong>Stand Up</strong> (1 SP): se sei Prone, puoi rialzarti prima o dopo aver effettuato il Check senza spendere movimento.</li>
+<li><strong>Mass Shove</strong> (1 AP + 1 SP): bersagli invece ogni creatura a tua scelta entro un'Aura di 1 Space. Quando scegli questo Enhancement, il costo di tutti gli altri Enhancement (eccetto Stand Up) raddoppia.</li>
+</ul>
+<h3 id="heroic-extend-jump">Heroic Extend Jump<a class="headerlink" href="#heroic-extend-jump" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Utility · <strong>Cost:</strong> Extend Jump Action (1 AP) · <strong>Range:</strong> Self</p>
+<p>Quando effettui l'Action Extend Jump, puoi aggiungere i seguenti Maneuver Enhancement. Quando aggiungi un Maneuver Enhancement (o esegui l'Action spendendo SP), sei considerato come se stessi eseguendo una Maneuver.</p>
+<p><strong>Stamina Action:</strong> puoi spendere SP invece di AP per eseguire l'Action Extend Jump.</p>
+<p><strong>Maneuver Enhancements</strong></p>
+<ul>
+<li><strong>Instant Jump</strong> (1 SP): se esegui uno Standing Jump, la tua Jump Distance non viene dimezzata.</li>
+<li><strong>Increased Jump</strong> (1 SP, Repeatable): la tua Jump Distance aumenta di 2 per il salto.</li>
+<li><strong>Heroic Landing</strong> (1 SP, Repeatable): riduci di 2 i danni da caduta per il salto.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Torna su
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Piede" >
+        
+          
+          <a href="../regole/" class="md-footer__link md-footer__link--prev" aria-label="Precedente: Regole delle Maneuver">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Precedente
+              </span>
+              <div class="md-ellipsis">
+                Regole delle Maneuver
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../magia/regole/" class="md-footer__link md-footer__link--next" aria-label="Successivo: Regole dello Spellcasting">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Successivo
+              </span>
+              <div class="md-ellipsis">
+                Regole dello Spellcasting
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["search.suggest", "search.highlight", "content.tabs.link", "content.tooltips", "navigation.tabs", "navigation.sections", "navigation.top", "navigation.footer", "navigation.indexes", "toc.follow", "header.autohide"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+    
+  </body>
+</html>

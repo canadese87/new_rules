@@ -1,0 +1,4872 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Regole di gioco di DC20 (Beta 0.10.5) in italiano, con i termini di gioco in inglese.">
+      
+      
+      
+      
+        <link rel="prev" href="../cleric/">
+      
+      
+        <link rel="next" href="../sorcerer/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
+    
+    
+      
+        <title>Druid - DC20 — Regole</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#druid" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href="../.." title="DC20 — Regole" class="md-header__button md-logo" aria-label="DC20 — Regole" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DC20 — Regole
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Druid
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple"  aria-label="Passa al tema scuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Passa al tema scuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="lime"  aria-label="Passa al tema chiaro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Passa al tema chiaro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Cancella" aria-label="Cancella" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inizializza la ricerca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../regole_base/attributi/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Regole base
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../combattimento/risorse/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Combattimento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../marziale/regole/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Martial
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../magia/regole/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Magia
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../regole_generali/ambiente/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Regole generali
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../personaggio/creazione/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Personaggio
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../introduzione/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Classes
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../oggetti_magici/regole/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Magic Items
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../opzioni/shadow/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Opzioni
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../100_sanity/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Homebrew
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="DC20 — Regole" class="md-nav__button md-logo" aria-label="DC20 — Regole" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DC20 — Regole
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole base
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Regole base
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/attributi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attributes e Prime Modifier
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/skills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Skills
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/trades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Trades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/languages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Languages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/mastery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mastery e Training
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/checks_saves/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Checks e Saves
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/attacchi_difese/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attacks e Defenses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/hp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Health Points e Death's Door
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/danni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Damage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combattimento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Combattimento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/risorse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combat Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/azioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Actions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/reazioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reactions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/inizio_combattimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inizio del combattimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/creature_combattimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creatures e combattimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martial
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Martial
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marziale/regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole delle Maneuver
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marziale/maneuvers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maneuvers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magia
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Magia
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole dello Spellcasting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/liste/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Liste degli Spell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/astromancy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Astromancy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/conjuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conjuration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/summon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Summon Spells
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/divination/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Divination
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/elemental/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elemental
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/enchantment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Enchantment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/invocation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Invocation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/nullification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nullification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/transmutation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transmutation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole generali
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Regole generali
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/ambiente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Environment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/visione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vision
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/aree_effetto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Areas of Effect
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/equipaggiamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/condizioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conditions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/riposo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/dc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/gm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Game Master
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Personaggio
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Personaggio
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personaggio/creazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creazione e progressione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personaggio/talents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Talents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personaggio/paths/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Character Paths
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestries
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ancestries
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/sistema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestry System
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/core/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestry del Core
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/beastborn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Beastborn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/psyborn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psyborn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/espanse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestry espanse
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduzione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduzione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martial
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Martial
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barbarian
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../champion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Champion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commander/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Commander
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hunter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hunter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rogue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spellcaster
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Spellcaster
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cleric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Druid
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Druid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tabella-della-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabella della Class
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#starting-equipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Starting Equipment
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#druid-spellcasting-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Druid Spellcasting Path
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#class-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Class Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Class Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#livello-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#druid-domain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Druid Domain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wild-form" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wild Form
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wild-form-stat-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wild Form Stat Block
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wild-form-traits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wild Form Traits
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wild-speech-flavor-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wild Speech (Flavor Feature)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#natures-torrent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nature's Torrent
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#talent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Talent
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#path-progression" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Path Progression
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 3
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#subclass" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subclass
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 4
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#talent_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Talent
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#path-progression_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Path Progression
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ancestry-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ancestry Points
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 5
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#expert-druid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expert Druid
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 6
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 6">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#talent_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Talent
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#path-progression_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Path Progression
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subclasses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subclasses
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Subclasses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phoenix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phoenix
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Phoenix">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#flames-of-rebirth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flames of Rebirth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fire-within-flavor-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fire Within (Flavor Feature)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rampant-growth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rampant Growth
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rampant Growth">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overgrowth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overgrowth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seed-vault-flavor-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Seed Vault (Flavor Feature)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sorcerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sorcerer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlock
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_4" id="__nav_8_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ibride
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ibride
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spellblade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spellblade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_5" id="__nav_8_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Da magazine e pack
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Da magazine e pack
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../summoner/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Summoner
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../artificer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Artificer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Items
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Magic Items
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oggetti_magici/regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oggetti_magici/magic_properties/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Properties
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Opzioni
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Opzioni
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../opzioni/shadow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shadow Options
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Homebrew
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Homebrew
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_sanity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sanity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_giostra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Giostra a Squadre
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_kaiju/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lotta contro Kaiju
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_crafting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crafting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_carro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lotta su carro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_assedio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assedio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tabella-della-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabella della Class
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#starting-equipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Starting Equipment
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#druid-spellcasting-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Druid Spellcasting Path
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#class-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Class Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Class Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#livello-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#druid-domain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Druid Domain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wild-form" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wild Form
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wild-form-stat-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wild Form Stat Block
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wild-form-traits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wild Form Traits
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wild-speech-flavor-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wild Speech (Flavor Feature)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#natures-torrent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nature's Torrent
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#talent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Talent
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#path-progression" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Path Progression
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 3
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#subclass" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subclass
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 4
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#talent_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Talent
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#path-progression_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Path Progression
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ancestry-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ancestry Points
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 5
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#expert-druid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expert Druid
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 6
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 6">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#talent_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Talent
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#path-progression_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Path Progression
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subclasses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subclasses
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Subclasses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phoenix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phoenix
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Phoenix">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#flames-of-rebirth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flames of Rebirth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fire-within-flavor-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fire Within (Flavor Feature)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rampant-growth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rampant Growth
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rampant Growth">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overgrowth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overgrowth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seed-vault-flavor-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Seed Vault (Flavor Feature)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="druid">Druid<a class="headerlink" href="#druid" title="Permanent link">&para;</a></h1>
+<h2 id="tabella-della-class">Tabella della Class<a class="headerlink" href="#tabella-della-class" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Livello</th>
+<th>Health Points</th>
+<th>Attribute Points</th>
+<th>Skill Points</th>
+<th>Trade Points</th>
+<th>Mana Points</th>
+<th>Spells Known</th>
+<th>Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>+7</td>
+<td></td>
+<td></td>
+<td></td>
+<td>+6</td>
+<td>+4</td>
+<td>Class Features</td>
+</tr>
+<tr>
+<td>2</td>
+<td>+1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Class Feature, Talent, Path Progression</td>
+</tr>
+<tr>
+<td>3</td>
+<td>+1</td>
+<td>+1</td>
+<td>+1</td>
+<td>+1</td>
+<td>+3</td>
+<td>+1</td>
+<td>Subclass Feature</td>
+</tr>
+<tr>
+<td>4</td>
+<td>+1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Talent, 2 Ancestry Points, Path Progression</td>
+</tr>
+<tr>
+<td>5</td>
+<td>+1</td>
+<td>+1</td>
+<td>+2</td>
+<td>+1</td>
+<td>+3</td>
+<td>+1</td>
+<td>Class Feature</td>
+</tr>
+<tr>
+<td>6</td>
+<td>+1</td>
+<td></td>
+<td>+1</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Talent, Path Progression</td>
+</tr>
+<tr>
+<td>7</td>
+<td>+1</td>
+<td></td>
+<td></td>
+<td></td>
+<td>+3</td>
+<td>+1</td>
+<td>Subclass Expert Feature</td>
+</tr>
+<tr>
+<td>8</td>
+<td>+1</td>
+<td>+1</td>
+<td>+1</td>
+<td>+1</td>
+<td></td>
+<td></td>
+<td>Talent, 2 Ancestry Points, Path Progression</td>
+</tr>
+<tr>
+<td>9</td>
+<td>+1</td>
+<td></td>
+<td></td>
+<td></td>
+<td>+3</td>
+<td>+1</td>
+<td>Class Capstone Feature</td>
+</tr>
+<tr>
+<td>10</td>
+<td>+1</td>
+<td>+1</td>
+<td>+2</td>
+<td>+1</td>
+<td>+3</td>
+<td>+1</td>
+<td>Subclass Capstone Feature</td>
+</tr>
+</tbody>
+</table>
+<h2 id="starting-equipment">Starting Equipment<a class="headerlink" href="#starting-equipment" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Arsenal:</strong> 2 Spell Focus.</li>
+<li><strong>Armor:</strong> 1 set di Light Armor.</li>
+<li><strong>Trade Tools:</strong> 2 a scelta tra Herbalist's Supplies, Leatherworker's Tools, Sculptor's Tools e Weaver's Tools.</li>
+<li><strong>Adventuring Pack:</strong> 1 a scelta (gli Adventuring Pack non sono ancora disponibili).</li>
+</ul>
+<h2 id="druid-spellcasting-path">Druid Spellcasting Path<a class="headerlink" href="#druid-spellcasting-path" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Combat Training:</strong> Spell Focuses, Light Armor.</li>
+<li><strong>Spell List:</strong> quando impari un nuovo Spell, puoi scegliere qualsiasi Spell della Spell Source Primal.</li>
+<li><strong>Spells Known:</strong> il numero di Spell che conosci aumenta come indicato nella colonna Spells Known della tabella della Class.</li>
+<li><strong>Mana Points:</strong> i tuoi Mana Points massimi aumentano come indicato nella colonna Mana Points della tabella della Class.</li>
+</ul>
+<h2 id="class-features">Class Features<a class="headerlink" href="#class-features" title="Permanent link">&para;</a></h2>
+<h3 id="livello-1">Livello 1<a class="headerlink" href="#livello-1" title="Permanent link">&para;</a></h3>
+<h4 id="druid-domain">Druid Domain<a class="headerlink" href="#druid-domain" title="Permanent link">&para;</a></h4>
+<p>Puoi spendere 1 AP e 1 MP per creare il tuo Druid Domain, composto da piccola vegetazione, sabbia, acqua bassa o altri elementi naturali. Crei fino a 8 Domain Spaces sul terreno o sulle pareti. Il primo Domain Space deve trovarsi entro 1 Space da te e ogni Domain Space aggiuntivo deve essere adiacente a un altro Domain Space. Se usi di nuovo questa Feature, il primo Domain Space deve trovarsi entro 1 Space da te o da un altro Domain Space.</p>
+<p><strong>Domain Spaces:</strong> l'area è considerata Difficult Terrain per le creature a tua scelta e, quando lanci uno Spell, puoi farlo come se ti trovassi in qualsiasi Space del tuo Domain.</p>
+<p><strong>Losing Domain Spaces:</strong> un Domain Space scompare anche se termini il tuo turno a più di 15 Spaces da esso o se muori.</p>
+<p><strong>Domain Actions:</strong> mentre hai dei Domain Spaces, puoi effettuare una qualsiasi delle seguenti Domain Action:</p>
+<ul>
+<li><strong>Nature's Grasp:</strong> puoi spendere 1 AP per tentare di vincolare una creatura a tua scelta entro il tuo Domain. Effettui uno Spell Check contro il Repeated Physical Save del bersaglio. <strong>Success:</strong> il bersaglio è <strong>Immobilized</strong> dal tuo Domain per 1 minuto o finché il Domain Space che occupa non scompare.<ul>
+<li><strong>Move Creature:</strong> puoi spendere 1 AP per muovere una creatura vincolata da questa Feature fino a 2 Spaces all'interno del tuo Domain.</li>
+<li><strong>Move Object:</strong> puoi effettuare la Object Action per usare i tuoi viticci e interagire con qualsiasi oggetto entro il tuo Domain come se ti trovassi in uno qualsiasi dei tuoi Domain Spaces. Quando lo fai, puoi muovere l'oggetto fino a 5 Spaces all'interno del tuo Domain.</li>
+</ul>
+</li>
+<li><strong>Wild Growth:</strong> puoi spendere 1 AP e 1 MP per effettuare uno Spell Check DC 10 per curare un bersaglio entro il tuo Domain. <strong>Success:</strong> il bersaglio recupera immediatamente 1 HP. Per il minuto successivo, recupera 1 HP aggiuntivo ogni volta che termina il suo turno entro il tuo Domain. <strong>Success (Each 5):</strong> recupera immediatamente +1 HP. <strong>Failure:</strong> il bersaglio recupera soltanto 1 HP immediatamente.</li>
+</ul>
+<h4 id="wild-form">Wild Form<a class="headerlink" href="#wild-form" title="Permanent link">&para;</a></h4>
+<p>Puoi spendere 1 AP e 1 MP per trasformarti in una Wild Form a tua scelta. Puoi spendere 1 AP durante il tuo turno per passare dalla tua True Form a una qualsiasi delle Wild Form che hai a disposizione, e viceversa. Una volta per Long Rest, puoi trasformarti senza spendere MP né usare Enhancement in MP.</p>
+<p><strong>True Form:</strong> quando passi dalla Wild Form alla True Form, le tue statistiche tornano normali. Torni immediatamente alla True Form quando i Wild Form HP sono ridotti a 0 o se muori.</p>
+<p><strong>Wild Form:</strong> quando ti trasformi in una Wild Form, ottieni i Wild Form HP attuali di quella Wild Form (vedi Wild Form HP sotto), mantenendo eventuali HP persi in precedenza.</p>
+<ul>
+<li><strong>Duration:</strong> ogni Wild Form rimane disponibile finché i suoi Wild Form HP non sono ridotti a 0 o finché non completi un Long Rest.</li>
+<li><strong>Multiple Forms:</strong> puoi avere a disposizione più Wild Form contemporaneamente, ciascuna con i propri Wild Form HP e Trait.</li>
+<li><strong>Equipment:</strong> il tuo equipaggiamento cade a terra o si fonde con la tua Wild Form (a tua scelta per ciascun oggetto). Ottieni i benefici dei Magic Item fusi con la tua Wild Form, ma non puoi attivarli né spenderne le cariche.</li>
+</ul>
+<p><strong>Statistics:</strong> mentre sei nella tua Wild Form, sei soggetto alle seguenti modifiche (salvo diversa indicazione):</p>
+<ul>
+<li><strong>Stat Block:</strong> usi il Wild Form Stat Block sotto per determinare le tue statistiche.</li>
+<li><strong>Identity:</strong> mantieni la tua personalità, il tuo intelletto e la capacità di parlare.</li>
+<li><strong>Wild Form HP:</strong> ottieni una riserva secondaria di Wild Form Health Points, pari a 3 con un massimo di 3. Gli effetti di danno e di guarigione si applicano ai Wild Form HP prima che agli HP della True Form, e l'eventuale danno o guarigione in eccesso si riporta sui tuoi HP.</li>
+<li><strong>Natural Weapon:</strong> hai Natural Weapon (artigli, corna, zanne, ecc.) con cui puoi effettuare Unarmed Strike che infliggono 1 danno Bludgeoning, Piercing o Slashing (a tua scelta quando usi questa Feature).</li>
+<li><strong>Features &amp; Talents:</strong> non benefici di Talent o Class Feature, eccetto Druid Class Feature, Subclass Feature e Talent. Inoltre, non puoi lanciare Spell né eseguire Maneuver.</li>
+<li><strong>Traits:</strong> non benefici dei tuoi Ancestry Trait, ma ottieni 3 Trait Points da spendere in <a href="../../ancestries/beastborn/">Beast Trait</a> o Wild Form Trait a tua scelta. Non puoi scegliere Beast Trait negativi. Quando usi questa Feature, puoi spendere MP aggiuntivi (fino al tuo Mana Spend Limit) per ottenere 2 Trait Points aggiuntivi per ogni MP speso.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>La maggior parte degli animali può essere riprodotta con i Trait Keen Senses e Skillful.</p>
+</div>
+<h4 id="wild-form-stat-block">Wild Form Stat Block<a class="headerlink" href="#wild-form-stat-block" title="Permanent link">&para;</a></h4>
+<p>Beast Small o Medium (a tua scelta).</p>
+<table>
+<thead>
+<tr>
+<th>Statistica</th>
+<th>Valore</th>
+<th>Statistica</th>
+<th>Valore</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HP</td>
+<td>3</td>
+<td>AP</td>
+<td>Invariato</td>
+</tr>
+<tr>
+<td>PD</td>
+<td>8 + CM + PM</td>
+<td>PDR</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AD</td>
+<td>8 + CM + PM</td>
+<td>MDR</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Speed</td>
+<td>5</td>
+<td>Masteries</td>
+<td>Invariato</td>
+</tr>
+<tr>
+<td>Prime</td>
+<td>Invariato</td>
+<td>Save DC</td>
+<td>Invariato</td>
+</tr>
+<tr>
+<td>MIG</td>
+<td>1</td>
+<td>CHA</td>
+<td>Invariato</td>
+</tr>
+<tr>
+<td>AGI</td>
+<td>1</td>
+<td>INT</td>
+<td>Invariato</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>In Wild Form puoi avere Mastery in attività fisicamente difficili o impossibili per la forma assunta. Il GM può modificare le DC dei Check in alcune forme animali.</p>
+</div>
+<h4 id="wild-form-traits">Wild Form Traits<a class="headerlink" href="#wild-form-traits" title="Permanent link">&para;</a></h4>
+<p>Puoi scegliere i Trait ripetibili più volte, ma i Trait unici una sola volta.</p>
+<p><strong>Unique Traits</strong></p>
+<ul>
+<li><strong>(2) Size:</strong> la tua taglia diventa Tiny o Large (a tua scelta).</li>
+</ul>
+<p><strong>Repeatable Traits</strong></p>
+<ul>
+<li><strong>(1) Attribute Increase:</strong> ottieni +2 a Might o Agility (a tua scelta), fino al tuo Attribute Limit.</li>
+<li><strong>(1) Defensive:</strong> la tua PD o AD aumenta di 2 (a tua scelta).</li>
+<li><strong>(1) Healthy:</strong> ottieni +2 HP massimi.</li>
+<li><strong>(1) Resistance (1):</strong> scegli un damage type Physical o Elemental. Ottieni Resistance (1) al damage type scelto.</li>
+<li><strong>(1) Skillful:</strong> ottieni Skill Mastery in 2 Skill a tua scelta tra le seguenti, fino al tuo Skill Mastery Cap: Acrobatics, Animal, Athletics, Awareness, Intimidation, Stealth o Survival. Se la tua Mastery nella Skill scelta è già pari al tuo Skill Mastery Cap, ottieni invece ADV al Check.</li>
+<li><strong>(1) Swift:</strong> la tua Speed aumenta di 1 Space (puoi scegliere questo Trait fino a 5 volte).</li>
+</ul>
+<details class="example">
+<summary>Esempio: template di Wild Form</summary>
+<ul>
+<li><strong>Defensive:</strong> (1) Resistance (1) ai danni Slashing; (1) Defensive: PD +2; (1) Defensive: AD +2.</li>
+<li><strong>Grappler:</strong> (2) Size: Large; (1) Attribute Increase: +2 a Might, fino al tuo Attribute Limit.</li>
+<li><strong>Parkour:</strong> (1) Swift: Speed +1 Space; (1) Jumper: la tua Jump Distance aumenta di 2 e puoi effettuare la Jump Action come Minor Action; (1) Skillful: la tua Skill Mastery in Acrobatics e Athletics aumenta di 1, fino al tuo Skill Mastery Cap (se è già pari al Cap, ottieni invece ADV al Check).</li>
+<li><strong>Infiltrator:</strong> (2) Size: Tiny; (1) Skillful: la tua Skill Mastery in Stealth e Awareness aumenta di 1, fino al tuo Skill Mastery Cap.</li>
+</ul>
+</details>
+<h4 id="wild-speech-flavor-feature">Wild Speech (Flavor Feature)<a class="headerlink" href="#wild-speech-flavor-feature" title="Permanent link">&para;</a></h4>
+<p>Impari il Cantrip Druidcraft e puoi scegliere 1 delle seguenti opzioni:</p>
+<ul>
+<li><strong>Animals:</strong> puoi comprendere e parlare con le Beast in modo limitato. Comprendi il significato dei loro movimenti, suoni e comportamenti, ed esse comprendono il significato di parole, concetti ed emozioni semplici.</li>
+<li><strong>Plants:</strong> puoi comprendere e parlare con le Plant in modo limitato. Comprendi il significato del loro ondeggiare e dell'aprirsi e chiudersi di foglie e fiori, ed esse comprendono il significato di parole, concetti ed emozioni semplici.</li>
+<li><strong>Weather:</strong> puoi lanciare lo Spell Commune with Nature come Ritual una volta per Long Rest.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Animali e piante hanno una visione del mondo molto diversa da quella delle persone.</p>
+<p><strong>Animali.</strong> Un animale può sapere molto della regione in cui vive (fonti di cibo e acqua, presenza di altri animali, posizione di strade e rifugi delle società vicine). Può riconoscere le altre creature solo come prede o predatori. Risponde con singole parole anziché frasi ("freddo", "fame", "paura", "sicuro"), perché agisce d'istinto e di emozione.</p>
+<p><strong>Piante.</strong> Una pianta può non concepire l'esistenza di altri luoghi e descrivere le creature come apparse e poi scomparse, senza sapere da dove vengano o dove vadano. Può riconoscere le altre creature solo come amici (api, uccelli, rane) o nemici (conigli, cervi, taglialegna). Percepisce il tempo in modo diverso: un germoglio può considerare un evento recente come appena accaduto e un evento antico come accaduto ieri; una quercia secolare può considerare un evento recente come accaduto 10 anni fa e uno antico come accaduto più di 100 anni fa. Può descrivere con grande dettaglio piogge, tempeste, qualità del suolo, insetti ed erbivori locali.</p>
+</div>
+<h3 id="livello-2">Livello 2<a class="headerlink" href="#livello-2" title="Permanent link">&para;</a></h3>
+<h4 id="natures-torrent">Nature's Torrent<a class="headerlink" href="#natures-torrent" title="Permanent link">&para;</a></h4>
+<p>Quando una creatura entro 10 Spaces da te subisce danni Elemental, puoi spendere 1 AP come Reaction per evocare un torrente della natura. Il torrente riempie una Sphere di 3 Spaces di diametro centrata sul bersaglio e dura 1 minuto. Mentre si trovano nell'area, le creature hanno Vulnerability (1) contro il damage type che ha attivato l'effetto e DisADV ai Check e ai Save per resistere all'essere spostate o rese <strong>Prone</strong>.</p>
+<p><strong>Ending Early:</strong> il torrente termina prima del tempo se usi di nuovo questa Feature, se diventi <strong>Incapacitated</strong>, se muori o se scegli di terminarlo gratuitamente in qualsiasi momento.</p>
+<h4 id="talent">Talent<a class="headerlink" href="#talent" title="Permanent link">&para;</a></h4>
+<p>Ottieni 1 <a href="../../personaggio/talents/">Talent</a> a tua scelta. Se il Talent ha prerequisiti, devi soddisfarli per sceglierlo.</p>
+<h4 id="path-progression">Path Progression<a class="headerlink" href="#path-progression" title="Permanent link">&para;</a></h4>
+<p>Ottieni i benefici del Martial Path o dello Spellcaster Path (vedi <a href="../../personaggio/paths/">Character Paths</a>).</p>
+<h3 id="livello-3">Livello 3<a class="headerlink" href="#livello-3" title="Permanent link">&para;</a></h3>
+<h4 id="subclass">Subclass<a class="headerlink" href="#subclass" title="Permanent link">&para;</a></h4>
+<p>Scegli una delle seguenti opzioni come tua Subclass e ottieni le sue Feature di Livello 3:</p>
+<ul>
+<li>Phoenix</li>
+<li>Rampant Growth</li>
+<li>Paragon (vedi <a href="../../personaggio/paths/">Character Paths</a>)</li>
+</ul>
+<h3 id="livello-4">Livello 4<a class="headerlink" href="#livello-4" title="Permanent link">&para;</a></h3>
+<h4 id="talent_1">Talent<a class="headerlink" href="#talent_1" title="Permanent link">&para;</a></h4>
+<p>Ottieni 1 Talent a tua scelta. Se il Talent ha prerequisiti, devi soddisfarli per sceglierlo.</p>
+<h4 id="path-progression_1">Path Progression<a class="headerlink" href="#path-progression_1" title="Permanent link">&para;</a></h4>
+<p>Ottieni i benefici del Martial Path o dello Spellcaster Path.</p>
+<h4 id="ancestry-points">Ancestry Points<a class="headerlink" href="#ancestry-points" title="Permanent link">&para;</a></h4>
+<p>Ottieni 2 Ancestry Points.</p>
+<h3 id="livello-5">Livello 5<a class="headerlink" href="#livello-5" title="Permanent link">&para;</a></h3>
+<h4 id="expert-druid">Expert Druid<a class="headerlink" href="#expert-druid" title="Permanent link">&para;</a></h4>
+<p>Ottieni i seguenti benefici per le tue Class Feature del Druid.</p>
+<p><strong>Druid Domain:</strong> il numero di Domain Spaces che crei aumenta a 10.</p>
+<ul>
+<li><strong>Losing Domain Spaces:</strong> un Domain Space scompare se termini il tuo turno a più di 20 Spaces da esso.</li>
+<li>Quando usi Druid Domain, puoi spendere MP aggiuntivi per aumentare il numero di Domain Spaces creati di 8 per ogni MP aggiuntivo speso.</li>
+<li><strong>Wild Growth:</strong> puoi spendere MP aggiuntivi per aumentare la guarigione di 1 ogni 2 MP aggiuntivi spesi.</li>
+</ul>
+<p><strong>Wild Form:</strong> le tue Wild Form hanno +1 HP e 1 Trait Point aggiuntivo.</p>
+<p><strong>Nature's Torrent:</strong> la gittata di Nature's Torrent aumenta a 15 Spaces. Quando usi Nature's Torrent, puoi spendere MP per potenziarne gli effetti:</p>
+<ul>
+<li><strong>Vulnerability</strong> (2 MP): la Vulnerability aumenta di 1.</li>
+<li><strong>Area</strong> (X MP): il diametro della Sphere aumenta di X.</li>
+</ul>
+<h3 id="livello-6">Livello 6<a class="headerlink" href="#livello-6" title="Permanent link">&para;</a></h3>
+<h4 id="talent_2">Talent<a class="headerlink" href="#talent_2" title="Permanent link">&para;</a></h4>
+<p>Ottieni 1 Talent a tua scelta. Se il Talent ha prerequisiti, devi soddisfarli per sceglierlo.</p>
+<h4 id="path-progression_2">Path Progression<a class="headerlink" href="#path-progression_2" title="Permanent link">&para;</a></h4>
+<p>Ottieni i benefici del Martial Path o dello Spellcaster Path.</p>
+<h2 id="subclasses">Subclasses<a class="headerlink" href="#subclasses" title="Permanent link">&para;</a></h2>
+<h3 id="phoenix">Phoenix<a class="headerlink" href="#phoenix" title="Permanent link">&para;</a></h3>
+<h4 id="flames-of-rebirth">Flames of Rebirth<a class="headerlink" href="#flames-of-rebirth" title="Permanent link">&para;</a></h4>
+<p>Ottieni i seguenti benefici:</p>
+<p><strong>Fiery Form:</strong> quando usi Wild Form, puoi scegliere che il tuo tipo di creatura diventi Elemental (Fire) invece di Beast. Inoltre, le tue Wild Form ottengono Fire Resistance (1) e puoi scegliere Fire come damage type della Natural Weapon della tua Wild Form.</p>
+<p><strong>Cleansing Flames:</strong> quando una creatura entro il tuo Druid Domain viene curata da uno dei tuoi MP Effect, puoi curarla da un Basic Poison o da una Basic Disease che la affligge, oppure rimuovere da essa una delle seguenti Condition: Impaired, Dazed o Burning.</p>
+<p><strong>Rolling Wild Fire:</strong> le creature a tua scelta subiscono 1 danno Fire per ogni Space in cui si muovono all'interno del tuo Druid Domain, oppure se iniziano il loro turno nel tuo Domain.</p>
+<h4 id="fire-within-flavor-feature">Fire Within (Flavor Feature)<a class="headerlink" href="#fire-within-flavor-feature" title="Permanent link">&para;</a></h4>
+<p>Non subisci gli effetti delle condizioni climatiche fredde e puoi portare a ebollizione un gallone (4 litri) di liquido dopo essere rimasto a contatto fisico con esso o con il suo contenitore per 1 minuto.</p>
+<h3 id="rampant-growth">Rampant Growth<a class="headerlink" href="#rampant-growth" title="Permanent link">&para;</a></h3>
+<h4 id="overgrowth">Overgrowth<a class="headerlink" href="#overgrowth" title="Permanent link">&para;</a></h4>
+<p>Ottieni i seguenti benefici:</p>
+<p><strong>Plant Form:</strong> quando usi Wild Form, puoi scegliere che il tuo tipo di creatura diventi Plant invece di Beast. Inoltre, le tue Wild Form diventano immuni a Bleeding e puoi scegliere Poison come damage type della Natural Weapon della tua Wild Form.</p>
+<p><strong>Vineguard:</strong> le creature a tua scelta entro il tuo Domain ottengono i benefici della 1/2 Cover.</p>
+<p><strong>Thorny Grasp:</strong> quando una creatura fallisce un Save contro il tuo Nature's Grasp, inizia a subire <strong>Bleeding</strong>.</p>
+<h4 id="seed-vault-flavor-feature">Seed Vault (Flavor Feature)<a class="headerlink" href="#seed-vault-flavor-feature" title="Permanent link">&para;</a></h4>
+<p>Puoi produrre magicamente i semi di qualsiasi pianta non magica che tu abbia mai toccato.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Torna su
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Piede" >
+        
+          
+          <a href="../cleric/" class="md-footer__link md-footer__link--prev" aria-label="Precedente: Cleric">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Precedente
+              </span>
+              <div class="md-ellipsis">
+                Cleric
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../sorcerer/" class="md-footer__link md-footer__link--next" aria-label="Successivo: Sorcerer">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Successivo
+              </span>
+              <div class="md-ellipsis">
+                Sorcerer
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["search.suggest", "search.highlight", "content.tabs.link", "content.tooltips", "navigation.tabs", "navigation.sections", "navigation.top", "navigation.footer", "navigation.indexes", "toc.follow", "header.autohide"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,4869 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Regole di gioco di DC20 (Beta 0.10.5) in italiano, con i termini di gioco in inglese.">
+      
+      
+      
+      
+        <link rel="prev" href="../sorcerer/">
+      
+      
+        <link rel="next" href="../wizard/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
+    
+    
+      
+        <title>Warlock - DC20 — Regole</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#warlock" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href="../.." title="DC20 — Regole" class="md-header__button md-logo" aria-label="DC20 — Regole" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DC20 — Regole
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Warlock
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple"  aria-label="Passa al tema scuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Passa al tema scuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="lime"  aria-label="Passa al tema chiaro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Passa al tema chiaro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Cancella" aria-label="Cancella" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inizializza la ricerca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../regole_base/attributi/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Regole base
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../combattimento/risorse/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Combattimento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../marziale/regole/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Martial
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../magia/regole/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Magia
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../regole_generali/ambiente/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Regole generali
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../personaggio/creazione/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Personaggio
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../introduzione/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Classes
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../oggetti_magici/regole/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Magic Items
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../opzioni/shadow/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Opzioni
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../100_sanity/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Homebrew
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="DC20 — Regole" class="md-nav__button md-logo" aria-label="DC20 — Regole" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DC20 — Regole
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole base
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Regole base
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/attributi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attributes e Prime Modifier
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/skills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Skills
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/trades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Trades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/languages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Languages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/mastery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mastery e Training
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/checks_saves/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Checks e Saves
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/attacchi_difese/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attacks e Defenses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/hp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Health Points e Death's Door
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_base/danni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Damage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combattimento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Combattimento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/risorse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combat Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/azioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Actions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/reazioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reactions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/inizio_combattimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inizio del combattimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combattimento/creature_combattimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creatures e combattimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martial
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Martial
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marziale/regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole delle Maneuver
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marziale/maneuvers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maneuvers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magia
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Magia
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole dello Spellcasting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/liste/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Liste degli Spell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/astromancy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Astromancy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/conjuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conjuration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/summon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Summon Spells
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/divination/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Divination
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/elemental/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elemental
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/enchantment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Enchantment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/invocation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Invocation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/nullification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nullification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magia/transmutation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transmutation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole generali
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Regole generali
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/ambiente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Environment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/visione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vision
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/aree_effetto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Areas of Effect
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/equipaggiamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/condizioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conditions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/riposo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/dc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regole_generali/gm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Game Master
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Personaggio
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Personaggio
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personaggio/creazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creazione e progressione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personaggio/talents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Talents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personaggio/paths/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Character Paths
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestries
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ancestries
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/sistema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestry System
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/core/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestry del Core
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/beastborn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Beastborn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/psyborn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psyborn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/espanse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestry espanse
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduzione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduzione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martial
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Martial
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barbarian
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../champion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Champion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commander/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Commander
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hunter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hunter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rogue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spellcaster
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Spellcaster
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cleric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Druid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sorcerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sorcerer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlock
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlock
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tabella-di-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabella di Class
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#starting-equipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Starting Equipment
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#warlock-spellcasting-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Warlock Spellcasting Path
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#class-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Class Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Class Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#livello-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#warlock-contract" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Warlock Contract
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pact-boon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pact Boon
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pact Boon">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pact-weapon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pact Weapon
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pact-armor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pact Armor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pact-spell" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pact Spell
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pact-familiar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pact Familiar
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#beseech-patron-flavor-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Beseech Patron (Flavor Feature)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#life-tap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Life Tap
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#talent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Talent
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#path-progression" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Path Progression
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 3
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#subclass" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subclass
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 4
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#talent_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Talent
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#path-progression_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Path Progression
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ancestry-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ancestry Points
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 5
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#expert-warlock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expert Warlock
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 6
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 6">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#talent_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Talent
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#path-progression_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Path Progression
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subclasses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subclasses
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Subclasses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eldritch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Eldritch
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Eldritch">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#otherworldly-gift" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Otherworldly Gift
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alien-comprehension-flavor-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alien Comprehension (Flavor Feature)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fey" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fey
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fey">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fey-aspect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fey Aspect
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dream-walker-flavor-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dream Walker (Flavor Feature)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_4" id="__nav_8_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ibride
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ibride
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spellblade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spellblade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_5" id="__nav_8_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Da magazine e pack
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Da magazine e pack
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../summoner/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Summoner
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../artificer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Artificer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Items
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Magic Items
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oggetti_magici/regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oggetti_magici/magic_properties/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Properties
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Opzioni
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Opzioni
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../opzioni/shadow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shadow Options
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Homebrew
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Homebrew
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_sanity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sanity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_giostra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Giostra a Squadre
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_kaiju/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lotta contro Kaiju
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_crafting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crafting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_carro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lotta su carro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100_generalrules_assedio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assedio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tabella-di-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabella di Class
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#starting-equipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Starting Equipment
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#warlock-spellcasting-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Warlock Spellcasting Path
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#class-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Class Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Class Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#livello-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#warlock-contract" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Warlock Contract
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pact-boon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pact Boon
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pact Boon">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pact-weapon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pact Weapon
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pact-armor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pact Armor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pact-spell" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pact Spell
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pact-familiar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pact Familiar
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#beseech-patron-flavor-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Beseech Patron (Flavor Feature)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#life-tap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Life Tap
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#talent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Talent
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#path-progression" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Path Progression
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 3
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#subclass" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subclass
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 4
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#talent_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Talent
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#path-progression_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Path Progression
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ancestry-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ancestry Points
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 5
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#expert-warlock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expert Warlock
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#livello-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Livello 6
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Livello 6">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#talent_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Talent
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#path-progression_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Path Progression
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subclasses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subclasses
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Subclasses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eldritch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Eldritch
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Eldritch">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#otherworldly-gift" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Otherworldly Gift
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alien-comprehension-flavor-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alien Comprehension (Flavor Feature)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fey" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fey
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fey">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fey-aspect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fey Aspect
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dream-walker-flavor-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dream Walker (Flavor Feature)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="warlock">Warlock<a class="headerlink" href="#warlock" title="Permanent link">&para;</a></h1>
+<h2 id="tabella-di-class">Tabella di Class<a class="headerlink" href="#tabella-di-class" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Livello</th>
+<th>Health Points</th>
+<th>Attribute Points</th>
+<th>Skill Points</th>
+<th>Trade Points</th>
+<th>Mana Points</th>
+<th>Spells Known</th>
+<th>Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>+8</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>+6</td>
+<td>+4</td>
+<td>Class Features</td>
+</tr>
+<tr>
+<td>2</td>
+<td>+1</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>Class Feature, Talent, Path Progression</td>
+</tr>
+<tr>
+<td>3</td>
+<td>+2</td>
+<td>+1</td>
+<td>+1</td>
+<td>+1</td>
+<td>+3</td>
+<td>+1</td>
+<td>Subclass Feature</td>
+</tr>
+<tr>
+<td>4</td>
+<td>+1</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>Talent, 2 Ancestry Points, Path Progression</td>
+</tr>
+<tr>
+<td>5</td>
+<td>+2</td>
+<td>+1</td>
+<td>+2</td>
+<td>+1</td>
+<td>+3</td>
+<td>+1</td>
+<td>Class Feature</td>
+</tr>
+<tr>
+<td>6</td>
+<td>+1</td>
+<td>—</td>
+<td>+1</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>Talent, Path Progression</td>
+</tr>
+<tr>
+<td>7</td>
+<td>+2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>+3</td>
+<td>+1</td>
+<td>Subclass Expert Feature</td>
+</tr>
+<tr>
+<td>8</td>
+<td>+1</td>
+<td>+1</td>
+<td>+1</td>
+<td>+1</td>
+<td>—</td>
+<td>—</td>
+<td>Talent, 2 Ancestry Points, Path Progression</td>
+</tr>
+<tr>
+<td>9</td>
+<td>+2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>+3</td>
+<td>+1</td>
+<td>Class Capstone Feature</td>
+</tr>
+<tr>
+<td>10</td>
+<td>+1</td>
+<td>+1</td>
+<td>+2</td>
+<td>+1</td>
+<td>+3</td>
+<td>+1</td>
+<td>Subclass Capstone Feature</td>
+</tr>
+</tbody>
+</table>
+<h2 id="starting-equipment">Starting Equipment<a class="headerlink" href="#starting-equipment" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Arsenal:</strong> 2 Spell Focus. Puoi scegliere delle Weapon se scegli l'opzione Pact Weapon della Feature Pact Boon.</li>
+<li><strong>Armor:</strong> 1 set di Light Armor. Puoi scegliere invece 1 set di Heavy Armor se scegli l'opzione Pact Armor della Feature Pact Boon.</li>
+<li><strong>Trade Tools:</strong> scegli 2 tra i seguenti oggetti: Alchemist's Supplies, Disguise Kit, Jeweler's Tools o Sculptor's Tools.</li>
+<li><strong>Adventuring Pack:</strong> scegli 1 dei seguenti pack (Adventuring Packs non ancora disponibili).</li>
+</ul>
+<h2 id="warlock-spellcasting-path">Warlock Spellcasting Path<a class="headerlink" href="#warlock-spellcasting-path" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Combat Training:</strong> Spell Focuses, Light Armor.</li>
+<li><strong>Spell List:</strong> scegli 3 Spell School. Quando impari un nuovo Spell, puoi scegliere qualsiasi Spell delle Spell School scelte.</li>
+<li><strong>Spells Known:</strong> il numero di Spell che conosci aumenta come indicato nella colonna Spells Known della Tabella di Class del Warlock.</li>
+<li><strong>Mana Points:</strong> il tuo numero massimo di Mana Points aumenta come indicato nella colonna Mana Points della Tabella di Class del Warlock.</li>
+</ul>
+<h2 id="class-features">Class Features<a class="headerlink" href="#class-features" title="Permanent link">&para;</a></h2>
+<h3 id="livello-1">Livello 1<a class="headerlink" href="#livello-1" title="Permanent link">&para;</a></h3>
+<h4 id="warlock-contract">Warlock Contract<a class="headerlink" href="#warlock-contract" title="Permanent link">&para;</a></h4>
+<p>Hai un accordo vincolante con il tuo Patron che ti permette di compiere sacrifici in cambio di benefici:</p>
+<ul>
+<li><strong>Hasty Bargain:</strong> una volta per turno, quando effettui un Check, puoi spendere 1 HP per ottenere ADV al Check.</li>
+<li><strong>Desperate Bargain:</strong> una volta per Combat, puoi spendere 1 AP per recuperare un numero di HP pari al tuo Prime Modifier. Quando lo fai, diventi <strong>Exposed</strong> fino alla fine del tuo turno successivo.</li>
+</ul>
+<h4 id="pact-boon">Pact Boon<a class="headerlink" href="#pact-boon" title="Permanent link">&para;</a></h4>
+<p>Ottieni un Pact Boon dal tuo Patron. Scegli 1 delle seguenti opzioni: Weapon, Armor, Spell o Familiar.</p>
+<h5 id="pact-weapon">Pact Weapon<a class="headerlink" href="#pact-weapon" title="Permanent link">&para;</a></h5>
+<p>Puoi scegliere una Weapon in tuo possesso e legarti a essa, rendendola la tua Pact Weapon. Puoi avere solo 1 Pact Weapon alla volta. Se la Weapon ha la proprietà Ammo, manifesta le proprie munizioni quando la carichi; le munizioni svaniscono immediatamente una volta risolto l'Attack. Mentre impugni la Weapon ottieni i seguenti benefici:</p>
+<ul>
+<li><strong>Weapon Training:</strong> sei considerato in possesso di Combat Training con la tua Pact Weapon.</li>
+<li><strong>Maneuvers:</strong> impari 2 Attack Maneuver a tua scelta.</li>
+<li><strong>Spell Focus:</strong> la tua Pact Weapon conta anche come Spell Focus con una Focus Property da 1 punto. Se la Weapon ha la Weapon Property Two-Handed, ha invece due Focus Property da 1 punto o una Focus Property da 2 punti (a tua scelta). Puoi cambiare le Focus Property scelte quando completi un Quick Rest.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Il Combat Training con una Weapon ti permette di usare i Martial Enhancement negli Attack effettuati con essa, compreso quello legato allo Style della Weapon (come l'Enhancement Bleed dello Style Axe).</p>
+</div>
+<p><strong>Pocket Dimension:</strong> con una Minor Action, puoi congedare la Weapon in una dimensione tascabile, evocarla da quella dimensione tascabile o evocarla da qualsiasi punto dello stesso piano di esistenza. Se non hai una mano libera quando la evochi, o scegli di non afferrarla, appare nel tuo Space, ai tuoi piedi.</p>
+<p><strong>New Pact Weapon:</strong> nel corso di un Quick Rest, puoi toccare una Weapon in tuo possesso, legarti a essa e renderla la tua nuova Pact Weapon, terminando il legame con la Pact Weapon precedente.</p>
+<h5 id="pact-armor">Pact Armor<a class="headerlink" href="#pact-armor" title="Permanent link">&para;</a></h5>
+<p>Puoi scegliere un'Armor in tuo possesso e legarti a essa, rendendola la tua Pact Armor. Puoi avere solo 1 Pact Armor alla volta. Mentre indossi l'Armor ottieni i seguenti benefici:</p>
+<ul>
+<li><strong>Armor Training:</strong> sei considerato in possesso di Training con la tua Pact Armor.</li>
+<li><strong>Maneuvers:</strong> impari 2 Defensive Maneuver a tua scelta.</li>
+<li><strong>Mystical Armor:</strong> ottieni +1 AD e MDR.</li>
+</ul>
+<p><strong>Pocket Dimension:</strong> con una Minor Action, puoi congedare l'Armor in una dimensione tascabile, evocarla da quella dimensione tascabile o evocarla da qualsiasi punto dello stesso piano di esistenza. Se non sei in grado di indossare l'Armor quando la evochi, o scegli di non indossarla, appare nel tuo Space, ai tuoi piedi.</p>
+<p><strong>New Pact Armor:</strong> nel corso di un Quick Rest, puoi toccare un'Armor in tuo possesso, legarti a essa e renderla la tua nuova Pact Armor, terminando il legame con la Pact Armor precedente.</p>
+<h5 id="pact-spell">Pact Spell<a class="headerlink" href="#pact-spell" title="Permanent link">&para;</a></h5>
+<p>Scegli uno Spell che conosci: lo Spell scelto diventa il tuo Pact Spell. Quando lanci il tuo Pact Spell, ottieni i seguenti benefici:</p>
+<ul>
+<li><strong>Death's Toll:</strong> se lo Spell infligge danni, infligge +1 danno extra ai bersagli Bloodied.</li>
+<li><strong>Range Increase:</strong> se la Range dello Spell è 1, aumenta di 1 Space; altrimenti aumenta di 5 Spaces.</li>
+<li><strong>Patron's Favor:</strong> una volta per Round, puoi concederti ADV a qualsiasi Check che effettui per lanciare il tuo Pact Spell.</li>
+</ul>
+<p><strong>Choosing a New Pact Spell:</strong> quando completi un Long Rest, puoi scegliere un altro Spell che conosci. Quando lo fai, il nuovo Spell diventa il tuo nuovo Pact Spell. Puoi avere solo 1 Pact Spell alla volta.</p>
+<h5 id="pact-familiar">Pact Familiar<a class="headerlink" href="#pact-familiar" title="Permanent link">&para;</a></h5>
+<p>Impari lo Spell Call Familiar. Quando lanci lo Spell, il tuo Familiar ottiene gratuitamente 3 Familiar Trait aggiuntivi a tua scelta.</p>
+<h4 id="beseech-patron-flavor-feature">Beseech Patron (Flavor Feature)<a class="headerlink" href="#beseech-patron-flavor-feature" title="Permanent link">&para;</a></h4>
+<p>Durante un Long Rest, mentre dormi o mediti, puoi accedere a un Inner Sanctum all'interno della tua mente. Il suo aspetto è influenzato dalla tua psiche e può cambiare. Mentre ti trovi nel tuo Inner Sanctum, puoi tentare di contattare il tuo Patron.</p>
+<p>Se il Patron sceglie di rispondere, entra nella tua mente e potresti essere in grado di vederlo o udirlo. Mentre sei connesso al tuo Patron in questo modo, sei consapevole di ciò che ti circonda ma non puoi compiere azioni né muoverti. Il tuo Patron sceglie quando terminare la connessione; in alternativa puoi effettuare un Mental Save contro la tua stessa Save DC per costringere la connessione a terminare. Il tuo Patron ha pieno controllo del tuo stato onirico e può plasmare l'ambiente, creare paesaggi, oggetti, creature e immagini.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>È una Feature narrativa: il GM interpreta il Patron del Warlock e può concedere informazioni o anche benefici meccanici al personaggio, come ADV o DisADV situazionali o temporanei, effetti di Spell come Bless / Bane, o Inspiration, a seconda della conversazione con il Patron.</p>
+</div>
+<h3 id="livello-2">Livello 2<a class="headerlink" href="#livello-2" title="Permanent link">&para;</a></h3>
+<h4 id="life-tap">Life Tap<a class="headerlink" href="#life-tap" title="Permanent link">&para;</a></h4>
+<p>Quando produci un MP Effect, puoi spendere HP al posto degli MP. La quantità totale di HP e MP spesi non può superare il tuo Mana Spend Limit. Puoi usare questa Feature una volta per Long Rest, e recuperi la possibilità di usarla quando tiri per l'Initiative.</p>
+<h4 id="talent">Talent<a class="headerlink" href="#talent" title="Permanent link">&para;</a></h4>
+<p>Ottieni 1 Talent a tua scelta. Se il Talent ha dei prerequisiti, devi soddisfarli per poterlo scegliere.</p>
+<h4 id="path-progression">Path Progression<a class="headerlink" href="#path-progression" title="Permanent link">&para;</a></h4>
+<p>Ottieni i benefici del Martial Path o dello Spellcaster Path (vedi <a href="../../personaggio/paths/">Character Paths</a>).</p>
+<h3 id="livello-3">Livello 3<a class="headerlink" href="#livello-3" title="Permanent link">&para;</a></h3>
+<h4 id="subclass">Subclass<a class="headerlink" href="#subclass" title="Permanent link">&para;</a></h4>
+<p>Scegli una delle seguenti opzioni come tua Subclass e ottieni le sue Feature di Livello 3:</p>
+<ul>
+<li>Eldritch</li>
+<li>Fey</li>
+<li>Paragon (vedi <a href="../../personaggio/paths/">Character Paths</a>)</li>
+</ul>
+<h3 id="livello-4">Livello 4<a class="headerlink" href="#livello-4" title="Permanent link">&para;</a></h3>
+<h4 id="talent_1">Talent<a class="headerlink" href="#talent_1" title="Permanent link">&para;</a></h4>
+<p>Ottieni 1 Talent a tua scelta. Se il Talent ha dei prerequisiti, devi soddisfarli per poterlo scegliere.</p>
+<h4 id="path-progression_1">Path Progression<a class="headerlink" href="#path-progression_1" title="Permanent link">&para;</a></h4>
+<p>Ottieni i benefici del Martial Path o dello Spellcaster Path.</p>
+<h4 id="ancestry-points">Ancestry Points<a class="headerlink" href="#ancestry-points" title="Permanent link">&para;</a></h4>
+<p>Ottieni 2 Ancestry Points.</p>
+<h3 id="livello-5">Livello 5<a class="headerlink" href="#livello-5" title="Permanent link">&para;</a></h3>
+<h4 id="expert-warlock">Expert Warlock<a class="headerlink" href="#expert-warlock" title="Permanent link">&para;</a></h4>
+<p>Ottieni i seguenti benefici per le tue Class Feature del Warlock.</p>
+<p><strong>Warlock Contract</strong></p>
+<p>I tuoi HP massimi aumentano di 2.</p>
+<p><strong>Pact Boon</strong></p>
+<ul>
+<li><strong>Pact Weapon:</strong><ul>
+<li>La tua Pact Weapon ottiene una Weapon Property aggiuntiva da 1 punto. Puoi cambiare la Weapon Property scelta quando completi un Quick Rest.</li>
+<li>Impari 1 Attack Maneuver.</li>
+<li>Puoi spendere MP per i Martial Enhancement e le Maneuver eseguiti con la tua Pact Weapon. Quando lo fai, ottieni Enhancement per un valore di 2 SP per ogni MP speso.</li>
+</ul>
+</li>
+<li><strong>Pact Armor:</strong><ul>
+<li>La tua Pact Armor ottiene una Armor Property aggiuntiva da 1 punto. Puoi cambiare l'Armor Property scelta quando completi un Quick Rest.</li>
+<li>Impari 1 Defense Maneuver.</li>
+<li>Puoi spendere MP per le Defense Maneuver. Quando lo fai, ottieni Enhancement per un valore di 2 SP per ogni MP speso.</li>
+</ul>
+</li>
+<li><strong>Pact Spell:</strong><ul>
+<li>Impari 2 Spell a tua scelta da qualsiasi Spell Source.</li>
+<li>Scegli uno Spell che conosci perché diventi anch'esso il tuo Pact Spell: entrambi ottengono i benefici del Pact Spell. Puoi cambiare uno o entrambi i Pact Spell quando completi un Long Rest.</li>
+</ul>
+</li>
+<li><strong>Pact Familiar:</strong> quando lanci lo Spell Call Familiar, il tuo Familiar ottiene gratuitamente altri 3 punti di Familiar Trait o Beast Trait (non puoi scegliere Negative Trait).</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Puoi comunque usare Patron's Favor una sola volta per Round.</p>
+</div>
+<p><strong>Life Tap</strong></p>
+<p>Quando usi Life Tap, ottieni ADV al Check effettuato per produrre l'effetto.</p>
+<h3 id="livello-6">Livello 6<a class="headerlink" href="#livello-6" title="Permanent link">&para;</a></h3>
+<h4 id="talent_2">Talent<a class="headerlink" href="#talent_2" title="Permanent link">&para;</a></h4>
+<p>Ottieni 1 Talent a tua scelta. Se il Talent ha dei prerequisiti, devi soddisfarli per poterlo scegliere.</p>
+<h4 id="path-progression_2">Path Progression<a class="headerlink" href="#path-progression_2" title="Permanent link">&para;</a></h4>
+<p>Ottieni i benefici del Martial Path o dello Spellcaster Path.</p>
+<h2 id="subclasses">Subclasses<a class="headerlink" href="#subclasses" title="Permanent link">&para;</a></h2>
+<h3 id="eldritch">Eldritch<a class="headerlink" href="#eldritch" title="Permanent link">&para;</a></h3>
+<h4 id="otherworldly-gift">Otherworldly Gift<a class="headerlink" href="#otherworldly-gift" title="Permanent link">&para;</a></h4>
+<p>Il tuo Patron ti concede i seguenti benefici:</p>
+<ul>
+<li><strong>Psychic Spellcasting:</strong> impari 1 Spell a tua scelta con lo Spell Tag Psychic. Quando impari un nuovo Spell, puoi scegliere qualsiasi Spell che abbia lo Spell Tag Psychic.</li>
+<li><strong>Forbidden Knowledge:</strong> quando completi uno Short Rest o un Long Rest, impari temporaneamente uno Spell qualsiasi a tua scelta. Quando lanci quello Spell, il suo costo in MP è ridotto di 2 (minimo 0). Il suo costo totale in MP prima della riduzione non può superare il tuo Mana Spend Limit. Dimentichi lo Spell subito dopo averlo lanciato o dopo aver completato uno Short Rest o un Long Rest.</li>
+</ul>
+<p>Ottieni la seguente opzione di Warlock Contract:</p>
+<ul>
+<li><strong>Eldritch Bargain:</strong> quando effettui un Attack contro una creatura, puoi spendere 1 HP per bersagliare la sua PD o la sua AD (a tua scelta).</li>
+</ul>
+<h4 id="alien-comprehension-flavor-feature">Alien Comprehension (Flavor Feature)<a class="headerlink" href="#alien-comprehension-flavor-feature" title="Permanent link">&para;</a></h4>
+<p>Diventi Fluent in Deep Speech e comprendi gli scritti e i vaneggiamenti dei folli.</p>
+<h3 id="fey">Fey<a class="headerlink" href="#fey" title="Permanent link">&para;</a></h3>
+<h4 id="fey-aspect">Fey Aspect<a class="headerlink" href="#fey-aspect" title="Permanent link">&para;</a></h4>
+<p>Scegli 1 delle seguenti Condition: Charmed o Intimidated. La Condition scelta diventa la tua Fey Aspect Condition. Ottieni i seguenti benefici:</p>
+<ul>
+<li><strong>Can't Trick a Trickster:</strong> hai Resistance alla tua Fey Aspect Condition.</li>
+<li><strong>Fey Step:</strong> quando subisci un Hit da un Attack, puoi spendere 1 AP come Reaction per teletrasportarti fino a 3 Spaces in uno Space non occupato che puoi vedere. Quando lo fai, diventi <strong>Invisible</strong> fino all'inizio del tuo turno successivo. Puoi usare questa Feature una volta per Long Rest, e recuperi la possibilità di usarla quando tiri per l'Initiative.</li>
+</ul>
+<p>Ottieni la seguente opzione di Warlock Contract:</p>
+<ul>
+<li><strong>Beguiling Bargain:</strong> una volta per Round, quando bersagli una creatura con un Attack o uno Spell, puoi spendere 1 HP per costringere il bersaglio a effettuare un Charisma Save contro la tua Save DC. <strong>Save Failure:</strong> il bersaglio subisce la tua Fey Aspect Condition fino alla fine del tuo turno successivo.</li>
+</ul>
+<h4 id="dream-walker-flavor-feature">Dream Walker (Flavor Feature)<a class="headerlink" href="#dream-walker-flavor-feature" title="Permanent link">&para;</a></h4>
+<p>Mentre dormi, sei lucido e puoi manipolare ciò che appare nei tuoi sogni. Inoltre, mentre sei a contatto con una creatura addormentata, puoi effettuare uno Spell Check contro l'Intelligence Save del bersaglio. <strong>Success:</strong> puoi assistere al suo sogno. Scegli tu se la creatura si accorge o meno che stai osservando il suo sogno. <strong>Failure:</strong> non puoi usare di nuovo questa Feature su quella creatura finché non si sveglia.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Torna su
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Piede" >
+        
+          
+          <a href="../sorcerer/" class="md-footer__link md-footer__link--prev" aria-label="Precedente: Sorcerer">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Precedente
+              </span>
+              <div class="md-ellipsis">
+                Sorcerer
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../wizard/" class="md-footer__link md-footer__link--next" aria-label="Successivo: Wizard">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Successivo
+              </span>
+              <div class="md-ellipsis">
+                Wizard
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["search.suggest", "search.highlight", "content.tabs.link", "content.tooltips", "navigation.tabs", "navigation.sections", "navigation.top", "navigation.footer", "navigation.indexes", "toc.follow", "header.autohide"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+    
+  </body>
+</html>
