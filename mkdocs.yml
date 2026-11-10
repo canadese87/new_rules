@@ -1,120 +1,142 @@
-site_name: DC20
+site_name: DC20 — Regole
+site_description: Regole di gioco di DC20 (Beta 0.10.5) in italiano, con i termini di gioco in inglese.
 
 theme:
   name: material
+  language: it
   features:
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.tooltips
+    - navigation.tabs
     - navigation.sections
     - navigation.top
-    - navigation.expand
     - navigation.footer
-    - content.code.annotate
-    - content.code.copy
-    - content.code.select
+    - navigation.indexes
     - toc.follow
     - header.autohide
-
-  language: en
   palette:
     - scheme: default
       toggle:
         icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+        name: Passa al tema scuro
       primary: orange
       accent: purple
     - scheme: slate
       toggle:
         icon: material/toggle-switch
-        name: Switch to light mode
+        name: Passa al tema chiaro
       primary: orange
       accent: lime
 
 plugins:
-  - mkdocstrings
-  - search
-#  - toc-md:
-#      header_level: 1
+  - search:
+      lang:
+        - it
+        - en
 
 markdown_extensions:
+  - tables
+  - attr_list
+  - def_list
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - admonition
   - pymdownx.arithmatex:
       generic: true
-  - footnotes
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.mark
-  - attr_list
+  - toc:
+      permalink: true
 
 nav:
-  - index.md
-  - Attributes: 1_attributes.md
-  - Prime Modifier: 1_5_prime.md
-  - Skills, Trades & Languages: 2_skills.md
-  - Mastery: 3_mastery.md
-  - Checks & Saves:
-      - Intro: 4_checksave.md
-      - Cheks: 4_check.md
-      - Save: 4_save.md
-  - Attacks & Defense: 5_attackdefence.md
-  - Health Points & Death’s Door: 6_hp.md
-  - Damage: 7_damage.md
-  - Combat Resources: 8_combat.md
-  - Actions & Reactions:
-      - Actions: 9_action.md
-      - Advanced Actions: 9_advanced.md
-      - Reactions: 9_reaction.md
-  - Martial Chapter: 10_maneuvers.md
-  - Maneuvers: 11_technique.md
-  - Spellcaster Chapter: 12_spellcasting.md
-  - Spells: 12_5_spells.md
-  - Starting Combat: 13_startcombat.md
-  - Environment: 14_environment.md
-  - Vision: 15_vision.md
-  - Creatures & Combat: 16_creatures.md
-  - Equipment: 17_equipment.md
-  - Conditions: 18_conditions.md
-  - Resting: 19_resting.md
-  - DCs in DC20: 20_dcs.md
-  - Game Master Guide: 21_GM.md
-  - 10 Step Character Creation Outline: 22_charactercreation.md
-  - Talents: 23_talents.md
-  - Ancestries System: 25_ancestry.md
+  - Home: index.md
+  - Regole base:
+      - Attributes e Prime Modifier: regole_base/attributi.md
+      - Skills: regole_base/skills.md
+      - Trades: regole_base/trades.md
+      - Languages: regole_base/languages.md
+      - Mastery e Training: regole_base/mastery.md
+      - Checks e Saves: regole_base/checks_saves.md
+      - Attacks e Defenses: regole_base/attacchi_difese.md
+      - Health Points e Death's Door: regole_base/hp.md
+      - Damage: regole_base/danni.md
+  - Combattimento:
+      - Combat Resources: combattimento/risorse.md
+      - Actions: combattimento/azioni.md
+      - Reactions: combattimento/reazioni.md
+      - Inizio del combattimento: combattimento/inizio_combattimento.md
+      - Creatures e combattimento: combattimento/creature_combattimento.md
+  - Martial:
+      - Regole delle Maneuver: marziale/regole.md
+      - Maneuvers: marziale/maneuvers.md
+  - Magia:
+      - Regole dello Spellcasting: magia/regole.md
+      - Liste degli Spell: magia/liste.md
+      - Astromancy: magia/astromancy.md
+      - Conjuration: magia/conjuration.md
+      - Summon Spells: magia/summon.md
+      - Divination: magia/divination.md
+      - Elemental: magia/elemental.md
+      - Enchantment: magia/enchantment.md
+      - Invocation: magia/invocation.md
+      - Nullification: magia/nullification.md
+      - Transmutation: magia/transmutation.md
+  - Regole generali:
+      - Environment: regole_generali/ambiente.md
+      - Vision: regole_generali/visione.md
+      - Areas of Effect: regole_generali/aree_effetto.md
+      - Equipment: regole_generali/equipaggiamento.md
+      - Conditions: regole_generali/condizioni.md
+      - Resting: regole_generali/riposo.md
+      - DC: regole_generali/dc.md
+      - Game Master: regole_generali/gm.md
+  - Personaggio:
+      - Creazione e progressione: personaggio/creazione.md
+      - Talents: personaggio/talents.md
+      - Character Paths: personaggio/paths.md
+      - Ancestries:
+          - Ancestry System: ancestries/sistema.md
+          - Ancestry del Core: ancestries/core.md
+          - Beastborn: ancestries/beastborn.md
+          - Psyborn: ancestries/psyborn.md
+          - Ancestry espanse: ancestries/espanse.md
   - Classes:
-      - Class list:
-        - Barbarian: 26_barbarian.md
-        - Bard: 26_bard.md
-        - Champion: 26_champion.md
-        - Cleric: 26_cleric.md
-        - Commander: 26_commander.md
-        - Druid: 26_druid.md
-        - Hunter: 26_hunter.md
-        - Monk: 26_monk.md
-        - Rogue: 26_rogue.md
-        - Sorcerer: 26_sorcerer.md
-        - Spellblade: 26_spellblade.md
-        - Warlock: 26_warlock.md
-        - Wizard: 26_wizard.md
-#  - Magic Items:
-#      - Magic Item System: 28_magicitems.md
-#      - Magic Item Properties: 28_magicitemsproperties.md
-#  - Monsters Creation:
-#      - Basics of Monster Building: 29_monsters.md
-#      - Encounter Planning: 29_encounter.md
-#      - Game Master Tips: 29_gmtip.md
+      - Introduzione: classi/introduzione.md
+      - Martial:
+          - Barbarian: classi/barbarian.md
+          - Champion: classi/champion.md
+          - Commander: classi/commander.md
+          - Hunter: classi/hunter.md
+          - Monk: classi/monk.md
+          - Rogue: classi/rogue.md
+      - Spellcaster:
+          - Bard: classi/bard.md
+          - Cleric: classi/cleric.md
+          - Druid: classi/druid.md
+          - Sorcerer: classi/sorcerer.md
+          - Warlock: classi/warlock.md
+          - Wizard: classi/wizard.md
+      - Ibride:
+          - Spellblade: classi/spellblade.md
+      - Da magazine e pack:
+          - Psion: classi/psion.md
+          - Summoner: classi/summoner.md
+          - Artificer: classi/artificer.md
+  - Magic Items:
+      - Regole: oggetti_magici/regole.md
+      - Magic Properties: oggetti_magici/magic_properties.md
+  - Opzioni:
+      - Shadow Options: opzioni/shadow.md
   - Homebrew:
-#      - Cazzim: 100_cazzim.md
-#      - Spells: 100_spells.md
       - Sanity: 100_sanity.md
-      - General Rules:
-          - Giostra a Squadre: 100_generalrules_giostra.md
-          - Lotta contro Kaiju: 100_generalrules_kaiju.md
-          - Crafiting: 100_generalrules_crafting.md
-          - Lotta su carro: 100_generalrules_carro.md
-          - Assedio: 100_generalrules_assedio.md
+      - Giostra a Squadre: 100_generalrules_giostra.md
+      - Lotta contro Kaiju: 100_generalrules_kaiju.md
+      - Crafting: 100_generalrules_crafting.md
+      - Lotta su carro: 100_generalrules_carro.md
+      - Assedio: 100_generalrules_assedio.md
